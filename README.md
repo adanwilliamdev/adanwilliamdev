@@ -1,10 +1,12 @@
-# 👨‍💻 Adan William
+# 👋 Olá, eu sou Adan William
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=24\&duration=3000\&pause=500\&color=6366F1\&center=true\&vCenter=true\&width=800\&lines=Full+Stack+Developer;Infrastructure+%26+Observability;Network+Monitoring+Engineer;Backend+%26+Cloud+Enthusiast;Building+Reliable+Systems)](https://git.io/typing-svg)
+<br>
 
-### Infrastructure • Observability • Software Engineering
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=24\&duration=3000\&pause=500\&color=3B82F6\&center=true\&vCenter=true\&width=850\&lines=Software+Engineer;Full+Stack+Developer;Infrastructure+%26+Observability;Backend+Engineering;Building+Reliable+Systems)](https://git.io/typing-svg)
+
+### Software Engineering • Infrastructure • Observability • Cloud
 
 </div>
 
@@ -12,39 +14,67 @@
 
 ## 🚀 Sobre Mim
 
-Sou desenvolvedor Full Stack com foco em infraestrutura, observabilidade e monitoramento de ambientes corporativos.
+Profissional de Tecnologia da Informação com mais de 5 anos de experiência em infraestrutura, suporte corporativo, monitoramento e administração de ambientes de missão crítica.
 
-Tenho experiência na construção de aplicações web modernas, APIs escaláveis, dashboards operacionais e plataformas voltadas para monitoramento de redes e serviços.
+Atualmente atuo como Analista de TI e desenvolvo projetos voltados para observabilidade, monitoramento de redes, automação operacional e sistemas corporativos.
 
-Meu principal interesse está na interseção entre desenvolvimento de software, engenharia de infraestrutura, automação e observabilidade.
+Minha principal motivação é unir conhecimentos de infraestrutura com engenharia de software para construir aplicações escaláveis, resilientes e de alta disponibilidade.
 
-Atualmente estudo arquiteturas distribuídas, Kubernetes, Cloud Computing e práticas modernas de DevOps.
+Tenho interesse especial em:
+
+* Software Engineering
+* Backend Development
+* Platform Engineering
+* Observability
+* Cloud Computing
+* DevOps
+* Distributed Systems
+* Infrastructure Automation
 
 ---
 
-## 🏆 Projeto Principal
+## 💼 Experiência Profissional
 
-### 🛰️ OrbNOC
+### Analista de TI | Conectv
 
-Plataforma Enterprise de Monitoramento e Observabilidade para ambientes de infraestrutura.
+📅 Novembro/2020 — Atualmente
 
-#### Principais Recursos
+Responsável pela sustentação e evolução da infraestrutura tecnológica da empresa, atuando em:
 
-* Monitoramento em tempo real
-* Dashboard operacional
-* WebSocket
+* Administração de ambientes Windows e Linux
+* Monitoramento de redes e serviços
+* Gestão de servidores e conectividade
+* Suporte corporativo
+* Automação de processos operacionais
+* Implantação e manutenção de sistemas
+* Troubleshooting de ambientes críticos
+
+---
+
+# 🏆 Projetos em Destaque
+
+## 🛰️ OrbNOC
+
+Plataforma Enterprise de Monitoramento e Observabilidade para ambientes corporativos.
+
+### Recursos
+
+* Dashboard operacional em tempo real
+* Monitoramento TCP
 * Sistema de alertas
 * Integração Telegram
-* Relatórios PDF e Excel
-* Mapa de rede interativo
 * Histórico de incidentes
-* Monitoramento TCP
-* PostgreSQL
+* Relatórios PDF e Excel
+* Mapa de topologia interativo
+* WebSocket para atualização em tempo real
+* Gestão centralizada de dispositivos
 
-#### Stack
+### Tecnologias
 
 ```text
 Next.js
+React
+TypeScript
 Node.js
 Express
 Socket.IO
@@ -56,49 +86,74 @@ React Flow
 
 ---
 
-## 💻 Tecnologias
+## 🏢 GiroERP
 
-### Backend
+Sistema ERP moderno voltado para gestão empresarial.
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge\&logo=express\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge\&logo=springboot\&logoColor=white)
+### Módulos
 
-### Frontend
+* Clientes
+* Produtos
+* Estoque
+* Vendas
+* Financeiro
+* Dashboard Gerencial
+* Relatórios
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
+### Tecnologias
 
-### Banco de Dados
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)
-
-### DevOps
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)
-
----
-
-## 🎯 Áreas de Interesse
-
-* Observabilidade
-* Network Monitoring
-* Cloud Computing
-* Kubernetes
-* DevOps
-* Linux
-* Backend Engineering
-* Infrastructure Engineering
-* Distributed Systems
+```text
+Java
+Spring Boot
+PostgreSQL
+Docker
+JWT
+REST API
+```
 
 ---
 
-## 📈 Atividade
+# 💻 Stack Tecnológica
+
+## Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,php,python" />
+</p>
+
+## Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind" />
+</p>
+
+## Banco de Dados
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite" />
+</p>
+
+## DevOps & Infraestrutura
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,linux,git,githubactions,bash" />
+</p>
+
+---
+
+# 📊 Estatísticas GitHub
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🔥 Atividade
 
 <div align="center">
 
@@ -116,18 +171,35 @@ React Flow
 
 ---
 
-## 📚 Atualmente Estudando
+# 🎯 Áreas de Interesse
 
+* Software Engineering
+* Backend Engineering
+* Platform Engineering
+* Observability
+* Infrastructure Monitoring
+* Cloud Computing
+* DevOps
 * Kubernetes
-* AWS
-* Arquitetura de Microsserviços
-* Observabilidade com OpenTelemetry
-* CI/CD
-* Engenharia de Plataformas
+* Distributed Systems
+* Site Reliability Engineering (SRE)
 
 ---
 
-## 📫 Contato
+# 📚 Atualmente Estudando
+
+* Kubernetes
+* AWS
+* OpenTelemetry
+* Arquitetura de Microsserviços
+* Engenharia de Plataformas
+* CI/CD
+* Observabilidade Moderna
+* Design de Sistemas Distribuídos
+
+---
+
+# 📫 Contato
 
 <div align="center">
 
@@ -149,7 +221,9 @@ React Flow
 
 <div align="center">
 
-### Building reliable systems, monitoring infrastructure and creating scalable solutions.
+### Infrastructure • Observability • Software Engineering
+
+Building scalable platforms, monitoring critical systems and delivering reliable solutions.
 
 ⭐ Obrigado por visitar meu perfil.
 
