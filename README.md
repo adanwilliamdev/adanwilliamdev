@@ -1,12 +1,12 @@
-# 👋 Olá, eu sou Adan William
+# 👨‍💻 Adan William
 
 <div align="center">
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=24\&duration=3000\&pause=500\&color=3B82F6\&center=true\&vCenter=true\&width=850\&lines=Software+Engineer;Full+Stack+Developer;Infrastructure+%26+Observability;Backend+Engineering;Building+Reliable+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=24\&duration=3000\&pause=500\&color=3B82F6\&center=true\&vCenter=true\&width=850\&lines=Software+Engineer;Full+Stack+Developer;Java+%7C+Spring+Boot;React+%7C+TypeScript;Building+Scalable+Applications)](https://git.io/typing-svg)
 
-### Software Engineering • Infrastructure • Observability • Cloud
+### Software Engineer • Full Stack Developer • Infrastructure & Observability
 
 </div>
 
@@ -14,126 +14,80 @@
 
 ## 🚀 Sobre Mim
 
-Profissional de Tecnologia da Informação com mais de 5 anos de experiência em infraestrutura, suporte corporativo, monitoramento e administração de ambientes de missão crítica.
+Profissional de Tecnologia com mais de 5 anos de experiência em ambientes corporativos, atuando entre infraestrutura, observabilidade e desenvolvimento de software.
 
-Atualmente atuo como Analista de TI e desenvolvo projetos voltados para observabilidade, monitoramento de redes, automação operacional e sistemas corporativos.
+Atualmente trabalho como Analista de TI e desenvolvo aplicações Full Stack utilizando **Java, Spring Boot, React e TypeScript**, com foco em sistemas corporativos, APIs escaláveis e plataformas de monitoramento.
 
-Minha principal motivação é unir conhecimentos de infraestrutura com engenharia de software para construir aplicações escaláveis, resilientes e de alta disponibilidade.
-
-Tenho interesse especial em:
-
-* Software Engineering
-* Backend Development
-* Platform Engineering
-* Observability
-* Cloud Computing
-* DevOps
-* Distributed Systems
-* Infrastructure Automation
+Minha experiência com infraestrutura e ambientes críticos complementa minha atuação como desenvolvedor, trazendo uma visão sólida sobre disponibilidade, desempenho, monitoramento e confiabilidade de sistemas.
 
 ---
 
-## 💼 Experiência Profissional
+## 🏆 Projetos em Destaque
 
-### Analista de TI | Conectv
+### 🛰️ OrbNOC
 
-📅 Novembro/2020 — Atualmente
+Plataforma de observabilidade e monitoramento para ambientes corporativos.
 
-Responsável pela sustentação e evolução da infraestrutura tecnológica da empresa, atuando em:
+**Principais funcionalidades**
 
-* Administração de ambientes Windows e Linux
-* Monitoramento de redes e serviços
-* Gestão de servidores e conectividade
-* Suporte corporativo
-* Automação de processos operacionais
-* Implantação e manutenção de sistemas
-* Troubleshooting de ambientes críticos
+* Dashboard em Tempo Real
+* Monitoramento de Redes e Serviços
+* Sistema de Alertas
+* Topologia de Rede
+* Integração com Telegram
+* Histórico de Incidentes
+* Relatórios Operacionais
+* Atualizações via WebSocket
 
----
+**Stack**
 
-# 🏆 Projetos em Destaque
-
-## 🛰️ OrbNOC
-
-Plataforma Enterprise de Monitoramento e Observabilidade para ambientes corporativos.
-
-### Recursos
-
-* Dashboard operacional em tempo real
-* Monitoramento TCP
-* Sistema de alertas
-* Integração Telegram
-* Histórico de incidentes
-* Relatórios PDF e Excel
-* Mapa de topologia interativo
-* WebSocket para atualização em tempo real
-* Gestão centralizada de dispositivos
-
-### Tecnologias
-
-```text
-Next.js
-React
-TypeScript
-Node.js
-Express
-Socket.IO
-PostgreSQL
-Docker
-TailwindCSS
-React Flow
-```
+`Next.js` `React` `TypeScript` `Node.js` `Express` `PostgreSQL` `Docker`
 
 ---
 
-## 🏢 GiroERP
+### 🏢 GiroERP
 
-Sistema ERP moderno voltado para gestão empresarial.
+ERP Full Stack para gestão empresarial, desenvolvido com foco em escalabilidade, segurança e experiência do usuário.
 
-### Módulos
+**Principais funcionalidades**
 
-* Clientes
-* Produtos
-* Estoque
-* Vendas
-* Financeiro
 * Dashboard Gerencial
-* Relatórios
+* Gestão de Clientes
+* Gestão de Produtos e Estoque
+* Controle de Vendas
+* Controle de Usuários e Permissões
+* Autenticação JWT
+* Sistema de Backup
+* Relatórios Operacionais
+* Progressive Web App (PWA)
 
-### Tecnologias
+**Stack**
 
-```text
-Java
-Spring Boot
-PostgreSQL
-Docker
-JWT
-REST API
-```
+`Java 21` `Spring Boot` `Spring Security` `JWT` `React` `TypeScript` `PostgreSQL` `Docker`
 
 ---
 
-# 💻 Stack Tecnológica
+## 💻 Tech Stack
 
-## Backend
+### Backend
 
 <p>
 <img src="https://skillicons.dev/icons?i=java,spring,nodejs,php,python" />
 </p>
 
-## Frontend
+### Frontend
 
 <p>
 <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind" />
 </p>
 
-## Banco de Dados
+### Database
 
 <p>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite" />
 </p>
 
-## DevOps & Infraestrutura
+### DevOps & Infrastructure
 
 <p>
 <img src="https://skillicons.dev/icons?i=docker,linux,git,githubactions,bash" />
@@ -141,7 +95,7 @@ REST API
 
 ---
 
-# 📊 Estatísticas GitHub
+## 📊 GitHub Analytics
 
 <div align="center">
 
@@ -151,9 +105,7 @@ REST API
 
 </div>
 
----
-
-# 🔥 Atividade
+<br>
 
 <div align="center">
 
@@ -161,45 +113,35 @@ REST API
 
 </div>
 
-<br>
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=adanwilliamdev\&theme=tokyo-night)](https://github.com/adanwilliamdev)
-
-</div>
-
 ---
 
-# 🎯 Áreas de Interesse
+## 🎯 Especialidades
 
 * Software Engineering
-* Backend Engineering
-* Platform Engineering
+* Backend Development
+* Full Stack Development
+* REST APIs
+* Cloud Computing
 * Observability
 * Infrastructure Monitoring
-* Cloud Computing
 * DevOps
-* Kubernetes
 * Distributed Systems
-* Site Reliability Engineering (SRE)
 
 ---
 
-# 📚 Atualmente Estudando
+## 📚 Atualmente Estudando
 
 * Kubernetes
 * AWS
 * OpenTelemetry
 * Arquitetura de Microsserviços
-* Engenharia de Plataformas
+* Design de Sistemas
 * CI/CD
 * Observabilidade Moderna
-* Design de Sistemas Distribuídos
 
 ---
 
-# 📫 Contato
+## 📫 Contato
 
 <div align="center">
 
@@ -221,9 +163,9 @@ REST API
 
 <div align="center">
 
-### Infrastructure • Observability • Software Engineering
+### Building Reliable Software & Scalable Platforms
 
-Building scalable platforms, monitoring critical systems and delivering reliable solutions.
+*"Transformando experiência em infraestrutura em software robusto, escalável e observável."*
 
 ⭐ Obrigado por visitar meu perfil.
 
