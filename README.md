@@ -2,149 +2,13 @@
 
 <div align="center">
 
-<br>
+# Software Engineer
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=24\&duration=3000\&pause=500\&color=3B82F6\&center=true\&vCenter=true\&width=850\&lines=Software+Engineer;Full+Stack+Developer;Java+%7C+Spring+Boot;React+%7C+TypeScript;Building+Scalable+Applications)](https://git.io/typing-svg)
+### Full Stack Developer • Java • Spring Boot • React • TypeScript
 
-### Software Engineer • Full Stack Developer • Infrastructure & Observability
-
-</div>
-
----
-
-## 🚀 Sobre Mim
-
-Profissional de Tecnologia com mais de 5 anos de experiência em ambientes corporativos, atuando entre infraestrutura, observabilidade e desenvolvimento de software.
-
-Atualmente trabalho como Analista de TI e desenvolvo aplicações Full Stack utilizando **Java, Spring Boot, React e TypeScript**, com foco em sistemas corporativos, APIs escaláveis e plataformas de monitoramento.
-
-Minha experiência com infraestrutura e ambientes críticos complementa minha atuação como desenvolvedor, trazendo uma visão sólida sobre disponibilidade, desempenho, monitoramento e confiabilidade de sistemas.
-
----
-
-## 🏆 Projetos em Destaque
-
-### 🛰️ OrbNOC
-
-Plataforma de observabilidade e monitoramento para ambientes corporativos.
-
-**Principais funcionalidades**
-
-* Dashboard em Tempo Real
-* Monitoramento de Redes e Serviços
-* Sistema de Alertas
-* Topologia de Rede
-* Integração com Telegram
-* Histórico de Incidentes
-* Relatórios Operacionais
-* Atualizações via WebSocket
-
-**Stack**
-
-`Next.js` `React` `TypeScript` `Node.js` `Express` `PostgreSQL` `Docker`
-
----
-
-### 🏢 GiroERP
-
-ERP Full Stack para gestão empresarial, desenvolvido com foco em escalabilidade, segurança e experiência do usuário.
-
-**Principais funcionalidades**
-
-* Dashboard Gerencial
-* Gestão de Clientes
-* Gestão de Produtos e Estoque
-* Controle de Vendas
-* Controle de Usuários e Permissões
-* Autenticação JWT
-* Sistema de Backup
-* Relatórios Operacionais
-* Progressive Web App (PWA)
-
-**Stack**
-
-`Java 21` `Spring Boot` `Spring Security` `JWT` `React` `TypeScript` `PostgreSQL` `Docker`
-
----
-
-## 💻 Tech Stack
-
-### Backend
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=900&lines=Software+Engineer;Full+Stack+Developer;Java+%7C+Spring+Boot;React+%7C+TypeScript;Building+Scalable+Applications;Cloud+%7C+Microservices+%7C+Observability" />
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,spring,nodejs,php,python" />
-</p>
-
-### Frontend
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind" />
-</p>
-
-### Database
-
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite" />
-</p>
-
-### DevOps & Infrastructure
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,linux,git,githubactions,bash" />
-</p>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-## 🎯 Especialidades
-
-* Software Engineering
-* Backend Development
-* Full Stack Development
-* REST APIs
-* Cloud Computing
-* Observability
-* Infrastructure Monitoring
-* DevOps
-* Distributed Systems
-
----
-
-## 📚 Atualmente Estudando
-
-* Kubernetes
-* AWS
-* OpenTelemetry
-* Arquitetura de Microsserviços
-* Design de Sistemas
-* CI/CD
-* Observabilidade Moderna
-
----
-
-## 📫 Contato
-
-<div align="center">
-
 <a href="https://github.com/adanwilliamdev">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
@@ -156,6 +20,209 @@ ERP Full Stack para gestão empresarial, desenvolvido com foco em escalabilidade
 <a href="mailto:adan.william.dev@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
+</p>
+
+![](https://komarev.com/ghpvc/?username=adanwilliamdev\&style=for-the-badge\&color=3B82F6)
+
+</div>
+
+---
+
+# 🚀 About Me
+
+Software Engineer with **5+ years of experience** in corporate IT, combining a solid background in **Infrastructure, Networking, Monitoring, Observability, and Software Development**.
+
+I build scalable applications using **Java, Spring Boot, React, TypeScript, Node.js, and PostgreSQL**, focusing on clean architecture, high availability, performance, and maintainability.
+
+My infrastructure background allows me to design software with an operational mindset, emphasizing:
+
+* High Availability
+* Scalability
+* Reliability
+* Observability
+* Performance
+* Security
+* Automation
+
+---
+
+# 🏆 Featured Projects
+
+## 🛰️ OrbNOC
+
+Enterprise Network Operations Center platform focused on monitoring and observability.
+
+### Features
+
+* 📊 Real-Time Dashboard
+* 🌐 Network Monitoring
+* 🚨 Alert Management
+* 🗺️ Interactive Network Topology
+* 📱 Telegram Notifications
+* 📈 Incident History
+* 📑 Operational Reports
+* ⚡ WebSocket Real-Time Updates
+
+### Stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,nodejs,express,postgres,docker" />
+</p>
+
+🔗 **Repository:**
+https://github.com/adanwilliamdev/OrbNOC
+
+---
+
+## 🏗️ SVA Platform
+
+Infrastructure management and monitoring platform.
+
+### Features
+
+* 🖥️ IT Asset Management
+* 📡 Infrastructure Monitoring
+* 👥 Role-Based Access Control
+* 📊 Administrative Dashboard
+* 📑 Reports
+* 🤖 Task Automation
+
+### Stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring,react,typescript,postgres,docker" />
+</p>
+
+🔗 **Repository:**
+https://github.com/adanwilliamdev/sva-platform
+
+---
+
+## 💰 Financial Microservices
+
+Distributed financial management system based on microservices architecture.
+
+### Features
+
+* 💳 Financial Management
+* ⚙️ Microservices Architecture
+* 🌐 API Gateway
+* 🔍 Service Discovery
+* 📨 Asynchronous Communication
+* 📈 Distributed Observability
+
+### Stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring,docker,kafka,postgres,mongodb" />
+</p>
+
+---
+
+# 💻 Tech Stack
+
+## Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,python,php" />
+</p>
+
+## Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind" />
+</p>
+
+## Database
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite" />
+</p>
+
+## DevOps & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git,githubactions,bash,aws" />
+</p>
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🎯 Core Skills
+
+* Software Engineering
+* Backend Development
+* Full Stack Development
+* Java & Spring Boot
+* REST APIs
+* Clean Architecture
+* Microservices
+* Distributed Systems
+* Docker & Kubernetes
+* Cloud Computing
+* Observability
+* Infrastructure Monitoring
+* DevOps
+* CI/CD
+* PostgreSQL
+* System Design
+
+---
+
+# 📚 Currently Learning
+
+* ☁️ AWS
+* ☸️ Kubernetes
+* 📊 OpenTelemetry
+* 🏗️ System Design
+* 🔄 Event-Driven Architecture
+* ⚡ Apache Kafka
+* 🚀 Advanced Microservices
+* 🔍 Modern Observability
+* 🤖 CI/CD Pipelines
+
+---
+
+# 📈 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adanwilliamdev&theme=tokyonight"/>
+
+</div>
+
+---
+
+# 📫 Contact
+
+<div align="center">
+
+<a href="mailto:adan.william.dev@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/adanwilliamdev">
+<img src="https://img.shields.io/badge/GitHub-adanwilliamdev-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/adan-william-9593163b3/">
+<img src="https://img.shields.io/badge/LinkedIn-Adan_William-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
 
 </div>
 
@@ -163,10 +230,10 @@ ERP Full Stack para gestão empresarial, desenvolvido com foco em escalabilidade
 
 <div align="center">
 
-### Building Reliable Software & Scalable Platforms
+# 💙 Building Reliable Software & Scalable Platforms
 
-*"Transformando experiência em infraestrutura em software robusto, escalável e observável."*
+### *"Transforming infrastructure expertise into reliable, scalable and observable software."*
 
-⭐ Obrigado por visitar meu perfil.
+⭐ **Thank you for visiting my profile!**
 
 </div>
