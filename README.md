@@ -2,11 +2,11 @@
 
 <div align="center">
 
-# Software Engineer
+## Software Engineer
 
 ### Full Stack Developer • Java • Spring Boot • React • TypeScript
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=900&lines=Software+Engineer;Full+Stack+Developer;Java+%7C+Spring+Boot;React+%7C+TypeScript;Building+Scalable+Applications;Cloud+%7C+Microservices+%7C+Observability" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=900&lines=Software+Engineer;Full+Stack+Developer;Java+%7C+Spring+Boot;React+%7C+TypeScript;Building+Scalable+Applications;Cloud+%7C+Microservices+%7C+Observability;NOC+%7C+Infrastructure+%7C+Monitoring" />
 
 <p>
 <a href="https://github.com/adanwilliamdev">
@@ -22,7 +22,7 @@
 </a>
 </p>
 
-![](https://komarev.com/ghpvc/?username=adanwilliamdev\&style=for-the-badge\&color=3B82F6)
+![](https://komarev.com/ghpvc/?username=adanwilliamdev&style=for-the-badge&color=3B82F6)
 
 </div>
 
@@ -30,19 +30,21 @@
 
 # 🚀 About Me
 
-Software Engineer with **5+ years of experience** in corporate IT, combining a solid background in **Infrastructure, Networking, Monitoring, Observability, and Software Development**.
+Software Engineer with **5+ years** bridging **Infrastructure** and **Software Development**. I build scalable, high-performance applications using **Java, Spring Boot, React, TypeScript, and PostgreSQL**.
 
-I build scalable applications using **Java, Spring Boot, React, TypeScript, Node.js, and PostgreSQL**, focusing on clean architecture, high availability, performance, and maintainability.
+My NOC and infrastructure background gives me a unique edge: I design software with **observability, reliability, and operational excellence** built-in from day one.
 
-My infrastructure background allows me to design software with an operational mindset, emphasizing:
+### Core Competencies:
 
-* High Availability
-* Scalability
-* Reliability
-* Observability
-* Performance
-* Security
-* Automation
+<p align="center">
+  <img src="https://img.shields.io/badge/High%20Availability-3B82F6?style=flat-square&logo=statuspal&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scalability-22C55E?style=flat-square&logo=scaleway&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Reliability-EF4444?style=flat-square&logo=reliability&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Observability-8B5CF6?style=flat-square&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Performance-EC4899?style=flat-square&logo=perf&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Security-14B8A6?style=flat-square&logo=security&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Automation-F59E0B?style=flat-square&logo=automation&logoColor=white"/>
+</p>
 
 ---
 
@@ -54,14 +56,12 @@ Enterprise Network Operations Center platform focused on monitoring and observab
 
 ### Features
 
-* 📊 Real-Time Dashboard
-* 🌐 Network Monitoring
-* 🚨 Alert Management
-* 🗺️ Interactive Network Topology
-* 📱 Telegram Notifications
-* 📈 Incident History
-* 📑 Operational Reports
-* ⚡ WebSocket Real-Time Updates
+| Área | Funcionalidades |
+|------|-----------------|
+| 📊 Dashboard | Real-Time Dashboard, Operational Reports |
+| 🌐 Monitoramento | Network Monitoring, Interactive Topology |
+| 🚨 Alertas | Alert Management, Telegram Notifications |
+| 📈 Histórico | Incident History, WebSocket Real-Time Updates |
 
 ### Stack
 
@@ -69,23 +69,21 @@ Enterprise Network Operations Center platform focused on monitoring and observab
 <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,nodejs,express,postgres,docker" />
 </p>
 
-🔗 **Repository:**
-https://github.com/adanwilliamdev/OrbNOC
+🔗 **[View Repository →](https://github.com/adanwilliamdev/OrbNOC)**
 
 ---
 
 ## 🏗️ SVA Platform
 
-Infrastructure management and monitoring platform.
+Infrastructure management and monitoring platform for enterprise IT operations.
 
 ### Features
 
-* 🖥️ IT Asset Management
-* 📡 Infrastructure Monitoring
-* 👥 Role-Based Access Control
-* 📊 Administrative Dashboard
-* 📑 Reports
-* 🤖 Task Automation
+| Área | Funcionalidades |
+|------|-----------------|
+| 🖥️ Ativos | IT Asset Management, Infrastructure Monitoring |
+| 👥 Controle | Role-Based Access Control, Administrative Dashboard |
+| 📊 Dados | Reports, Task Automation |
 
 ### Stack
 
@@ -93,8 +91,7 @@ Infrastructure management and monitoring platform.
 <img src="https://skillicons.dev/icons?i=java,spring,react,typescript,postgres,docker" />
 </p>
 
-🔗 **Repository:**
-https://github.com/adanwilliamdev/sva-platform
+🔗 **[View Repository →](https://github.com/adanwilliamdev/sva-platform)**
 
 ---
 
@@ -104,18 +101,20 @@ Distributed financial management system based on microservices architecture.
 
 ### Features
 
-* 💳 Financial Management
-* ⚙️ Microservices Architecture
-* 🌐 API Gateway
-* 🔍 Service Discovery
-* 📨 Asynchronous Communication
-* 📈 Distributed Observability
+| Área | Funcionalidades |
+|------|-----------------|
+| 💳 Finanças | Financial Management, Transaction Processing |
+| ⚙️ Arquitetura | Microservices, API Gateway, Service Discovery |
+| 📨 Comunicação | Asynchronous Communication, Event-Driven |
+| 📈 Observabilidade | Distributed Observability, Monitoring |
 
 ### Stack
 
 <p>
 <img src="https://skillicons.dev/icons?i=java,spring,docker,kafka,postgres,mongodb" />
 </p>
+
+🔗 **[View Repository →](https://github.com/adanwilliamdev/financial-microservices)**
 
 ---
 
@@ -145,6 +144,12 @@ Distributed financial management system based on microservices architecture.
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git,githubactions,bash,aws" />
 </p>
 
+## 📊 Observability & Monitoring
+
+<p>
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch" />
+</p>
+
 ---
 
 # 📊 GitHub Analytics
@@ -165,36 +170,40 @@ Distributed financial management system based on microservices architecture.
 
 # 🎯 Core Skills
 
-* Software Engineering
-* Backend Development
-* Full Stack Development
-* Java & Spring Boot
-* REST APIs
-* Clean Architecture
-* Microservices
-* Distributed Systems
-* Docker & Kubernetes
-* Cloud Computing
-* Observability
-* Infrastructure Monitoring
-* DevOps
-* CI/CD
-* PostgreSQL
-* System Design
+### Engineering & Architecture
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Software%20Engineering-3B82F6?style=flat-square&logo=swagger&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Backend%20Development-22C55E?style=flat-square&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Full%20Stack%20Development-8B5CF6?style=flat-square&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Clean%20Architecture-EF4444?style=flat-square&logo=clean&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Microservices-EC4899?style=flat-square&logo=microgen&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Distributed%20Systems-14B8A6?style=flat-square&logo=apachekafka&logoColor=white"/>
+</p>
+
+### Infrastructure & Operations
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cloud%20Computing-FF9900?style=flat-square&logo=aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Observability-8B5CF6?style=flat-square&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DevOps-00A1E0?style=flat-square&logo=devops&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CI%2FCD-4285F4?style=flat-square&logo=githubactions&logoColor=white"/>
+</p>
 
 ---
 
 # 📚 Currently Learning
 
-* ☁️ AWS
-* ☸️ Kubernetes
-* 📊 OpenTelemetry
-* 🏗️ System Design
-* 🔄 Event-Driven Architecture
-* ⚡ Apache Kafka
-* 🚀 Advanced Microservices
-* 🔍 Modern Observability
-* 🤖 CI/CD Pipelines
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white"/>
+  <img src="https://img.shields.io/badge/System%20Design-3B82F6?style=flat-square&logo=design&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Event%20Driven-14B8A6?style=flat-square&logo=eventbrite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+</p>
 
 ---
 
@@ -208,7 +217,7 @@ Distributed financial management system based on microservices architecture.
 
 ---
 
-# 📫 Contact
+# 📫 Connect With Me
 
 <div align="center">
 
@@ -235,5 +244,12 @@ Distributed financial management system based on microservices architecture.
 ### *"Transforming infrastructure expertise into reliable, scalable and observable software."*
 
 ⭐ **Thank you for visiting my profile!**
+
+---
+
+**🚀 Open to opportunities!**  
+If you're looking for a **Software Engineer** with infrastructure expertise, let's connect!
+
+[📧 Email Me](mailto:adan.william.dev@gmail.com) • [🔗 LinkedIn](https://www.linkedin.com/in/adan-william-9593163b3/) • [💻 GitHub](https://github.com/adanwilliamdev)
 
 </div>
