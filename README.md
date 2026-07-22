@@ -73,22 +73,22 @@ Enterprise Network Operations Center platform focused on monitoring and observab
 
 ---
 
-## 🏗️ SVA Platform
+## 🧠 SVA Platform
 
-Infrastructure management and monitoring platform for enterprise IT operations.
+Inteligent Recruitment Platform with automatic matching between resumes and job vacancies.
 
 ### Features
 
 | Área | Funcionalidades |
 |------|-----------------|
-| 🖥️ Ativos | IT Asset Management, Infrastructure Monitoring |
-| 👥 Controle | Role-Based Access Control, Administrative Dashboard |
-| 📊 Dados | Reports, Task Automation |
+| 👔 Recrutador | Dashboard, CRUD de vagas, Ranking de candidatos, Chat em tempo real |
+| 👨‍💼 Candidato | Upload de currículos, Aplicação simplificada, Histórico, Score de compatibilidade |
+| 🤖 Matching | Extração de palavras-chave, Cálculo de aderência, Ranking por relevância |
 
 ### Stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,spring,react,typescript,postgres,docker" />
+<img src="https://skillicons.dev/icons?i=react,tailwind,fastapi,python,docker,sqlite" />
 </p>
 
 🔗 **[View Repository →](https://github.com/adanwilliamdev/sva-platform)**
