@@ -48,4 +48,4 @@ Inteligência de mercado imobiliário com Machine Learning e análise de investi
 ---
 
 ## 📫 Contato
-[GitHub](https://github.com/adanwilliamdev) · [LinkedIn](https://www.linkedin.com/in/adan-william-9593163b3/) · [E-mail](mailto:adan.william.dev@gmail.com)
+[GitHub](https://github.com/adanwilliamdev) · [LinkedIn](https://www.linkedin.com/in/-awos/) · [E-mail](mailto:adan.william.dev@gmail.com)
