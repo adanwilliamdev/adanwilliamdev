@@ -1,51 +1,59 @@
-# 👨‍💻 Adan William
+<div align="center">
 
-### Java Backend Developer • Full Stack Developer • Spring Boot | React
+# Hi, I'm Adan William 👋
 
-Desenvolvedor de software com foco em **Java, Spring Boot e desenvolvimento de APIs REST**, construindo aplicações completas com arquitetura organizada, segurança, persistência de dados e integração com frontends modernos.
+### Java Backend Developer building reliable, production-minded systems
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6DB33F&center=true&vCenter=true&width=600&lines=Java+%7C+Spring+Boot+%7C+REST+APIs;5%2B+years+in+IT+Infrastructure+%26+NOC;Building+full-stack+apps+with+React+%2B+TypeScript;Open+to+Backend+%2F+Software+Engineer+roles)](https://git.io/typing-svg)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-awos/)
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adan.william.dev@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adanwilliamdev)
+
+</div>
 
 ---
 
-## 🚀 Sobre Mim
+## 🚀 About Me
 
-Sou desenvolvedor com foco em **Backend Java**, especializado no ecossistema **Spring Boot**, com experiência na construção de aplicações full-stack utilizando **React e TypeScript**.
+Software developer focused on **Java, Spring Boot, and REST API development**, building complete applications with clean architecture, security, data persistence, and integration with modern frontends.
 
-Atualmente direciono minha carreira para **Engenharia de Software e Desenvolvimento Backend**, buscando aplicar boas práticas de arquitetura, segurança, performance e qualidade de código na construção de sistemas reais.
+I'm currently directing my career toward **Software Engineering and Backend Development**, applying solid practices in architecture, security, performance, and code quality to build real-world systems.
 
-Minha experiência anterior de mais de **5 anos em Infraestrutura de TI e operações NOC** trouxe uma visão prática sobre ambientes de produção, disponibilidade, monitoramento, troubleshooting e resolução de incidentes críticos.
+My previous background of over **5 years in IT Infrastructure and NOC operations** gave me a practical understanding of production environments, availability, monitoring, troubleshooting, and critical incident resolution.
 
-Durante esse período, atuei em ambientes de ISP com mais de **12.000 clientes**, trabalhando diretamente com operações N2/N3 e sistemas que exigiam alta disponibilidade.
+During that time, I worked in ISP environments serving over **12,000 customers**, handling N2/N3 operations and systems that required high availability.
 
-Essa experiência influencia diretamente minha forma de desenvolver software, especialmente em aspectos como:
+That experience directly shapes how I approach software development, especially when it comes to:
 
-* Confiabilidade
-* Observabilidade
+* Reliability
+* Observability
 * Performance
-* Segurança
-* Disponibilidade
-* Resolução de problemas
-* Sistemas preparados para produção
+* Security
+* Availability
+* Problem-solving
+* Production-ready systems
 
-Também exploro **Python e FastAPI** em projetos relacionados a análise de dados, automação e Machine Learning.
+I also explore **Python and FastAPI** in projects related to data analysis, automation, and Machine Learning.
 
 ---
 
-# 🏆 Projetos em Destaque
+# 🏆 Featured Projects
 
 ## 🩺 MedFlow
 
-Sistema completo de gestão para clínicas médicas, desenvolvido para demonstrar uma arquitetura moderna de aplicação corporativa.
+A complete management system for medical clinics, built to showcase a modern enterprise application architecture.
 
-**Principais funcionalidades:**
+**Key features:**
 
-* Autenticação e autorização com JWT
-* Gestão de pacientes e profissionais
-* Agendamento de consultas
-* Prontuário eletrônico
-* Dashboard administrativo
-* Controle financeiro
-* Cache distribuído
-* Mensageria assíncrona
+* JWT-based authentication and authorization
+* Patient and healthcare professional management
+* Appointment scheduling
+* Electronic health records
+* Admin dashboard
+* Financial control
+* Distributed caching
+* Asynchronous messaging
 
 **Stack:**
 
@@ -53,19 +61,19 @@ Sistema completo de gestão para clínicas médicas, desenvolvido para demonstra
 
 ---
 
-## 📚 Minha Biblioteca
+## 📚 My Library
 
-Sistema Full Stack para gerenciamento de filmes e séries, permitindo organizar uma biblioteca pessoal e acompanhar o progresso de conteúdos assistidos.
+A full-stack system for managing movies and TV shows, allowing users to organize a personal library and track their watching progress.
 
-**Principais funcionalidades:**
+**Key features:**
 
-* Cadastro de filmes e séries
-* Integração com TMDB
-* Controle de temporadas e episódios
-* Dashboard com estatísticas
-* Autenticação JWT
-* Controle de usuários e permissões
-* API REST
+* Movie and TV show registration
+* TMDB integration
+* Season and episode tracking
+* Dashboard with statistics
+* JWT authentication
+* User and permission management
+* REST API
 
 **Stack:**
 
@@ -73,18 +81,18 @@ Sistema Full Stack para gerenciamento de filmes e séries, permitindo organizar 
 
 ---
 
-## 💰 Finanças Microsserviços
+## 💰 Finance Microservices
 
-Sistema de finanças pessoais desenvolvido com foco em **arquitetura distribuída e microsserviços**.
+A personal finance system built with a focus on **distributed architecture and microservices**.
 
-O projeto explora conceitos como:
+The project explores concepts such as:
 
-* Separação de responsabilidades
-* Comunicação entre serviços
-* Service Discovery
-* Configuração centralizada
-* APIs REST
-* Arquitetura escalável
+* Separation of concerns
+* Service-to-service communication
+* Service discovery
+* Centralized configuration
+* REST APIs
+* Scalable architecture
 
 **Stack:**
 
@@ -94,9 +102,9 @@ O projeto explora conceitos como:
 
 ## 🏠 Real Estate Monitor
 
-Plataforma de análise do mercado imobiliário utilizando **Python, Machine Learning e análise de dados**.
+A real estate market analysis platform using **Python, Machine Learning, and data analysis**.
 
-O projeto busca transformar dados imobiliários em informações úteis para análise de preços e oportunidades de investimento.
+The project aims to turn real estate data into actionable insights for price analysis and investment opportunities.
 
 **Stack:**
 
@@ -108,43 +116,43 @@ O projeto busca transformar dados imobiliários em informações úteis para an�
 
 ### Backend
 
-![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=flat-square\&logo=springboot\&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6-6DB33F?style=flat-square\&logo=springsecurity\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 ### Frontend
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square\&logo=react\&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-### Banco de Dados
+### Databases
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square\&logo=redis\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-### DevOps & Ferramentas
+### DevOps & Tools
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 ---
 
-# 🧠 Conhecimentos
+# 🧠 Skills
 
 ```text
 Backend
 ├── Java
 ├── Spring Boot
 ├── Spring Security
-├── APIs REST
+├── REST APIs
 ├── JWT
 ├── JPA / Hibernate
-└── Arquitetura de Software
+└── Software Architecture
 
-Dados
+Data
 ├── PostgreSQL
 ├── Redis
 ├── SQL
@@ -156,56 +164,49 @@ Frontend
 ├── JavaScript
 └── Vite
 
-Infraestrutura
+Infrastructure
 ├── Docker
 ├── Git
 ├── CI/CD
 ├── Linux
-└── Monitoramento
+└── Monitoring
 ```
 
 ---
 
-# 📊 GitHub
+# 📊 GitHub Stats
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&langs_count=8&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
 </div>
 
 ---
 
-# 🎯 Objetivo Profissional
+# 📈 Currently
 
-Busco oportunidades como **Java Backend Developer / Software Engineer**, onde possa contribuir na construção de sistemas robustos e escaláveis, evoluindo continuamente meus conhecimentos em:
-
-* Java
-* Spring Boot
-* Arquitetura de Software
-* Microsserviços
-* Cloud
-* Docker
-* Observabilidade
-* DevOps
-* Sistemas distribuídos
+- 🔭 Working on **MedFlow** — a full-scale clinic management system with JWT auth, caching, and async messaging
+- 🌱 Deepening my knowledge of **microservices, cloud, and system design**
+- 👨‍🏫 Exploring **Machine Learning applied to real estate data** with Python
+- 🎯 Looking for **Java Backend Developer / Software Engineer** opportunities where I can help build robust, scalable systems
+- 💬 Open to a conversation — feel free to reach out
 
 ---
 
-# 📫 Contato
-
-**GitHub:** [adanwilliamdev](https://github.com/adanwilliamdev)
-
-**LinkedIn:** [Adan William](https://www.linkedin.com/in/-awos/)
-
-**E-mail:** [adan.william.dev@gmail.com](mailto:adan.william.dev@gmail.com)
-
----
+# 📫 Let's Connect
 
 <div align="center">
 
-### Desenvolvendo software, resolvendo problemas e transformando ideias em sistemas reais. 🚀
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-awos/)
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adan.william.dev@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adanwilliamdev)
+
+### Building software, solving problems, and turning ideas into real systems. 🚀
+
+![Profile Views](https://komarev.com/ghpvc/?username=adanwilliamdev&color=6DB33F&style=flat-square&label=Profile+Views)
 
 </div>
