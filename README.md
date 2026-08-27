@@ -1,38 +1,39 @@
 <div align="center">
 
-# Hi, I'm Adan William 👋
+# Olá, sou o Adan William 👋
 
-### Aspiring Backend Developer | Java & Spring Boot | 5+ years in IT Infrastructure
+### Desenvolvedor Backend Júnior (Java/Spring Boot) | Ex-NOC com 5+ anos garantindo sistemas no ar 24/7
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Java+%7C+Spring+Boot+%7C+REST+APIs;1%2B+year+of+hands-on+coding;5%2B+years+in+NOC+%26+Critical+Infrastructure;Transitioning+from+Infrastructure+to+Software+Engineering)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Java+%7C+Spring+Boot+%7C+REST+APIs;5%2B+anos+em+NOC+%26+Infraestrutura+Cr%C3%ADtica;Transi%C3%A7%C3%A3o+de+Infraestrutura+para+Desenvolvimento;Buscando+minha+primeira+vaga+como+Dev+Backend)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/awosantos/)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adan.william.dev@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adanwilliamdev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://adanwilliamdev.github.io/)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🚀 Sobre mim
 
-I'm an **IT Professional transitioning to Software Engineering** with a unique background:
+Sou **Profissional de TI com mais de 5 anos de experiência em infraestrutura e NOC**, atualmente em transição para Desenvolvimento de Software.
 
-- 🖥️ **5+ years** in IT Infrastructure & NOC operations (12,000+ clients monitored)
-- 📚 **1+ year** of dedicated coding practice (Java, Spring Boot, React)
-- 🎓 Currently pursuing **Systems Analysis & Development** (ADS)
-- 🚀 Building real projects to solidify my backend skills
+- 🖥️ **5+ anos** em Infraestrutura de TI e NOC, monitorando ambiente ISP com mais de **12.000 clientes**
+- 💻 Estudando e construindo projetos práticos em **Java, Spring Boot e React**
+- 🎓 Cursando **Análise e Desenvolvimento de Sistemas** (UniFatecie)
+- 🎯 Buscando minha primeira posição como **Desenvolvedor Backend Júnior**
 
-**What makes me different:**
-Most developers learn to code in a classroom. I learned by **keeping production systems alive** — monitoring, troubleshooting, and ensuring 99.9% availability. Now I'm applying that same **reliability-first mindset** to software development.
+**O que me diferencia:**
+A maioria dos desenvolvedores aprende a programar na teoria. Eu aprendi mantendo **sistemas críticos no ar 24/7** — monitorando, diagnosticando e resolvendo incidentes complexos (N2/N3) em produção real. Hoje aplico essa mesma mentalidade de confiabilidade e disciplina operacional ao código que escrevo.
 
-**I don't just write code. I write code that stays up.**
+**Não escrevo só código. Escrevo código pensando em produção.**
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Stack Técnica
 
-### Backend (Learning & Building)
+### Backend (em aprofundamento)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
@@ -42,37 +43,37 @@ Most developers learn to code in a classroom. I learned by **keeping production 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-### Database
+### Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### DevOps & Tools
+### DevOps & Ferramentas
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### Infrastructure (My Superpower ⚡)
+### Infraestrutura (minha base sólida ⚡)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Zabbix](https://img.shields.io/badge/Zabbix-D80000?style=for-the-badge&logo=zabbix&logoColor=white)
 ![PRTG](https://img.shields.io/badge/PRTG-00A3E0?style=for-the-badge&logo=prtg&logoColor=white)
 
 ---
 
-## 🏆 Featured Projects
+## 🏆 Projetos em Destaque
 
 ### 🧪 MedFlow
 
-> A complete medical clinic management system — my most ambitious project so far.
+> Sistema completo de gestão para clínicas médicas — meu projeto mais ambicioso até agora.
 
-**What I'm building:**
-- 🔐 JWT authentication with role-based access (Admin, Doctor, Patient)
-- 📋 Patient and healthcare professional management
-- 📅 Appointment scheduling system
-- 📊 Admin dashboard with metrics
-- 💳 Financial control module
+**O que estou construindo:**
+- 🔐 Autenticação JWT com controle de acesso por papel (Admin, Médico, Paciente)
+- 📋 Gestão de pacientes e profissionais de saúde
+- 📅 Sistema de agendamento de consultas
+- 📊 Dashboard administrativo com métricas
+- 💳 Módulo de controle financeiro
 
 **Stack:** `Java 17` `Spring Boot 3` `Spring Security` `JWT` `PostgreSQL` `React 19`
 
-**Status:** 🚧 In development — learning as I build!
+**Status:** 🚧 Em desenvolvimento
 
 [🔗 Repositório](https://github.com/adanwilliamdev/medflow)
 
@@ -80,13 +81,13 @@ Most developers learn to code in a classroom. I learned by **keeping production 
 
 ### 📚 My Library
 
-> Personal movie and TV show manager with TMDB integration.
+> Gerenciador pessoal de filmes e séries com integração à API do TMDB.
 
-**What I learned building this:**
-- REST API design with Spring Boot
-- JPA/Hibernate for database operations
-- Frontend integration with React + TypeScript
-- Consuming external APIs (TMDB)
+**O que aprendi construindo:**
+- Design de API REST com Spring Boot
+- JPA/Hibernate para persistência de dados
+- Integração frontend com React + TypeScript
+- Consumo de APIs externas (TMDB)
 
 **Stack:** `Java 17` `Spring Boot` `React` `TypeScript` `PostgreSQL`
 
@@ -96,13 +97,13 @@ Most developers learn to code in a classroom. I learned by **keeping production 
 
 ### 💰 Finance Microservices
 
-> Exploring distributed systems and microservices architecture.
+> Explorando arquitetura de microsserviços e sistemas distribuídos.
 
-**Learning objectives:**
-- Service discovery with Spring Cloud
-- Centralized configuration
-- Inter-service communication
-- Docker containerization
+**Objetivos de aprendizado:**
+- Service discovery com Spring Cloud
+- Configuração centralizada
+- Comunicação entre serviços
+- Containerização com Docker
 
 **Stack:** `Java` `Spring Boot` `Spring Cloud` `Docker`
 
@@ -112,12 +113,12 @@ Most developers learn to code in a classroom. I learned by **keeping production 
 
 ### 🏠 Real Estate Monitor
 
-> Market analysis with Python and Machine Learning — exploring data science.
+> Análise de mercado imobiliário com Python e Machine Learning.
 
-**What I'm learning:**
-- Data analysis with Pandas
-- Price prediction with Scikit-learn
-- Dashboard creation with Streamlit
+**O que estou aprendendo:**
+- Análise de dados com Pandas
+- Predição de preços com Scikit-learn
+- Criação de dashboards com Streamlit
 
 **Stack:** `Python` `FastAPI` `Scikit-learn` `Streamlit` `Pandas`
 
@@ -134,51 +135,51 @@ Most developers learn to code in a classroom. I learned by **keeping production 
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
-**💻 1+ year of coding • 🖥️ 5+ years in IT • 🚀 Building my portfolio one project at a time**
+**🖥️ 5+ anos em Infraestrutura de TI • 💻 Construindo meu portfólio como desenvolvedor**
 
 </div>
 
 ---
 
-## 🎯 My Learning Journey
+## 🎯 Trajetória de Aprendizado
 
-| Phase | Focus | Status |
-|-------|-------|--------|
-| **2025** | Java Fundamentals, Spring Boot Basics | ✅ Completed |
-| **2025** | REST APIs, JPA/Hibernate, PostgreSQL | ✅ Completed |
-| **2025** | React + TypeScript Integration | ✅ In Progress |
-| **2025** | Spring Security, JWT, Microservices | 🚧 Learning |
-| **2026** | Cloud (AWS), Kubernetes, CI/CD | 📅 Planned |
-| **2026** | System Design, Performance Optimization | 📅 Planned |
-
----
-
-## 📌 Currently
-
-- 🎓 Studying **Systems Analysis & Development** (UniFatecie)
-- 🔨 Building **MedFlow** — learning Spring Security, JWT, and React
-- 📚 Studying **Microservices** with Spring Cloud
-- 🤖 Exploring **Python & Machine Learning** on the side
-- 💼 Actively looking for **Junior Backend Developer** opportunities
-- 🎯 Goal: Land my first dev job in 2025/2026
+| Fase | Foco | Status |
+|------|------|--------|
+| **2025** | Fundamentos de Java e Spring Boot | ✅ Concluído |
+| **2025** | REST APIs, JPA/Hibernate, PostgreSQL | ✅ Concluído |
+| **2025–2026** | Integração com React + TypeScript | ✅ Concluído |
+| **2026** | Spring Security, JWT, Microsserviços | 🚧 Em andamento |
+| **2026** | Cloud (AWS), Docker, CI/CD | 📅 Planejado |
+| **2027** | System Design, Performance e Escalabilidade | 📅 Planejado |
 
 ---
 
-## 💡 Why hire me?
+## 📌 Atualmente
 
-I bring something most junior developers can't:
-
-✅ **Production mindset** — I know what "available 24/7" really means  
-✅ **Troubleshooting skills** — 5+ years solving critical incidents  
-✅ **Monitoring expertise** — I know how systems behave in the real world  
-✅ **Self-taught discipline** — I learned to code while working full-time  
-✅ **Full-stack curiosity** — I understand both backend and frontend  
-
-**I'm not just learning to code. I'm learning to build systems that don't break.**
+- 🎓 Cursando **Análise e Desenvolvimento de Sistemas** (UniFatecie)
+- 🔨 Construindo o **MedFlow** — aprofundando Spring Security, JWT e React
+- 📚 Estudando **Microsserviços** com Spring Cloud
+- 🤖 Explorando **Python e Machine Learning** como conhecimento complementar
+- 💼 Buscando ativamente oportunidades como **Desenvolvedor Backend Júnior**
+- 🎯 Objetivo: conquistar minha primeira vaga como desenvolvedor em 2026
 
 ---
 
-## 📫 Let's Connect!
+## 💡 Por que me contratar?
+
+Trago para a equipe algo que a maioria dos desenvolvedores júnior não tem:
+
+✅ **Mentalidade de produção** — sei o que significa "disponível 24/7" na prática  
+✅ **Troubleshooting real** — 5+ anos resolvendo incidentes críticos em ambiente de produção  
+✅ **Expertise em monitoramento** — entendo como sistemas se comportam sob carga real  
+✅ **Disciplina autodidata** — aprendi a programar enquanto trabalhava em tempo integral  
+✅ **Visão full-stack** — transito entre backend e frontend com curiosidade genuína  
+
+**Não estou apenas aprendendo a programar. Estou aprendendo a construir sistemas que não caem.**
+
+---
+
+## 📫 Vamos nos conectar!
 
 <div align="center">
 
@@ -188,7 +189,7 @@ I bring something most junior developers can't:
 
 ---
 
-**🚀 Transitioning from Infrastructure to Software Engineering. Let's build something!**
+**🚀 Migrando de Infraestrutura para Desenvolvimento de Software. Vamos construir algo juntos!**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=adanwilliamdev&color=6DB33F&style=flat-square&label=Profile+Views)
 
