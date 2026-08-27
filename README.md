@@ -2,9 +2,9 @@
 
 # Hi, I'm Adan William 👋
 
-### Backend Engineer | Java & Spring Boot | Production-Ready Systems
+### Aspiring Backend Developer | Java & Spring Boot | 5+ years in IT Infrastructure
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6DB33F&center=true&vCenter=true&width=600&lines=Java+%7C+Spring+Boot+%7C+REST+APIs;5%2B+years+in+IT+Infrastructure+%26+NOC;Building+full-stack+apps+with+React+%2B+TypeScript;Open+to+Backend+%2F+Software+Engineer+roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Java+%7C+Spring+Boot+%7C+REST+APIs;1%2B+year+of+hands-on+coding;5%2B+years+in+NOC+%26+Critical+Infrastructure;Transitioning+from+Infrastructure+to+Software+Engineering)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/awosantos/)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adan.william.dev@gmail.com)
@@ -16,16 +16,44 @@
 
 ## 🚀 About Me
 
-Backend Engineer with **5+ years** bridging software development and IT infrastructure. I build scalable, secure, and production-ready systems using **Java, Spring Boot, and REST APIs**.
+I'm an **IT Professional transitioning to Software Engineering** with a unique background:
 
-My background in **NOC operations** (monitoring 12,000+ clients) taught me that great software isn't just about features — it's about **reliability, observability, and performance** in the real world.
+- 🖥️ **5+ years** in IT Infrastructure & NOC operations (12,000+ clients monitored)
+- 📚 **1+ year** of dedicated coding practice (Java, Spring Boot, React)
+- 🎓 Currently pursuing **Systems Analysis & Development** (ADS)
+- 🚀 Building real projects to solidify my backend skills
 
-**Currently diving deeper into:**
-- ☁️ Microservices & Cloud Architecture
-- 🔐 Security & System Design
-- 🤖 Machine Learning with Python
+**What makes me different:**
+Most developers learn to code in a classroom. I learned by **keeping production systems alive** — monitoring, troubleshooting, and ensuring 99.9% availability. Now I'm applying that same **reliability-first mindset** to software development.
 
-**I write code that works — and stays working.**
+**I don't just write code. I write code that stays up.**
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend (Learning & Building)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+### Database
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### Infrastructure (My Superpower ⚡)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Zabbix](https://img.shields.io/badge/Zabbix-D80000?style=for-the-badge&logo=zabbix&logoColor=white)
+![PRTG](https://img.shields.io/badge/PRTG-00A3E0?style=for-the-badge&logo=prtg&logoColor=white)
 
 ---
 
@@ -33,29 +61,32 @@ My background in **NOC operations** (monitoring 12,000+ clients) taught me that 
 
 ### 🧪 MedFlow
 
-> A complete medical clinic management system with enterprise-grade architecture.
+> A complete medical clinic management system — my most ambitious project so far.
 
-**What makes it special:**
-- 🔐 JWT authentication with role-based access control
-- ⚡ Redis caching reducing database load by ~40%
-- 📨 RabbitMQ for async notifications and background jobs
-- 📊 Admin dashboard with real-time metrics
+**What I'm building:**
+- 🔐 JWT authentication with role-based access (Admin, Doctor, Patient)
+- 📋 Patient and healthcare professional management
+- 📅 Appointment scheduling system
+- 📊 Admin dashboard with metrics
+- 💳 Financial control module
 
-**Stack:** `Java 17` `Spring Boot 3` `Spring Security` `PostgreSQL` `Redis` `RabbitMQ` `React 19`
+**Stack:** `Java 17` `Spring Boot 3` `Spring Security` `JWT` `PostgreSQL` `React 19`
 
-[🔗 Repositório](https://github.com/adanwilliamdev/medflow) • [🚀 Demo](https://medflow-demo.com)
+**Status:** 🚧 In development — learning as I build!
+
+[🔗 Repositório](https://github.com/adanwilliamdev/medflow)
 
 ---
 
 ### 📚 My Library
 
-> Personal movie and TV show management system with TMDB integration.
+> Personal movie and TV show manager with TMDB integration.
 
-**Key features:**
-- 🎬 Track watched episodes and seasons automatically
-- 🔄 Real-time updates via TMDB API
-- 📈 Dashboard with personalized statistics
-- 👥 Multi-user support with permissions
+**What I learned building this:**
+- REST API design with Spring Boot
+- JPA/Hibernate for database operations
+- Frontend integration with React + TypeScript
+- Consuming external APIs (TMDB)
 
 **Stack:** `Java 17` `Spring Boot` `React` `TypeScript` `PostgreSQL`
 
@@ -65,13 +96,13 @@ My background in **NOC operations** (monitoring 12,000+ clients) taught me that 
 
 ### 💰 Finance Microservices
 
-> Personal finance system exploring distributed architecture patterns.
+> Exploring distributed systems and microservices architecture.
 
-**What I learned:**
-- Service discovery with Spring Cloud Netflix/Eureka
-- Centralized configuration management
-- Inter-service communication (REST, Feign)
-- Fault tolerance and resilience patterns
+**Learning objectives:**
+- Service discovery with Spring Cloud
+- Centralized configuration
+- Inter-service communication
+- Docker containerization
 
 **Stack:** `Java` `Spring Boot` `Spring Cloud` `Docker`
 
@@ -81,44 +112,16 @@ My background in **NOC operations** (monitoring 12,000+ clients) taught me that 
 
 ### 🏠 Real Estate Monitor
 
-> Market analysis platform using Python, ML, and data visualization.
+> Market analysis with Python and Machine Learning — exploring data science.
 
-**Real-world impact:**
-- 📊 Analyzed 10,000+ property listings
-- 🤖 ML model predicting price trends with 85% accuracy
-- 📈 Interactive Streamlit dashboard for investors
+**What I'm learning:**
+- Data analysis with Pandas
+- Price prediction with Scikit-learn
+- Dashboard creation with Streamlit
 
-**Stack:** `Python` `FastAPI` `Scikit-learn` `Streamlit` `Pandas` `Docker`
+**Stack:** `Python` `FastAPI` `Scikit-learn` `Streamlit` `Pandas`
 
 [🔗 Repositório](https://github.com/adanwilliamdev/real-estate-monitor)
-
----
-
-## 💻 Tech Stack
-
-### Backend
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-### Database & Cache
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### Monitoring
-![Zabbix](https://img.shields.io/badge/Zabbix-D80000?style=for-the-badge&logo=zabbix&logoColor=white)
-![PRTG](https://img.shields.io/badge/PRTG-00A3E0?style=for-the-badge&logo=prtg&logoColor=white)
 
 ---
 
@@ -131,23 +134,51 @@ My background in **NOC operations** (monitoring 12,000+ clients) taught me that 
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
-**🔥 5+ years of coding • 12,000+ clients monitored • Building for production**
+**💻 1+ year of coding • 🖥️ 5+ years in IT • 🚀 Building my portfolio one project at a time**
 
 </div>
 
 ---
 
-## 📌 Currently
+## 🎯 My Learning Journey
 
-- 🔨 Building **MedFlow** — enterprise clinic management system
-- 📚 Studying **Microservices** & **Cloud Architecture** (AWS)
-- 🤖 Exploring **ML/AI** for real estate price prediction
-- 💼 Open to **Backend Engineer** roles (Java/Spring Boot)
-- 📬 Reach out — let's build something great together!
+| Phase | Focus | Status |
+|-------|-------|--------|
+| **2025** | Java Fundamentals, Spring Boot Basics | ✅ Completed |
+| **2025** | REST APIs, JPA/Hibernate, PostgreSQL | ✅ Completed |
+| **2025** | React + TypeScript Integration | ✅ In Progress |
+| **2025** | Spring Security, JWT, Microservices | 🚧 Learning |
+| **2026** | Cloud (AWS), Kubernetes, CI/CD | 📅 Planned |
+| **2026** | System Design, Performance Optimization | 📅 Planned |
 
 ---
 
-## 📫 Let's Connect
+## 📌 Currently
+
+- 🎓 Studying **Systems Analysis & Development** (UniFatecie)
+- 🔨 Building **MedFlow** — learning Spring Security, JWT, and React
+- 📚 Studying **Microservices** with Spring Cloud
+- 🤖 Exploring **Python & Machine Learning** on the side
+- 💼 Actively looking for **Junior Backend Developer** opportunities
+- 🎯 Goal: Land my first dev job in 2025/2026
+
+---
+
+## 💡 Why hire me?
+
+I bring something most junior developers can't:
+
+✅ **Production mindset** — I know what "available 24/7" really means  
+✅ **Troubleshooting skills** — 5+ years solving critical incidents  
+✅ **Monitoring expertise** — I know how systems behave in the real world  
+✅ **Self-taught discipline** — I learned to code while working full-time  
+✅ **Full-stack curiosity** — I understand both backend and frontend  
+
+**I'm not just learning to code. I'm learning to build systems that don't break.**
+
+---
+
+## 📫 Let's Connect!
 
 <div align="center">
 
@@ -157,7 +188,7 @@ My background in **NOC operations** (monitoring 12,000+ clients) taught me that 
 
 ---
 
-**🚀 Building software that matters. Let's talk!**
+**🚀 Transitioning from Infrastructure to Software Engineering. Let's build something!**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=adanwilliamdev&color=6DB33F&style=flat-square&label=Profile+Views)
 
