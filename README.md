@@ -1,219 +1,270 @@
 <div align="center">
 
-# Olá, eu sou o Adan William 👋
+# Adan William
 
-### Desenvolvedor Backend Júnior • Java & Spring Boot
+### Junior Backend Developer · Java · Spring Boot
 
-Construindo APIs, aplicações web e sistemas com foco em **qualidade, confiabilidade e boas práticas de desenvolvimento**.
+Building reliable backend applications, REST APIs, and scalable software solutions.
 
-<br>
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/awosantos/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:adan.william.dev@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/adanwilliamdev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge\&logo=githubpages\&logoColor=white)](https://adanwilliamdev.github.io/)
+<a href="https://www.linkedin.com/in/awosantos/">
+  <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/adanwilliamdev">
+  <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub"/>
+</a>
+&nbsp;&nbsp;
+<a href="mailto:adan.william.dev@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail" height="42" alt="Email"/>
+</a>
+
+<br/><br/>
+
+<a href="https://adanwilliamdev.github.io/">Portfolio</a>
+ ·  <a href="https://www.linkedin.com/in/awosantos/">LinkedIn</a>
+ ·  <a href="https://github.com/adanwilliamdev">GitHub</a>
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mim
+## About Me
 
-Sou profissional de Tecnologia da Informação com **5+ anos de experiência em infraestrutura e operações**, atualmente direcionando minha carreira para o **desenvolvimento de software**.
+I am an IT professional with **5+ years of experience in infrastructure, networking, and operations**, currently transitioning into **software development**.
 
-Minha principal área de atuação é o desenvolvimento backend com **Java e Spring Boot**, complementada por conhecimentos em React, TypeScript, bancos de dados, Docker e arquitetura de aplicações.
+My primary focus is backend development using **Java and Spring Boot**, building REST APIs, authentication systems, business applications, and distributed services.
 
-Também curso **Análise e Desenvolvimento de Sistemas** pela UniFatecie e mantenho uma rotina constante de estudos e desenvolvimento de projetos práticos.
+My background in infrastructure and operations gives me a practical perspective on software beyond the code itself. I understand the importance of **reliability, observability, troubleshooting, and how systems behave in production environments**.
 
-### 🎯 Atualmente
-
-* 💻 Desenvolvendo aplicações com **Java + Spring Boot**
-* 🔐 Aprofundando conhecimentos em **Spring Security e JWT**
-* 🗄️ Trabalhando com **PostgreSQL, JPA e Hibernate**
-* 🐳 Estudando **Docker e microsserviços**
-* ⚛️ Desenvolvendo interfaces com **React + TypeScript**
-* ☁️ Explorando conceitos de **Cloud e CI/CD**
-* 💼 Buscando oportunidades como **Desenvolvedor Backend Júnior**
+Currently focused on building practical projects and continuously improving my software engineering skills.
 
 ---
 
-## 🛠️ Tecnologias
+## Current Focus
+
+* Backend development with **Java and Spring Boot**
+* Authentication and authorization with **Spring Security and JWT**
+* **RESTful API** design and integration
+* Data persistence with **JPA, Hibernate, and PostgreSQL**
+* **Microservices and Spring Cloud**
+* Containerization with **Docker**
+* Cloud and **CI/CD fundamentals**
+* Frontend integration using **React and TypeScript**
+
+---
+
+## Tech Stack
+
+<div align="center">
 
 ### Backend
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge\&logo=springboot\&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge\&logo=springsecurity\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+<img src="https://skillicons.dev/icons?i=java,spring,python,nodejs" />
+
+<br/><br/>
 
 ### Frontend
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react\&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+<img src="https://skillicons.dev/icons?i=react,typescript,html,css" />
 
-### Banco de Dados
+<br/><br/>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge\&logo=redis\&logoColor=white)
+### Databases & Infrastructure
 
-### DevOps & Ferramentas
+<img src="https://skillicons.dev/icons?i=postgresql,redis,docker,linux" />
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+<br/><br/>
 
----
+### Tools
 
-## 🚀 Projetos em destaque
-
-### 🧪 MedFlow
-
-Sistema de gestão para clínicas médicas desenvolvido para explorar conceitos de **arquitetura backend, autenticação e regras de negócio**.
-
-#### Principais funcionalidades
-
-* 🔐 Autenticação e autorização com JWT
-* 👥 Controle de acesso baseado em papéis
-* 👨‍⚕️ Gestão de profissionais e pacientes
-* 📅 Agendamento de consultas
-* 📊 Dashboard administrativo
-* 💳 Controle financeiro
-
-**Stack**
-
-`Java 17` `Spring Boot 3` `Spring Security` `JWT` `PostgreSQL` `React 19`
-
-**Status:** 🚧 Em desenvolvimento
-
-🔗 [Ver repositório](https://github.com/adanwilliamdev/medflow)
-
----
-
-### 📚 My Library
-
-Aplicação para gerenciamento pessoal de filmes e séries, integrada à API do **TMDB**.
-
-O projeto foi desenvolvido para praticar integração entre frontend e backend, persistência de dados e consumo de APIs externas.
-
-**Stack**
-
-`Java 17` `Spring Boot` `React` `TypeScript` `PostgreSQL`
-
-🔗 [Ver repositório](https://github.com/adanwilliamdev/my-library)
-
----
-
-### 💰 Finance Microservices
-
-Projeto desenvolvido para estudar conceitos de **arquitetura de microsserviços e sistemas distribuídos** utilizando o ecossistema Spring.
-
-#### Conceitos explorados
-
-* Service Discovery
-* Configuração centralizada
-* Comunicação entre serviços
-* Separação de responsabilidades
-* Containerização
-
-**Stack**
-
-`Java` `Spring Boot` `Spring Cloud` `Docker`
-
-🔗 [Ver repositório](https://github.com/adanwilliamdev/finance-microservices)
-
----
-
-### 🏠 Real Estate Monitor
-
-Projeto de análise do mercado imobiliário utilizando **Python e Machine Learning**.
-
-#### Conceitos explorados
-
-* 📊 Análise de dados com Pandas
-* 🤖 Modelos de Machine Learning
-* 📈 Predição de preços
-* 📋 Dashboards interativos
-
-**Stack**
-
-`Python` `FastAPI` `Pandas` `Scikit-learn` `Streamlit`
-
-🔗 [Ver repositório](https://github.com/adanwilliamdev/real-estate-monitor)
-
----
-
-## 📈 GitHub
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+<img src="https://skillicons.dev/icons?i=git,github,maven,postman,idea,vscode" />
 
 </div>
 
 ---
 
-## 📚 Jornada de desenvolvimento
+# Featured Projects
 
-| Período       | Foco                                        | Status              |
-| ------------- | ------------------------------------------- | ------------------- |
-| **2025**      | Fundamentos de Java e Spring Boot           | ✅ Concluído         |
-| **2025**      | REST APIs, JPA/Hibernate e PostgreSQL       | ✅ Concluído         |
-| **2025–2026** | React + TypeScript                          | ✅ Concluído         |
-| **2026**      | Spring Security e JWT                       | 🚧 Em andamento     |
-| **2026**      | Microsserviços e Spring Cloud               | 🚧 Em andamento     |
-| **2026**      | Docker, Cloud e CI/CD                       | 📚 Estudando        |
-| **2027**      | System Design, Performance e Escalabilidade | 🎯 Próximo objetivo |
+## MedFlow
 
----
+A healthcare management platform designed to explore backend architecture, authentication, authorization, and real-world business rules.
 
-## 💡 O que trago para uma equipe
+### Key Features
 
-### 🔎 Visão de produção
+* JWT-based authentication and authorization
+* Role-based access control
+* Healthcare professional and patient management
+* Appointment scheduling
+* Administrative dashboard
+* Financial management
 
-Minha experiência profissional me ensinou a pensar além do código: disponibilidade, monitoramento, diagnóstico de problemas e impacto de incidentes.
+### Stack
 
-### 🧩 Troubleshooting
+`Java 17` · `Spring Boot 3` · `Spring Security` · `JWT` · `PostgreSQL` · `React`
 
-Tenho experiência prática investigando problemas, identificando causas e atuando na resolução de incidentes em ambientes críticos.
+**Status:** In Development
 
-### 🏗️ Mentalidade de engenharia
-
-Busco escrever código organizado, testável e fácil de manter, sempre pensando em como a aplicação irá se comportar em um ambiente real.
-
-### 📚 Aprendizado contínuo
-
-Grande parte da minha evolução em desenvolvimento acontece através da construção de projetos, documentação técnica e experimentação prática.
+[View Repository →](https://github.com/adanwilliamdev/medflow)
 
 ---
 
-## 🎓 Formação
+## Finance Microservices
 
-**Análise e Desenvolvimento de Sistemas**
-UniFatecie
+A practical project focused on **microservices architecture using the Spring ecosystem**.
+
+### Concepts Explored
+
+* Service Discovery
+* Centralized Configuration
+* Service-to-Service Communication
+* Distributed Architecture
+* Containerization
+
+### Stack
+
+`Java` · `Spring Boot` · `Spring Cloud` · `Docker`
+
+[View Repository →](https://github.com/adanwilliamdev/finance-microservices)
 
 ---
 
-## 📫 Vamos conversar?
+## My Library
 
-Estou aberto a oportunidades, projetos e conexões com profissionais da área de tecnologia.
+A full-stack application for managing movies and TV shows, integrating with the **TMDB API**.
+
+The project explores frontend and backend integration, data persistence, and third-party API consumption.
+
+### Stack
+
+`Java 17` · `Spring Boot` · `React` · `TypeScript` · `PostgreSQL`
+
+[View Repository →](https://github.com/adanwilliamdev/my-library)
+
+---
+
+## Real Estate Monitor
+
+A data analysis and machine learning project focused on the real estate market.
+
+The application explores data processing, exploratory analysis, predictive models, and interactive data visualization.
+
+### Stack
+
+`Python` · `FastAPI` · `Pandas` · `Scikit-learn` · `Streamlit`
+
+[View Repository →](https://github.com/adanwilliamdev/real-estate-monitor)
+
+---
+
+# GitHub Activity
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/awosantos/)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:adan.william.dev@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/adanwilliamdev)
+<img
+height="170"
+src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true"
+/>
 
-<br><br>
+<img
+height="170"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&langs_count=8&theme=transparent&hide_border=true"
+/>
 
-**Java • Spring Boot • REST APIs • PostgreSQL • React • Docker**
+<br/>
 
-<br>
+<img
+src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=transparent&hide_border=true"
+/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=adanwilliamdev\&style=flat-square\&label=Profile+Views)
+</div>
+
+---
+
+## What I Bring
+
+### Production Mindset
+
+My background in infrastructure and operations taught me to think about software beyond implementation, including reliability, monitoring, availability, and real-world system behavior.
+
+### Problem Solving
+
+Experience investigating incidents and technical issues in critical environments has strengthened my analytical thinking and troubleshooting skills.
+
+### Engineering Mindset
+
+I focus on writing code that is organized, maintainable, testable, and designed to evolve.
+
+### Continuous Learning
+
+I believe practical projects are one of the best ways to develop technical skills. I continuously study new concepts and apply them through real-world software projects.
+
+---
+
+## Learning Journey
+
+|   Period  | Focus                        |    Status   |
+| :-------: | :--------------------------- | :---------: |
+|    2025   | Java Fundamentals            |  Completed  |
+|    2025   | Spring Boot & REST APIs      |  Completed  |
+|    2025   | JPA, Hibernate & PostgreSQL  |  Completed  |
+| 2025–2026 | React & TypeScript           |  Completed  |
+|    2026   | Microservices & Spring Cloud | In Progress |
+|    2026   | Spring Security & JWT        | In Progress |
+|    2026   | Docker, Cloud & CI/CD        |   Learning  |
+|    2027   | System Design & Scalability  |     Next    |
+
+---
+
+## Education
+
+### Associate Degree in Systems Analysis and Development
+
+**UniFatecie**
+
+---
+
+## Certifications
+
+**CI&T — Java AI Copilot**
+Digital Innovation One · 53 hours
+September 2026
+
+`Java` · `Artificial Intelligence` · `Software Development`
+
+---
+
+**Itaú — Java with Artificial Intelligence**
+Digital Innovation One · 45 hours
+September 2026
+
+`Java` · `Spring` · `Artificial Intelligence`
+
+---
+
+## Let's Connect
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/awosantos/">
+  <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;
+<a href="mailto:adan.william.dev@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail" height="42" alt="Email"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/adanwilliamdev">
+  <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub"/>
+</a>
+
+<br/><br/>
+
+**Java · Spring Boot · REST APIs · PostgreSQL · Docker · Microservices**
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=adanwilliamdev&style=flat-square&label=Profile+Views"/>
 
 </div>
