@@ -18,7 +18,7 @@
 
 <br/><br/>
 
-<img src="./assets/profile-card.svg" alt="Adan William — Perfil Completo" width="100%"/>
+<img src="./assets/profile-card.svg?v=2" alt="Adan William — Perfil Completo" width="100%"/>
 
 <br/><br/>
 
