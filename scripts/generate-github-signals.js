@@ -9,8 +9,10 @@
  *                       (obrigatório para os dados de contribuições/streak)
  */
 
-const USERNAME = process.env.GITHUB_USERNAME;
-const TOKEN = process.env.GH_TOKEN;
+const USERNAME = (process.env.GITHUB_USERNAME || "").trim();
+// .trim() evita erros de "invalid header value" quando o secret foi colado
+// com espaço/quebra de linha extra no fim.
+const TOKEN = (process.env.GH_TOKEN || "").trim();
 
 if (!USERNAME) {
   console.error("Defina a variável de ambiente GITHUB_USERNAME.");
