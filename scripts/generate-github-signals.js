@@ -135,10 +135,15 @@ async function getRecentPublicWork() {
   const events = await restGet(
     `https://api.github.com/users/${USERNAME}/events/public?per_page=30`
   );
+  // Ignora eventos no próprio repositório de perfil (username/username),
+  // já que os commits automáticos do workflow poluiriam a lista com
+  // "Pushed updates to" repetido a cada execução.
+  const ownProfileRepo = `${USERNAME}/${USERNAME}`.toLowerCase();
   const lines = [];
   for (const ev of events) {
     if (lines.length >= 5) break;
     const repo = ev.repo.name;
+    if (repo.toLowerCase() === ownProfileRepo) continue;
     if (ev.type === "PushEvent") {
       lines.push({ text: "Pushed updates to", repo });
     } else if (ev.type === "CreateEvent" && ev.payload.ref_type === "branch") {
@@ -167,7 +172,6 @@ async function getContributionData(createdAt) {
           totalIssueContributions
           totalPullRequestContributions
           totalPullRequestReviewContributions
-          totalRepositoriesWithContributedCommits
           contributionCalendar {
             totalContributions
             weeks {
@@ -182,6 +186,21 @@ async function getContributionData(createdAt) {
     }
   `;
 
+  // Consulta separada, sem from/to (equivale aos últimos 12 meses da API),
+  // só para o número de repositórios contribuídos "no último ano".
+  const lastYearQuery = `
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          totalRepositoriesWithContributedCommits
+        }
+      }
+    }
+  `;
+  const lastYearData = await graphql(lastYearQuery, { login: USERNAME });
+  const contributedLastYear =
+    lastYearData.user.contributionsCollection.totalRepositoriesWithContributedCommits;
+
   const start = new Date(createdAt);
   const now = new Date();
   const allDays = [];
@@ -190,7 +209,7 @@ async function getContributionData(createdAt) {
     issues: 0,
     prs: 0,
     prReviews: 0,
-    repos: new Set(),
+    contributedLastYear,
     contributions: 0,
   };
 
@@ -282,7 +301,7 @@ const LANG_COLORS = {
   TypeScript: "#3178c6",
   HTML: "#e34c26",
   CSS: "#563d7c",
-  Python: "#3572A5",
+  Python: "#59a5e0",
   Java: "#b07219",
   PHP: "#4F5D95",
   "C#": "#178600",
@@ -313,7 +332,7 @@ function fmtDate(iso) {
 function renderSVG({ user, stars, prs, issues, contrib, spectrum, recent }) {
   const W = 900;
   const H = 820;
-  const name = user.name || user.login;
+  const name = (user.name || user.login).trim();
 
   const spectrumBar = (() => {
     let x = 492;
@@ -345,7 +364,7 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum, recent }) {
     ["Total PRs Merged:", prs.merged],
     ["Total PRs Reviewed:", prs.reviewed],
     ["Total Issues:", issues],
-    ["Contributed to (last year):", contrib.repos.size || "—"],
+    ["Contributed to (last year):", contrib.contributedLastYear],
   ]
     .map(
       (row, i) => `

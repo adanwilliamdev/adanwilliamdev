@@ -1,10 +1,6 @@
 <div align="center">
 
-# Olá, eu sou o Adan William 👋
-
-### Desenvolvedor Full Stack Java · Spring Boot · React
-
-Mais de 5 anos em infraestrutura e operações de TI, hoje migrando para desenvolvimento de software.
+<img src="./assets/hero-banner.svg" alt="Adan William — Full Stack Developer · Java · Spring Boot · React" width="100%"/>
 
 <br/>
 
@@ -32,17 +28,18 @@ Mais de 5 anos em infraestrutura e operações de TI, hoje migrando para desenvo
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
 
 ## 🚀 Sobre mim
 
 Profissional de TI com mais de 5 anos de experiência em infraestrutura, redes e operações, atualmente em transição para desenvolvimento de software.
 
+
 Meu foco é backend com **Java e Spring Boot**, construindo APIs REST, autenticação, arquiteturas de microsserviços e integrações com filas, cache e bancos relacionais — sempre com o frontend em **React** (e às vezes Vue ou Angular) para fechar o ciclo full stack.
 
 A bagagem em infraestrutura me dá uma visão prática de disponibilidade, observabilidade e comportamento de sistemas em produção — coisas que tento aplicar mesmo em projetos de estudo.
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
 
 ## 🏆 Projetos em destaque
 
@@ -70,7 +67,7 @@ Sistema de reserva de ingressos estilo Ticketmaster/Sympla com foco em concorrê
 API de processamento de pedidos combinando 4 padrões de projeto (State, Chain of Responsibility, Strategy, Observer) com Spring AI + OpenAI para comandos de voz. Desafio final do programa **Itaú Java AI** (DIO).
 **Stack:** Java 17 · Spring Boot · Spring AI · OpenAI (GPT-4o-mini, Whisper)
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
 
 ## 📂 Todos os repositórios
 
@@ -98,7 +95,7 @@ API de processamento de pedidos combinando 4 padrões de projeto (State, Chain o
 | [adanwilliamdev.github.io](https://github.com/adanwilliamdev/adanwilliamdev.github.io) | Site de portfólio pessoal | Astro |
 | [adanwilliamdev](https://github.com/adanwilliamdev/adanwilliamdev) | README de perfil do GitHub | Markdown |
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
 
 ## 💻 Tech Stack
 
@@ -122,7 +119,7 @@ API de processamento de pedidos combinando 4 padrões de projeto (State, Chain o
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
 
 ## 🎓 Certificações
 
@@ -132,7 +129,7 @@ Digital Innovation One · 53h · Setembro 2026
 **Itaú — Java with Artificial Intelligence**
 Digital Innovation One · 45h · Setembro 2026
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
 
 ## 📫 Contato
 

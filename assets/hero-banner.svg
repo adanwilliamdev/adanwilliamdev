@@ -1,0 +1,28 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <style>
+    .bg { fill: #060a14; }
+    .title { fill: #e8ecf6; font-size: 40px; font-weight: 800; }
+    .subtitle { fill: #4fd1ff; font-size: 14px; font-weight: 700; letter-spacing: 3px; }
+    .tagline { fill: #8892b0; font-size: 14px; }
+    .badge-text { fill: #d8dcec; font-size: 12px; font-weight: 600; }
+  </style>
+
+  <rect class="bg" width="900" height="260" rx="14" />
+
+  <text x="450" y="78" text-anchor="middle" class="title">⚡ Adan William</text>
+  <text x="450" y="106" text-anchor="middle" class="subtitle">FULL STACK DEVELOPER · JAVA · SPRING BOOT · REACT</text>
+  <text x="450" y="140" text-anchor="middle" class="tagline">Mais de 5 anos em infraestrutura e operações de TI, hoje migrando para desenvolvimento de software.</text>
+
+  <rect x="255" y="164" width="188" height="26" rx="13" fill="#1b3a34" />
+  <text x="349" y="181" text-anchor="middle" class="badge-text">🖥️ 5+ anos em infraestrutura</text>
+
+  <rect x="457" y="164" width="188" height="26" rx="13" fill="#3a1b3a" />
+  <text x="551" y="181" text-anchor="middle" class="badge-text">🚀 Em transição para dev</text>
+
+  <rect x="0" y="252" width="150" height="8" fill="#ff6b6b" />
+  <rect x="150" y="252" width="150" height="8" fill="#a463f2" />
+  <rect x="300" y="252" width="150" height="8" fill="#4fd1ff" />
+  <rect x="450" y="252" width="150" height="8" fill="#ffd166" />
+  <rect x="600" y="252" width="150" height="8" fill="#06d6a0" />
+  <rect x="750" y="252" width="150" height="8" fill="#f72585" />
+</svg>
