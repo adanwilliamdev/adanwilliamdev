@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /**
- * Gera UM ÚNICO card SVG vertical com TODAS as informações do perfil:
- * Header, Sobre, Sinais, Contribuições, Projetos, Stack, Certificações e Contato.
+ * Gera UM ÚNICO card SVG vertical com TODAS as informações do perfil.
  * Salva em assets/profile-card.svg
  */
 
@@ -144,10 +143,10 @@ const fmtDate = iso => iso
 // ---------- Renderização ----------
 function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   const W = 900;
-  const H = 2180; // altura total ajustada para caber tudo
+  const H = 2180;
   const name = (user.name || user.login).trim();
 
-  // Layout: Y de cada seção
+  // Layout
   const HEADER_H = 200;
   const ABOUT_H = 130;
   const SIGNALS_H = 260;
@@ -167,12 +166,11 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   const certsY = y; y += CERTS_H;
   const contactY = y; y += CONTACT_H;
 
-  // Spectrum bar
   const spectrumBar = (() => {
-    let x = 492; const barW = 356, y2 = signalsY + 58;
+    let x = 492; const barW = 356, yy = signalsY + 58;
     return spectrum.map((s, i) => {
       const w = (s.pct / 100) * barW;
-      const rect = `<rect x="${x.toFixed(1)}" y="${y2}" width="${w.toFixed(1)}" height="10" fill="${colorFor(s.lang, i)}" />`;
+      const rect = `<rect x="${x.toFixed(1)}" y="${yy}" width="${w.toFixed(1)}" height="10" fill="${colorFor(s.lang, i)}" />`;
       x += w; return rect;
     }).join("\n");
   })();
@@ -277,12 +275,11 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   <text x="52" y="${aboutY + 104}" class="about-text">Frontend em React (e às vezes Vue ou Angular) para fechar o ciclo full stack.</text>
   <line x1="32" y1="${aboutY + ABOUT_H - 10}" x2="${W - 32}" y2="${aboutY + ABOUT_H - 10}" class="divider" />
 
-  <!-- ===== SINAIS DO GITHUB ===== -->
+  <!-- ===== SINAIS ===== -->
   <text x="32" y="${signalsY + 30}" class="section-title">📊 SINAIS DO GITHUB</text>
   <rect class="panel" x="32" y="${signalsY + 46}" width="420" height="200" rx="12" />
   <text x="52" y="${signalsY + 68}" class="stat-label" font-weight="700">${esc(name)}'s Signal</text>
   ${statsRows}
-
   <rect class="panel" x="472" y="${signalsY + 46}" width="396" height="200" rx="12" />
   <text x="492" y="${signalsY + 68}" class="stat-label" font-weight="700">Code Spectrum</text>
   ${spectrumBar}
@@ -294,13 +291,11 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   <text x="180" y="${contribY + 90}" text-anchor="middle" class="big-number">${totalContrib}</text>
   <text x="180" y="${contribY + 116}" text-anchor="middle" class="big-label">Total Contributions</text>
   <text x="180" y="${contribY + 136}" text-anchor="middle" class="big-sub">${fmtDate(contrib.firstDay)} - Present</text>
-
   <line x1="310" y1="${contribY + 50}" x2="310" y2="${contribY + 160}" class="divider" />
   <circle cx="450" cy="${contribY + 100}" r="44" fill="none" stroke="#ff4757" stroke-width="3" />
   <text x="450" y="${contribY + 112}" text-anchor="middle" class="big-number" font-size="34">${contrib.currentStreak}</text>
   <text x="450" y="${contribY + 150}" text-anchor="middle" class="big-label">Current Streak</text>
   <text x="450" y="${contribY + 170}" text-anchor="middle" class="big-sub">${fmtDate(contrib.currentStreakStart)} - Present</text>
-
   <line x1="590" y1="${contribY + 50}" x2="590" y2="${contribY + 160}" class="divider" />
   <text x="720" y="${contribY + 90}" text-anchor="middle" class="big-number">${contrib.longestStreak}</text>
   <text x="720" y="${contribY + 116}" text-anchor="middle" class="big-label">Longest Streak</text>
@@ -313,19 +308,19 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
 
   <!-- ===== PROJETOS ===== -->
   <text x="32" y="${projectsY + 30}" class="section-title">🏆 PROJETOS EM DESTAQUE</text>
-  <rect class="panel" x="32" y="${projectsY + 46}" width="836" height="${projectsH - 56}" rx="12" />
+  <rect class="panel" x="32" y="${projectsY + 46}" width="836" height="${PROJECTS_H - 56}" rx="12" />
   ${projectRows}
   <line x1="32" y1="${projectsY + PROJECTS_H - 10}" x2="${W - 32}" y2="${projectsY + PROJECTS_H - 10}" class="divider" />
 
   <!-- ===== STACK ===== -->
   <text x="32" y="${stackY + 30}" class="section-title">💻 TECH STACK</text>
-  <rect class="panel" x="32" y="${stackY + 46}" width="836" height="${stackH - 56}" rx="12" />
+  <rect class="panel" x="32" y="${stackY + 46}" width="836" height="${STACK_H - 56}" rx="12" />
   ${stackBadges}
   <line x1="32" y1="${stackY + STACK_H - 10}" x2="${W - 32}" y2="${stackY + STACK_H - 10}" class="divider" />
 
   <!-- ===== CERTIFICAÇÕES ===== -->
   <text x="32" y="${certsY + 30}" class="section-title">🎓 CERTIFICAÇÕES</text>
-  <rect class="panel" x="32" y="${certsY + 46}" width="836" height="${certsH - 56}" rx="12" />
+  <rect class="panel" x="32" y="${certsY + 46}" width="836" height="${CERTS_H - 56}" rx="12" />
   ${certRows}
   <line x1="32" y1="${certsY + CERTS_H - 10}" x2="${W - 32}" y2="${certsY + CERTS_H - 10}" class="divider" />
 
