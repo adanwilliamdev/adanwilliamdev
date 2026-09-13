@@ -1,25 +1,24 @@
-name: Update Live GitHub Signals
+name: Update Profile Card
 
 on:
   schedule:
-    # 4x por dia: 00:00, 06:00, 12:00, 18:00 UTC
     - cron: "0 0,6,12,18 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
     paths:
-      - "scripts/generate-github-signals.js"
+      - "scripts/generate-profile-card.js"
       - ".github/workflows/github-signals.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: github-signals-update
+  group: profile-card-update
   cancel-in-progress: false
 
 jobs:
-  update-signals:
+  update-card:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,38 +29,30 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Generate GitHub Signals card
+      - name: Generate Profile Card
         env:
           GITHUB_USERNAME: adanwilliamdev
           GH_TOKEN: ${{ secrets.GH_SIGNALS_TOKEN }}
-        run: node scripts/generate-github-signals.js
+        run: node scripts/generate-profile-card.js
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/github-signals.svg
+          git add assets/profile-card.svg
 
           if git diff --staged --quiet; then
             echo "Nada mudou, pulando commit."
             exit 0
           fi
 
-          git commit -m "chore: update live GitHub signals card"
+          git commit -m "chore: update profile card"
 
-          # Se outra execução já empurrou algo nesse meio tempo, o push é
-          # rejeitado — busca o que mudou e reaplica nosso commit por cima
-          # (em caso de conflito no próprio SVG, mantém a versão que acabamos
-          # de gerar, já que é a mais atual).
           for attempt in 1 2 3 4 5; do
-            if git push; then
-              exit 0
-            fi
-            echo "Push rejeitado, tentando novamente com rebase (tentativa $attempt)..."
+            if git push; then exit 0; fi
+            echo "Push rejeitado, tentando rebase (tentativa $attempt)..."
             git fetch origin main
             git rebase -X ours origin/main
             sleep 3
           done
-
-          echo "Não foi possível empurrar após várias tentativas."
           exit 1
