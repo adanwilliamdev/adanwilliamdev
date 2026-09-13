@@ -310,7 +310,7 @@ const LANG_COLORS = {
   Shell: "#89e051",
   Dockerfile: "#384d54",
 };
-const FALLBACK_COLORS = ["#ff6b6b", "#a463f2", "#ffd166", "#4cc9f0", "#06d6a0", "#f72585"];
+const FALLBACK_COLORS = ["#ff4757", "#b3102a", "#ff8787", "#8a6a6a", "#e0cccc", "#5c1a1a"];
 
 function colorFor(lang, idx) {
   return LANG_COLORS[lang] || FALLBACK_COLORS[idx % FALLBACK_COLORS.length];
@@ -390,22 +390,22 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum, recent }) {
     </linearGradient>
   </defs>
   <style>
-    .bg { fill: #060a14; }
-    .panel { fill: #0d1424; stroke: #1c2740; stroke-width: 1; }
-    .title { fill: #e8ecf6; font-size: 26px; font-weight: 700; }
-    .subtitle { fill: #7c8aad; font-size: 11px; letter-spacing: 2px; }
-    .badge-text { fill: #d8dcec; font-size: 12px; font-weight: 600; }
-    .panel-title { fill: #4fd1ff; font-size: 15px; font-weight: 700; }
-    .stat-label { fill: #aab4cf; font-size: 13px; }
-    .stat-value { fill: #f2f4fb; font-size: 13px; font-weight: 700; }
-    .legend { fill: #c9cfe6; font-size: 12px; }
+    .bg { fill: #060404; }
+    .panel { fill: #120909; stroke: #3a1414; stroke-width: 1; }
+    .title { fill: #f5efef; font-size: 26px; font-weight: 700; }
+    .subtitle { fill: #a35a5a; font-size: 11px; letter-spacing: 2px; }
+    .badge-text { fill: #f0dcdc; font-size: 12px; font-weight: 600; }
+    .panel-title { fill: #ff4757; font-size: 15px; font-weight: 700; }
+    .stat-label { fill: #c9adad; font-size: 13px; }
+    .stat-value { fill: #f7f0f0; font-size: 13px; font-weight: 700; }
+    .legend { fill: #ddc9c9; font-size: 12px; }
     .big-number { fill: #ffffff; font-size: 40px; font-weight: 800; }
-    .big-label { fill: #b9a8ff; font-size: 13px; font-weight: 700; }
-    .big-sub { fill: #6f7aa0; font-size: 11px; }
-    .section-title { fill: #f2f4fb; font-size: 16px; font-weight: 700; }
-    .recent-text { fill: #cdd3ea; font-size: 13px; }
-    .recent-repo { fill: #58a6ff; }
-    .divider { stroke: #1c2740; stroke-width: 1; }
+    .big-label { fill: #ff6b6b; font-size: 13px; font-weight: 700; }
+    .big-sub { fill: #8a6a6a; font-size: 11px; }
+    .section-title { fill: #f7f0f0; font-size: 16px; font-weight: 700; }
+    .recent-text { fill: #e0cccc; font-size: 13px; }
+    .recent-repo { fill: #ff4757; }
+    .divider { stroke: #3a1414; stroke-width: 1; }
   </style>
 
   <rect class="bg" width="${W}" height="${H}" rx="14" />
@@ -414,10 +414,10 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum, recent }) {
   <text x="${W / 2}" y="42" text-anchor="middle" class="title">⚡ Live GitHub Signals</text>
   <text x="${W / 2}" y="66" text-anchor="middle" class="subtitle">REAL ACTIVITY · CODE VELOCITY · BUILD CONSISTENCY</text>
 
-  <rect x="${W / 2 - 210}" y="82" width="160" height="24" rx="12" fill="#1b3a34" />
+  <rect x="${W / 2 - 210}" y="82" width="160" height="24" rx="12" fill="#2a0d0d" />
   <text x="${W / 2 - 130}" y="98" text-anchor="middle" class="badge-text">📡 Live metrics · 4x daily</text>
 
-  <rect x="${W / 2 + 50}" y="82" width="190" height="24" rx="12" fill="#3a1b3a" />
+  <rect x="${W / 2 + 50}" y="82" width="190" height="24" rx="12" fill="#3a1015" />
   <text x="${W / 2 + 145}" y="98" text-anchor="middle" class="badge-text">🤖 Automated pulse · 4x daily</text>
 
   <!-- Painel de estatísticas -->
@@ -438,7 +438,7 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum, recent }) {
   <text x="180" y="486" text-anchor="middle" class="big-sub">${fmtDate(contrib.firstDay)} - Present</text>
 
   <line x1="310" y1="400" x2="310" y2="536" class="divider" />
-  <circle cx="450" cy="450" r="44" fill="none" stroke="#4fd1ff" stroke-width="3" />
+  <circle cx="450" cy="450" r="44" fill="none" stroke="#ff4757" stroke-width="3" />
   <text x="450" y="462" text-anchor="middle" class="big-number" font-size="34">${contrib.currentStreak}</text>
   <text x="450" y="500" text-anchor="middle" class="big-label">Current Streak</text>
   <text x="450" y="520" text-anchor="middle" class="big-sub">${fmtDate(contrib.currentStreakStart)} - Present</text>
