@@ -1,270 +1,155 @@
 <div align="center">
 
-# Adan William
+# Olá, eu sou o Adan William 👋
 
-### Junior Backend Developer · Java · Spring Boot
+### Desenvolvedor Full Stack Java · Spring Boot · React
 
-Building reliable backend applications, REST APIs, and scalable software solutions.
+Mais de 5 anos em infraestrutura e operações de TI, hoje migrando para desenvolvimento de software.
 
 <br/>
 
 <a href="https://www.linkedin.com/in/awosantos/">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn"/>
+  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/>
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/adanwilliamdev">
-  <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub"/>
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:adan.william.dev@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" height="42" alt="Email"/>
+  <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/>
 </a>
 
 <br/><br/>
 
-<a href="https://adanwilliamdev.github.io/">Portfolio</a>
- ·  <a href="https://www.linkedin.com/in/awosantos/">LinkedIn</a>
- ·  <a href="https://github.com/adanwilliamdev">GitHub</a>
+<a href="https://adanwilliamdev.github.io/">Portfólio</a>
+ ·  <a href="https://www.linkedin.com/in/awosantos/">LinkedIn</a>
+ ·  <a href="https://github.com/adanwilliamdev">GitHub</a>
 
 </div>
 
 ---
 
-## About Me
+## 🚀 Sobre mim
 
-I am an IT professional with **5+ years of experience in infrastructure, networking, and operations**, currently transitioning into **software development**.
+Profissional de TI com mais de 5 anos de experiência em infraestrutura, redes e operações, atualmente em transição para desenvolvimento de software.
 
-My primary focus is backend development using **Java and Spring Boot**, building REST APIs, authentication systems, business applications, and distributed services.
+Meu foco é backend com **Java e Spring Boot**, construindo APIs REST, autenticação, arquiteturas de microsserviços e integrações com filas, cache e bancos relacionais — sempre com o frontend em **React** (e às vezes Vue ou Angular) para fechar o ciclo full stack.
 
-My background in infrastructure and operations gives me a practical perspective on software beyond the code itself. I understand the importance of **reliability, observability, troubleshooting, and how systems behave in production environments**.
-
-Currently focused on building practical projects and continuously improving my software engineering skills.
+A bagagem em infraestrutura me dá uma visão prática de disponibilidade, observabilidade e comportamento de sistemas em produção — coisas que tento aplicar mesmo em projetos de estudo.
 
 ---
 
-## Current Focus
+## 🏆 Projetos em destaque
 
-* Backend development with **Java and Spring Boot**
-* Authentication and authorization with **Spring Security and JWT**
-* **RESTful API** design and integration
-* Data persistence with **JPA, Hibernate, and PostgreSQL**
-* **Microservices and Spring Cloud**
-* Containerization with **Docker**
-* Cloud and **CI/CD fundamentals**
-* Frontend integration using **React and TypeScript**
+### 🛰️ [OrbNOC](https://github.com/adanwilliamdev/OrbNOC)
+Plataforma de Network Operations Center para monitoramento de infraestrutura em tempo real: disponibilidade de hosts, latência, jitter, alertas via Telegram, topologia de rede interativa e wallboard modo TV.
+**Stack:** Next.js 14 · React · TypeScript · Node.js · Express · Prisma · PostgreSQL · Socket.IO
+🔗 [Demo ao vivo](https://orbnoc-taer.onrender.com)
+
+### 🚗 [AutoCare](https://github.com/adanwilliamdev/autocare)
+ERP full stack para oficinas mecânicas: clientes, veículos, ordens de serviço com máquina de estados, orçamentos, controle de estoque transacional e RBAC por perfil (admin, gerente, recepção, mecânico).
+**Stack:** Java 21 · Spring Boot 3.2 · Spring Security + JWT · PostgreSQL · Flyway · React · TypeScript · Docker
+
+### 🍕 [Burger & Pizza House ERP](https://github.com/adanwilliamdev/Burger-Pizza-House)
+Sistema de gestão para pizzarias/hamburguerias com dashboard, pedidos, controle de estoque de ingredientes e boas práticas sólidas de segurança (JWT em cookie httpOnly, rate limiting, validação com Zod, transações atômicas).
+**Stack:** Angular 20 · Node.js · Express · Prisma · TypeScript · Tailwind CSS
+
+### 🎯 [SVA Platform](https://github.com/adanwilliamdev/sva-platform)
+Plataforma de recrutamento com matching inteligente entre currículos e vagas via NLP/TF-IDF, dashboards para recrutador e candidato.
+**Stack:** FastAPI · Python · React · Scikit-learn · SQLAlchemy
+🔗 [Demo ao vivo](https://sva-platform-frontend.onrender.com)
+
+### 🎫 [Ticketing System](https://github.com/adanwilliamdev/ticketing-system)
+Sistema de reserva de ingressos estilo Ticketmaster/Sympla com foco em concorrência: locks distribuídos com Redisson, reservas temporárias com expiração, idempotência em pagamentos e testes unitários cobrindo as regras críticas.
+**Stack:** Java 21 · Spring Boot · PostgreSQL · Redis · JUnit 5 + Mockito
+
+### 🤖 [Itaú Java AI Order System](https://github.com/adanwilliamdev/itau-java-ai-order-system)
+API de processamento de pedidos combinando 4 padrões de projeto (State, Chain of Responsibility, Strategy, Observer) com Spring AI + OpenAI para comandos de voz. Desafio final do programa **Itaú Java AI** (DIO).
+**Stack:** Java 17 · Spring Boot · Spring AI · OpenAI (GPT-4o-mini, Whisper)
 
 ---
 
-## Tech Stack
+## 📂 Todos os repositórios
+
+| Projeto | Descrição | Stack principal |
+|---|---|---|
+| [OrbNOC](https://github.com/adanwilliamdev/OrbNOC) | NOC de monitoramento de rede em tempo real | Next.js · Node.js · PostgreSQL |
+| [autocare](https://github.com/adanwilliamdev/autocare) | ERP para oficinas mecânicas | Java 21 · Spring Boot · React |
+| [Burger-Pizza-House](https://github.com/adanwilliamdev/Burger-Pizza-House) | ERP para pizzarias/hamburguerias | Angular 20 · Node.js · Prisma |
+| [sva-platform](https://github.com/adanwilliamdev/sva-platform) | Recrutamento com matching por IA | FastAPI · React · Scikit-learn |
+| [ticketing-system](https://github.com/adanwilliamdev/ticketing-system) | Reserva de ingressos de alta concorrência | Java · Spring Boot · Redis |
+| [itau-java-ai-order-system](https://github.com/adanwilliamdev/itau-java-ai-order-system) | Pedidos com design patterns + IA de voz | Java · Spring Boot · Spring AI |
+| [MedFlow](https://github.com/adanwilliamdev/MedFlow) | Gestão de clínicas médicas | Java · Spring Boot · React |
+| [finpay](https://github.com/adanwilliamdev/finpay) | Carteira digital e ledger financeiro | Java 21 · Spring Boot · React |
+| [biblioteca-fullstack](https://github.com/adanwilliamdev/biblioteca-fullstack) | Catálogo de filmes/séries com TMDB | Java · Spring Boot · React/TS |
+| [financas-pessoais](https://github.com/adanwilliamdev/financas-pessoais) | Gestão financeira pessoal | Java · Spring Boot · Vue.js |
+| [financas-microservicos](https://github.com/adanwilliamdev/financas-microservicos) | Finanças pessoais em microsserviços | Java · Spring Cloud · Eureka |
+| [task-management](https://github.com/adanwilliamdev/task-management) (TaskFlow) | Gestão de tarefas em microsserviços | Java · Spring Cloud Gateway · React |
+| [inframonitor](https://github.com/adanwilliamdev/inframonitor) | Monitoramento de infraestrutura de TI | Java · Spring Boot · React |
+| [event-platform](https://github.com/adanwilliamdev/event-platform) (Palco) | Venda de ingressos com WebSocket e QR Code | Python · FastAPI |
+| [Sistema-de-Gest-o-de-Estoque-Inteligente](https://github.com/adanwilliamdev/Sistema-de-Gest-o-de-Estoque-Inteligente) | Controle de estoque com alertas via fila | .NET 7 · RabbitMQ |
+| [ScalableScraper](https://github.com/adanwilliamdev/ScalableScraper) | Web scraper distribuído com filas | Python · Redis · Docker/K8s |
+| [real-estate-monitor](https://github.com/adanwilliamdev/real-estate-monitor) | Inteligência de mercado imobiliário com ML | Python · FastAPI · Scikit-learn · Streamlit |
+| [Geo-Explorer](https://github.com/adanwilliamdev/Geo-Explorer) | Servidor MCP para trilhas de aprendizagem | Node.js · TypeScript · MCP SDK |
+| [Adan_Cafe](https://github.com/adanwilliamdev/Adan_Cafe) | Menu digital para cafeteria | HTML · CSS · JavaScript |
+| [adanwilliamdev.github.io](https://github.com/adanwilliamdev/adanwilliamdev.github.io) | Site de portfólio pessoal | Astro |
+| [adanwilliamdev](https://github.com/adanwilliamdev/adanwilliamdev) | README de perfil do GitHub | Markdown |
+
+---
+
+## 💻 Tech Stack
 
 <div align="center">
 
-### Backend
-
-<img src="https://skillicons.dev/icons?i=java,spring,python,nodejs" />
-
-<br/><br/>
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,typescript,html,css" />
-
-<br/><br/>
-
-### Databases & Infrastructure
-
-<img src="https://skillicons.dev/icons?i=postgresql,redis,docker,linux" />
-
-<br/><br/>
-
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,maven,postman,idea,vscode" />
-
-</div>
-
----
-
-# Featured Projects
-
-## MedFlow
-
-A healthcare management platform designed to explore backend architecture, authentication, authorization, and real-world business rules.
-
-### Key Features
-
-* JWT-based authentication and authorization
-* Role-based access control
-* Healthcare professional and patient management
-* Appointment scheduling
-* Administrative dashboard
-* Financial management
-
-### Stack
-
-`Java 17` · `Spring Boot 3` · `Spring Security` · `JWT` · `PostgreSQL` · `React`
-
-**Status:** In Development
-
-[View Repository →](https://github.com/adanwilliamdev/medflow)
-
----
-
-## Finance Microservices
-
-A practical project focused on **microservices architecture using the Spring ecosystem**.
-
-### Concepts Explored
-
-* Service Discovery
-* Centralized Configuration
-* Service-to-Service Communication
-* Distributed Architecture
-* Containerization
-
-### Stack
-
-`Java` · `Spring Boot` · `Spring Cloud` · `Docker`
-
-[View Repository →](https://github.com/adanwilliamdev/finance-microservices)
-
----
-
-## My Library
-
-A full-stack application for managing movies and TV shows, integrating with the **TMDB API**.
-
-The project explores frontend and backend integration, data persistence, and third-party API consumption.
-
-### Stack
-
-`Java 17` · `Spring Boot` · `React` · `TypeScript` · `PostgreSQL`
-
-[View Repository →](https://github.com/adanwilliamdev/my-library)
-
----
-
-## Real Estate Monitor
-
-A data analysis and machine learning project focused on the real estate market.
-
-The application explores data processing, exploratory analysis, predictive models, and interactive data visualization.
-
-### Stack
-
-`Python` · `FastAPI` · `Pandas` · `Scikit-learn` · `Streamlit`
-
-[View Repository →](https://github.com/adanwilliamdev/real-estate-monitor)
-
----
-
-# GitHub Activity
-
-<div align="center">
-
-<img
-height="170"
-src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true"
-/>
-
-<img
-height="170"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&langs_count=8&theme=transparent&hide_border=true"
-/>
-
+**Backend**
 <br/>
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,python,dotnet" />
 
-<img
-src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=transparent&hide_border=true"
-/>
+**Frontend**
+<br/>
+<img src="https://skillicons.dev/icons?i=react,angular,vue,typescript,javascript,tailwind" />
+
+**Banco de Dados**
+<br/>
+<img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,redis" />
+
+**DevOps & Ferramentas**
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman" />
 
 </div>
 
 ---
 
-## What I Bring
-
-### Production Mindset
-
-My background in infrastructure and operations taught me to think about software beyond implementation, including reliability, monitoring, availability, and real-world system behavior.
-
-### Problem Solving
-
-Experience investigating incidents and technical issues in critical environments has strengthened my analytical thinking and troubleshooting skills.
-
-### Engineering Mindset
-
-I focus on writing code that is organized, maintainable, testable, and designed to evolve.
-
-### Continuous Learning
-
-I believe practical projects are one of the best ways to develop technical skills. I continuously study new concepts and apply them through real-world software projects.
-
----
-
-## Learning Journey
-
-|   Period  | Focus                        |    Status   |
-| :-------: | :--------------------------- | :---------: |
-|    2025   | Java Fundamentals            |  Completed  |
-|    2025   | Spring Boot & REST APIs      |  Completed  |
-|    2025   | JPA, Hibernate & PostgreSQL  |  Completed  |
-| 2025–2026 | React & TypeScript           |  Completed  |
-|    2026   | Microservices & Spring Cloud | In Progress |
-|    2026   | Spring Security & JWT        | In Progress |
-|    2026   | Docker, Cloud & CI/CD        |   Learning  |
-|    2027   | System Design & Scalability  |     Next    |
-
----
-
-## Education
-
-### Associate Degree in Systems Analysis and Development
-
-**UniFatecie**
-
----
-
-## Certifications
+## 🎓 Certificações
 
 **CI&T — Java AI Copilot**
-Digital Innovation One · 53 hours
-September 2026
-
-`Java` · `Artificial Intelligence` · `Software Development`
-
----
+Digital Innovation One · 53h · Setembro 2026
 
 **Itaú — Java with Artificial Intelligence**
-Digital Innovation One · 45 hours
-September 2026
-
-`Java` · `Spring` · `Artificial Intelligence`
+Digital Innovation One · 45h · Setembro 2026
 
 ---
 
-## Let's Connect
+## 📫 Contato
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/awosantos/">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn"/>
+  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/>
 </a>
 &nbsp;&nbsp;
 <a href="mailto:adan.william.dev@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" height="42" alt="Email"/>
+  <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/>
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/adanwilliamdev">
-  <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub"/>
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/>
 </a>
 
 <br/><br/>
 
-**Java · Spring Boot · REST APIs · PostgreSQL · Docker · Microservices**
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=adanwilliamdev&style=flat-square&label=Profile+Views"/>
+⭐ Se algum projeto foi útil, considere deixar uma estrela no repositório.
 
 </div>
