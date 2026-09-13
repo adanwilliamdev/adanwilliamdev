@@ -45,7 +45,6 @@ A bagagem em infraestrutura me dá uma visão prática de disponibilidade, obser
 ### 🛰️ [OrbNOC](https://github.com/adanwilliamdev/OrbNOC)
 Plataforma de Network Operations Center para monitoramento de infraestrutura em tempo real: disponibilidade de hosts, latência, jitter, alertas via Telegram, topologia de rede interativa e wallboard modo TV.
 **Stack:** Next.js 14 · React · TypeScript · Node.js · Express · Prisma · PostgreSQL · Socket.IO
-🔗 [Demo ao vivo](https://orbnoc-taer.onrender.com)
 
 ### 🚗 [AutoCare](https://github.com/adanwilliamdev/autocare)
 ERP full stack para oficinas mecânicas: clientes, veículos, ordens de serviço com máquina de estados, orçamentos, controle de estoque transacional e RBAC por perfil (admin, gerente, recepção, mecânico).
@@ -58,7 +57,6 @@ Sistema de gestão para pizzarias/hamburguerias com dashboard, pedidos, controle
 ### 🎯 [SVA Platform](https://github.com/adanwilliamdev/sva-platform)
 Plataforma de recrutamento com matching inteligente entre currículos e vagas via NLP/TF-IDF, dashboards para recrutador e candidato.
 **Stack:** FastAPI · Python · React · Scikit-learn · SQLAlchemy
-🔗 [Demo ao vivo](https://sva-platform-frontend.onrender.com)
 
 ### 🎫 [Ticketing System](https://github.com/adanwilliamdev/ticketing-system)
 Sistema de reserva de ingressos estilo Ticketmaster/Sympla com foco em concorrência: locks distribuídos com Redisson, reservas temporárias com expiração, idempotência em pagamentos e testes unitários cobrindo as regras críticas.
