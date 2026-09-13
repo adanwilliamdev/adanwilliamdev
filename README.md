@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-banner.svg" alt="Adan William — Full Stack Developer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Adan%20William&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20React&descAlignY=58&descAlign=50" width="100%"/>
 
 <br/>
 
@@ -24,7 +24,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
+---
 
 ## 🚀 Sobre mim
 
@@ -34,7 +34,7 @@ Meu foco é **backend com Java e Spring Boot**, construindo APIs REST, autentica
 
 A bagagem em infraestrutura me dá uma visão prática de **disponibilidade, observabilidade e comportamento de sistemas em produção** — coisas que aplico mesmo em projetos de estudo.
 
-<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
+---
 
 ## 🏆 Projetos em Destaque
 
@@ -43,7 +43,7 @@ Plataforma de Network Operations Center para monitoramento de infraestrutura em 
 **Stack:** Next.js 14 · React · TypeScript · Node.js · Express · Prisma · PostgreSQL · Socket.IO
 
 ### 🚗 [AutoCare](https://github.com/adanwilliamdev/autocare)
-ERP full stack para oficinas mecânicas: clientes, veículos, ordens de serviço com máquina de estados, orçamentos, controle de estoque transacional e RBAC por perfil (admin, gerente, recepção, mecânico).
+ERP full stack para oficinas mecânicas: clientes, veículos, ordens de serviço com máquina de estados, orçamentos, controle de estoque transacional e RBAC por perfil.
 **Stack:** Java 21 · Spring Boot 3.2 · Spring Security + JWT · PostgreSQL · Flyway · React · TypeScript · Docker
 
 ### 🍕 [Burger & Pizza House ERP](https://github.com/adanwilliamdev/Burger-Pizza-House)
@@ -68,7 +68,7 @@ API de processamento de pedidos combinando 4 padrões de projeto (State, Chain o
   </a>
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
+---
 
 ## 📂 Todos os repositórios
 
@@ -94,9 +94,8 @@ API de processamento de pedidos combinando 4 padrões de projeto (State, Chain o
 | [Geo-Explorer](https://github.com/adanwilliamdev/Geo-Explorer) | Servidor MCP para trilhas de aprendizado | Node.js · TypeScript · MCP SDK |
 | [Adan_Cafe](https://github.com/adanwilliamdev/Adan_Cafe) | Menu digital para cafeteria | HTML · CSS · JavaScript |
 | [adanwilliamdev.github.io](https://github.com/adanwilliamdev/adanwilliamdev.github.io) | Site de portfólio pessoal | Astro |
-| [adanwilliamdev](https://github.com/adanwilliamdev/adanwilliamdev) | README de perfil do GitHub | Markdown |
 
-<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
+---
 
 ## 💻 Tech Stack
 
@@ -120,17 +119,14 @@ API de processamento de pedidos combinando 4 padrões de projeto (State, Chain o
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
+---
 
 ## 🎓 Certificações
 
-**CI&T — Java AI Copilot**
-Digital Innovation One · 53h · Setembro 2026
+- **CI&T — Java AI Copilot** · Digital Innovation One · 53h · Setembro 2026
+- **Itaú — Java with Artificial Intelligence** · Digital Innovation One · 45h · Setembro 2026
 
-**Itaú — Java with Artificial Intelligence**
-Digital Innovation One · 45h · Setembro 2026
-
-<img src="./assets/divider.svg" width="100%" height="6" alt=""/>
+---
 
 ## 📫 Contato
 
