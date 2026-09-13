@@ -26,6 +26,10 @@ Mais de 5 anos em infraestrutura e operações de TI, hoje migrando para desenvo
  ·  <a href="https://www.linkedin.com/in/awosantos/">LinkedIn</a>
  ·  <a href="https://github.com/adanwilliamdev">GitHub</a>
 
+<br/><br/>
+
+<img src="./assets/github-signals.svg" alt="Live GitHub Signals" width="100%"/>
+
 </div>
 
 ---
