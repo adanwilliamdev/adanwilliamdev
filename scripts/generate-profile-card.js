@@ -49,12 +49,15 @@ async function graphql(query, variables) {
   return json.data;
 }
 
-// ---------- Coleta ----------
+// ---------- Coleta de dados ----------
+
 async function getUser() { return restGet(`https://api.github.com/users/${USERNAME}`); }
+
 async function getOwnRepos() {
   const all = await restGetAllPages(`https://api.github.com/users/${USERNAME}/repos?type=owner`);
   return all.filter(r => !r.fork);
 }
+
 async function getLanguageSpectrum(repos) {
   const totals = {};
   const chunkSize = 8;
@@ -63,23 +66,32 @@ async function getLanguageSpectrum(repos) {
     const results = await Promise.all(chunk.map(r =>
       restGet(`https://api.github.com/repos/${USERNAME}/${r.name}/languages`).catch(() => ({}))
     ));
-    for (const langs of results) for (const [l, b] of Object.entries(langs)) totals[l] = (totals[l] || 0) + b;
+    for (const langs of results) {
+      for (const [l, b] of Object.entries(langs)) totals[l] = (totals[l] || 0) + b;
+    }
   }
   const total = Object.values(totals).reduce((a, b) => a + b, 0) || 1;
-  return Object.entries(totals).map(([lang, b]) => ({ lang, pct: (b / total) * 100 }))
-    .sort((a, b) => b.pct - a.pct).slice(0, 6);
+  return Object.entries(totals)
+    .map(([lang, b]) => ({ lang, pct: (b / total) * 100 }))
+    .sort((a, b) => b.pct - a.pct)
+    .slice(0, 6);
 }
+
 async function getSearchCount(q) {
   const d = await restGet(`https://api.github.com/search/issues?q=${encodeURIComponent(q)}&per_page=1`);
   return d.total_count || 0;
 }
+
 async function getContributionData(createdAt) {
   const query = `
     query($login: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $login) {
         contributionsCollection(from: $from, to: $to) {
           totalCommitContributions
-          contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } }
+          contributionCalendar {
+            totalContributions
+            weeks { contributionDays { date contributionCount } }
+          }
         }
       }
     }`;
@@ -87,16 +99,20 @@ async function getContributionData(createdAt) {
   const allDays = [], totals = { commits: 0, contributions: 0 };
   let ws = new Date(start);
   while (ws < now) {
-    let we = new Date(ws); we.setFullYear(we.getFullYear() + 1);
+    let we = new Date(ws);
+    we.setFullYear(we.getFullYear() + 1);
     if (we > now) we = now;
     const data = await graphql(query, { login: USERNAME, from: ws.toISOString(), to: we.toISOString() });
     const cc = data.user.contributionsCollection;
     totals.commits += cc.totalCommitContributions;
     totals.contributions += cc.contributionCalendar.totalContributions;
-    for (const w of cc.contributionCalendar.weeks) for (const d of w.contributionDays) allDays.push(d);
+    for (const w of cc.contributionCalendar.weeks) {
+      for (const d of w.contributionDays) allDays.push(d);
+    }
     ws = we;
   }
   allDays.sort((a, b) => new Date(a.date) - new Date(b.date));
+
   let longest = 0, running = 0, runStart = null, longestRange = null;
   for (const d of allDays) {
     if (d.contributionCount > 0) {
@@ -105,6 +121,7 @@ async function getContributionData(createdAt) {
       if (running > longest) { longest = running; longestRange = [runStart, d.date]; }
     } else running = 0;
   }
+
   let current = 0, currentStart = null;
   for (let i = allDays.length - 1; i >= 0; i--) {
     const d = allDays[i];
@@ -112,9 +129,18 @@ async function getContributionData(createdAt) {
     else if (i === allDays.length - 1) continue;
     else break;
   }
-  return { ...totals, currentStreak: current, currentStreakStart: currentStart,
-    longestStreak: longest, longestStreakRange: longestRange, firstDay: allDays[0]?.date };
+
+  return {
+    ...totals,
+    totalContributions: totals.contributions,
+    currentStreak: current,
+    currentStreakStart: currentStart,
+    longestStreak: longest,
+    longestStreakRange: longestRange,
+    firstDay: allDays[0]?.date,
+  };
 }
+
 async function getPRCounts() {
   const [opened, merged, reviewed] = await Promise.all([
     getSearchCount(`type:pr author:${USERNAME}`),
@@ -125,6 +151,7 @@ async function getPRCounts() {
 }
 
 // ---------- Constantes visuais ----------
+
 const LANG_COLORS = {
   JavaScript: "#f1e05a", TypeScript: "#3178c6", HTML: "#e34c26", CSS: "#563d7c",
   Python: "#59a5e0", Java: "#b07219", PHP: "#4F5D95", "C#": "#178600",
@@ -132,31 +159,30 @@ const LANG_COLORS = {
 };
 const FALLBACK = ["#ff4757", "#b3102a", "#ff8787", "#8a6a6a", "#e0cccc", "#5c1a1a"];
 const colorFor = (lang, i) => LANG_COLORS[lang] || FALLBACK[i % FALLBACK.length];
-const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-const fmtDate = iso => iso ? new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "";
+const esc = s => String(s)
+  .replace(/&/g, "&amp;")
+  .replace(/</g, "&lt;")
+  .replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;")
+  .replace(/'/g, "&apos;");
+const fmtDate = iso => iso
+  ? new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })
+  : "";
 
 // ---------- Renderização ----------
+
 function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   const W = 900;
-  const H = 1620; // altura total do card único
+  const H = 1620;
   const name = (user.name || user.login).trim();
 
-  // --- Seção 1: Header (Sobre) ---
   const headerH = 260;
-
-  // --- Seção 2: Sinais do GitHub (Stats + Spectrum) ---
   const signalsY = headerH + 20;
   const signalsH = 380;
-
-  // --- Seção 3: Contribuições (Streak) ---
   const contribY = signalsY + signalsH + 20;
   const contribH = 200;
-
-  // --- Seção 4: Projetos ---
   const projectsY = contribY + contribH + 20;
   const projectsH = 420;
-
-  // --- Seção 5: Stack + Certificações ---
   const stackY = projectsY + projectsH + 20;
   const stackH = 260;
 
@@ -189,7 +215,6 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
     <text x="440" y="${signalsY + 64 + i * 26}" text-anchor="end" class="stat-value">${esc(row[1])}</text>
   `).join("\n");
 
-  // Projetos (resumo)
   const projects = [
     { name: "OrbNOC", desc: "NOC de monitoramento de rede em tempo real", stack: "Next.js · Node.js · PostgreSQL" },
     { name: "AutoCare", desc: "ERP para oficinas mecânicas", stack: "Java 21 · Spring Boot · React" },
@@ -205,7 +230,6 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
     `;
   }).join("\n");
 
-  // Stack (badges textuais para caber no SVG)
   const stackItems = [
     "Java", "Spring Boot", "Node.js", "Python", "React", "Angular", "Vue",
     "TypeScript", "PostgreSQL", "Redis", "Docker", "Git",
@@ -222,7 +246,6 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
     `;
   }).join("\n");
 
-  // Certificações
   const certs = [
     "CI&T — Java AI Copilot · DIO · 53h",
     "Itaú — Java with AI · DIO · 45h",
@@ -230,6 +253,9 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   const certRows = certs.map((c, i) => `
     <text x="52" y="${stackY + 170 + i * 24}" class="cert-text">• ${esc(c)}</text>
   `).join("\n");
+
+  // Fallback robusto para evitar "undefined"
+  const totalContrib = contrib.totalContributions ?? contrib.contributions ?? 0;
 
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
   <style>
@@ -255,9 +281,9 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   <rect class="bg" width="${W}" height="${H}" rx="16" />
 
   <!-- ===== SEÇÃO 1: HEADER / SOBRE ===== -->
-  <text x="${W / 2}" y="56" text-anchor="middle" class="title">Adan William</text>
+  <text x="${W / 2}" y="56" text-anchor="middle" class="title">${esc(name)}</text>
   <text x="${W / 2}" y="84" text-anchor="middle" class="subtitle">FULL STACK DEVELOPER · JAVA · SPRING BOOT · REACT</text>
-  
+
   <text x="52" y="140" class="stat-label" font-size="14">
     Profissional de TI com +5 anos em infraestrutura e operações, em transição para desenvolvimento de software.
   </text>
@@ -272,7 +298,7 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
 
   <!-- ===== SEÇÃO 2: SINAIS DO GITHUB ===== -->
   <text x="32" y="${signalsY + 24}" class="section-title">📊 Sinais do GitHub</text>
-  
+
   <rect class="panel" x="32" y="${signalsY + 40}" width="420" height="200" rx="12" />
   <text x="52" y="${signalsY + 64}" class="stat-label" font-weight="700">${esc(name)}'s Signal</text>
   ${statsRows}
@@ -284,7 +310,7 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
 
   <!-- ===== SEÇÃO 3: CONTRIBUIÇÕES ===== -->
   <rect class="panel" x="32" y="${contribY}" width="836" height="${contribH}" rx="12" />
-  <text x="180" y="${contribY + 70}" text-anchor="middle" class="big-number">${contrib.totalContributions}</text>
+  <text x="180" y="${contribY + 70}" text-anchor="middle" class="big-number">${totalContrib}</text>
   <text x="180" y="${contribY + 96}" text-anchor="middle" class="big-label">Total Contributions</text>
   <text x="180" y="${contribY + 116}" text-anchor="middle" class="big-sub">${fmtDate(contrib.firstDay)} - Present</text>
 
@@ -298,7 +324,9 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   <text x="720" y="${contribY + 70}" text-anchor="middle" class="big-number">${contrib.longestStreak}</text>
   <text x="720" y="${contribY + 96}" text-anchor="middle" class="big-label">Longest Streak</text>
   <text x="720" y="${contribY + 116}" text-anchor="middle" class="big-sub">${
-    contrib.longestStreakRange ? `${fmtDate(contrib.longestStreakRange[0])} - ${fmtDate(contrib.longestStreakRange[1])}` : ""
+    contrib.longestStreakRange
+      ? `${fmtDate(contrib.longestStreakRange[0])} - ${fmtDate(contrib.longestStreakRange[1])}`
+      : ""
   }</text>
 
   <!-- ===== SEÇÃO 4: PROJETOS ===== -->
@@ -307,7 +335,7 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   ${projectRows}
 
   <!-- ===== SEÇÃO 5: STACK + CERTIFICAÇÕES ===== -->
-  <text x="32" y="${stackY + 24}" class="section-title">💻 Tech Stack & Certificações</text>
+  <text x="32" y="${stackY + 24}" class="section-title">💻 Tech Stack &amp; Certificações</text>
   <rect class="panel" x="32" y="${stackY + 40}" width="836" height="${stackH - 40}" rx="12" />
   ${stackBadges}
   <line x1="52" y1="${stackY + 150}" x2="${W - 52}" y2="${stackY + 150}" class="divider" />
@@ -319,6 +347,7 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
 }
 
 // ---------- Main ----------
+
 (async () => {
   const fs = await import("node:fs/promises");
   console.log(`Coletando dados de @${USERNAME}...`);
