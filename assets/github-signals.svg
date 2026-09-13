@@ -39,13 +39,13 @@
 
   <!-- Painel de estatísticas -->
   <rect class="panel" x="32" y="132" width="420" height="212" rx="12" />
-  <text x="52" y="164" class="panel-title">Adan William 's GitHub Signal</text>
+  <text x="52" y="164" class="panel-title">Adan William's GitHub Signal</text>
   
       <text x="52" y="196" class="stat-label">Total Stars Earned:</text>
       <text x="440" y="196" text-anchor="end" class="stat-value">22</text>
 
       <text x="52" y="222" class="stat-label">Total Commits:</text>
-      <text x="440" y="222" text-anchor="end" class="stat-value">412</text>
+      <text x="440" y="222" text-anchor="end" class="stat-value">414</text>
 
       <text x="52" y="248" class="stat-label">Total PRs:</text>
       <text x="440" y="248" text-anchor="end" class="stat-value">0</text>
@@ -60,28 +60,28 @@
       <text x="440" y="326" text-anchor="end" class="stat-value">0</text>
 
       <text x="52" y="352" class="stat-label">Contributed to (last year):</text>
-      <text x="440" y="352" text-anchor="end" class="stat-value">—</text>
+      <text x="440" y="352" text-anchor="end" class="stat-value">21</text>
 
   <!-- Espectro de código -->
   <rect class="panel" x="472" y="132" width="396" height="212" rx="12" />
   <text x="492" y="164" class="panel-title">Code Spectrum</text>
-  <rect x="492.0" y="190" width="83.3" height="10" rx="0" fill="#3178c6" />
-<rect x="575.3" y="190" width="77.2" height="10" rx="0" fill="#f1e05a" />
-<rect x="652.5" y="190" width="72.8" height="10" rx="0" fill="#b07219" />
-<rect x="725.2" y="190" width="62.9" height="10" rx="0" fill="#3572A5" />
-<rect x="788.1" y="190" width="18.4" height="10" rx="0" fill="#563d7c" />
+  <rect x="492.0" y="190" width="83.2" height="10" rx="0" fill="#3178c6" />
+<rect x="575.2" y="190" width="77.3" height="10" rx="0" fill="#f1e05a" />
+<rect x="652.5" y="190" width="72.7" height="10" rx="0" fill="#b07219" />
+<rect x="725.3" y="190" width="62.9" height="10" rx="0" fill="#59a5e0" />
+<rect x="788.2" y="190" width="18.4" height="10" rx="0" fill="#563d7c" />
 <rect x="806.6" y="190" width="14.6" height="10" rx="0" fill="#41b883" />
   
         <circle cx="492" cy="219" r="5" fill="#3178c6" />
-        <text x="506" y="224" class="legend">TypeScript 23.39%</text>
+        <text x="506" y="224" class="legend">TypeScript 23.38%</text>
 
         <circle cx="700" cy="219" r="5" fill="#f1e05a" />
-        <text x="714" y="224" class="legend">JavaScript 21.69%</text>
+        <text x="714" y="224" class="legend">JavaScript 21.71%</text>
 
         <circle cx="492" cy="245" r="5" fill="#b07219" />
-        <text x="506" y="250" class="legend">Java 20.44%</text>
+        <text x="506" y="250" class="legend">Java 20.43%</text>
 
-        <circle cx="700" cy="245" r="5" fill="#3572A5" />
+        <circle cx="700" cy="245" r="5" fill="#59a5e0" />
         <text x="714" y="250" class="legend">Python 17.67%</text>
 
         <circle cx="492" cy="271" r="5" fill="#563d7c" />
@@ -92,7 +92,7 @@
 
   <!-- Contribuições -->
   <rect class="panel" x="32" y="368" width="836" height="200" rx="12" />
-  <text x="180" y="440" text-anchor="middle" class="big-number">432</text>
+  <text x="180" y="440" text-anchor="middle" class="big-number">434</text>
   <text x="180" y="466" text-anchor="middle" class="big-label">Total Contributions</text>
   <text x="180" y="486" text-anchor="middle" class="big-sub">May 30, 2026 - Present</text>
 
@@ -110,11 +110,11 @@
   <!-- Trabalho público recente -->
   <text x="32" y="612" class="section-title">🚀 Recent public work</text>
   
-      <text x="48" y="656" class="recent-text">1. Pushed updates to <tspan class="recent-repo">adanwilliamdev/adanwilliamdev</tspan></text>
+      <text x="48" y="656" class="recent-text">1. Pushed updates to <tspan class="recent-repo">adanwilliamdev/OrbNOC</tspan></text>
 
-      <text x="48" y="684" class="recent-text">2. Pushed updates to <tspan class="recent-repo">adanwilliamdev/adanwilliamdev</tspan></text>
+      <text x="48" y="684" class="recent-text">2. Pushed updates to <tspan class="recent-repo">adanwilliamdev/adanwilliamdev.github.io</tspan></text>
 
-      <text x="48" y="712" class="recent-text">3. Pushed updates to <tspan class="recent-repo">adanwilliamdev/adanwilliamdev</tspan></text>
+      <text x="48" y="712" class="recent-text">3. Pushed updates to <tspan class="recent-repo">adanwilliamdev/OrbNOC</tspan></text>
 
       <text x="48" y="740" class="recent-text">4. Pushed updates to <tspan class="recent-repo">adanwilliamdev/OrbNOC</tspan></text>
 
