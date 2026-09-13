@@ -1,151 +1,173 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Adan%20William&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20React&descAlignY=58&descAlign=50" width="100%"/>
+# Adan William
 
-<br/>
+### Backend Junior Developer · Java & Spring Boot
 
-<a href="https://www.linkedin.com/in/awosantos/">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/adanwilliamdev">
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/>
-</a>
-&nbsp;&nbsp;
-<a href="mailto:adan.william.dev@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/>
-</a>
+Building reliable APIs and web applications with a focus on
+clean code, architecture, performance and maintainability.
 
-<br/><br/>
-
-<a href="https://adanwilliamdev.github.io/">🌐 Portfólio</a> · 
-<a href="https://www.linkedin.com/in/awosantos/">💼 LinkedIn</a> · 
-<a href="https://github.com/adanwilliamdev">🐙 GitHub</a>
+[LinkedIn](https://www.linkedin.com/in/awosantos/) ·
+[GitHub](https://github.com/adanwilliamdev) ·
+[Portfolio](https://adanwilliamdev.github.io/) ·
+[Email](mailto:adan.william.dev@gmail.com)
 
 </div>
 
 ---
 
-## 🚀 Sobre mim
+## About
 
-Profissional de TI com mais de **5 anos de experiência em infraestrutura, redes e operações**, atualmente em transição para **desenvolvimento de software**.
+IT professional with 5+ years of experience in infrastructure,
+networks and NOC operations, currently transitioning into
+software development.
 
-Meu foco é **backend com Java e Spring Boot**, construindo APIs REST, autenticação, arquiteturas de microsserviços e integrações com filas, cache e bancos relacionais. No frontend, trabalho com **React** (e às vezes Vue ou Angular) para fechar o ciclo full stack.
+My main focus is backend development with **Java and Spring Boot**,
+building REST APIs, authentication systems, integrations,
+microservices and database-driven applications.
 
-A bagagem em infraestrutura me dá uma visão prática de **disponibilidade, observabilidade e comportamento de sistemas em produção** — coisas que aplico mesmo em projetos de estudo.
+My infrastructure background also gives me practical experience
+with **availability, observability, monitoring and production
+environments**, which I apply to software development projects.
 
 ---
 
-## 🏆 Projetos em Destaque
+## Featured Projects
 
-### 🛰️ [OrbNOC](https://github.com/adanwilliamdev/OrbNOC)
-Plataforma de Network Operations Center para monitoramento de infraestrutura em tempo real: disponibilidade de hosts, latência, jitter, alertas via Telegram, topologia de rede interativa e wallboard modo TV.
-**Stack:** Next.js 14 · React · TypeScript · Node.js · Express · Prisma · PostgreSQL · Socket.IO
+### 🛰️ OrbNOC
 
-### 🚗 [AutoCare](https://github.com/adanwilliamdev/autocare)
-ERP full stack para oficinas mecânicas: clientes, veículos, ordens de serviço com máquina de estados, orçamentos, controle de estoque transacional e RBAC por perfil.
-**Stack:** Java 21 · Spring Boot 3.2 · Spring Security + JWT · PostgreSQL · Flyway · React · TypeScript · Docker
+Network Operations Center platform for real-time infrastructure
+monitoring, including host availability, latency, jitter,
+Telegram alerts, interactive network topology and TV wallboard.
 
-### 🍕 [Burger & Pizza House ERP](https://github.com/adanwilliamdev/Burger-Pizza-House)
-Sistema de gestão para pizzarias/hamburguerias com dashboard, pedidos, controle de estoque de ingredientes e boas práticas sólidas de segurança (JWT em cookie httpOnly, rate limiting, validação com Zod, transações atômicas).
-**Stack:** Angular 20 · Node.js · Express · Prisma · TypeScript · Tailwind CSS
+**Tech:** Next.js · React · TypeScript · Node.js · Express · Prisma · PostgreSQL
 
-### 🎯 [SVA Platform](https://github.com/adanwilliamdev/sva-platform)
-Plataforma de recrutamento com matching inteligente entre currículos e vagas via NLP/TF-IDF, dashboards para recrutador e candidato.
-**Stack:** FastAPI · Python · React · Scikit-learn · SQLAlchemy
+[View project →](https://github.com/adanwilliamdev/OrbNOC)
 
-### 🎫 [Ticketing System](https://github.com/adanwilliamdev/ticketing-system)
-Sistema de reserva de ingressos estilo Ticketmaster/Sympla com foco em concorrência: locks distribuídos com Redisson, reservas temporárias com expiração, idempotência em pagamentos e testes unitários cobrindo as regras críticas.
-**Stack:** Java 21 · Spring Boot · PostgreSQL · Redis · JUnit 5 + Mockito
+---
 
-### 🤖 [Itaú Java AI Order System](https://github.com/adanwilliamdev/itau-java-ai-order-system)
-API de processamento de pedidos combinando 4 padrões de projeto (State, Chain of Responsibility, Strategy, Observer) com Spring AI + OpenAI para comandos de voz. Desafio final do programa **Itaú Java AI** (DIO).
-**Stack:** Java 17 · Spring Boot · Spring AI · OpenAI (GPT-4o-mini, Whisper)
+### 🚗 AutoCare
+
+Full stack ERP for automotive workshops, featuring customers,
+vehicles, work orders, state machines, quotations, transactional
+inventory management and role-based access control.
+
+**Tech:** Java 21 · Spring Boot · Spring Security · JWT · PostgreSQL · Flyway · React · Docker
+
+[View project →](https://github.com/adanwilliamdev/autocare)
+
+---
+
+### 🍕 Burger & Pizza House ERP
+
+Management platform for restaurants with dashboards, orders,
+ingredient inventory and security-focused backend architecture.
+
+**Tech:** Angular · Node.js · Express · Prisma · TypeScript · Tailwind CSS
+
+[View project →](https://github.com/adanwilliamdev/Burger-Pizza-House)
+
+---
+
+### 🎯 SVA Platform
+
+Recruitment platform with intelligent matching between resumes
+and job vacancies using NLP and TF-IDF.
+
+**Tech:** Python · FastAPI · React · Scikit-learn · SQLAlchemy
+
+[View project →](https://github.com/adanwilliamdev/sva-platform)
+
+---
+
+### 🎫 Ticketing System
+
+Ticket reservation system designed around concurrency and
+transactional consistency, featuring distributed locks,
+temporary reservations and payment idempotency.
+
+**Tech:** Java 21 · Spring Boot · PostgreSQL · Redis · JUnit 5 · Mockito
+
+[View project →](https://github.com/adanwilliamdev/ticketing-system)
+
+---
 
 <div align="center">
-  <a href="https://github.com/adanwilliamdev?tab=repositories">
-    <img src="https://img.shields.io/badge/Ver%20todos%20os%20projetos-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver todos os projetos"/>
-  </a>
+
+[View all repositories →](https://github.com/adanwilliamdev?tab=repositories)
+
 </div>
 
 ---
 
-## 📂 Todos os repositórios
+## Technical Skills
 
-| Projeto | Descrição | Stack principal |
+### Backend
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+
+### Frontend
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+### Databases & Infrastructure
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## Other Projects
+
+| Project | Description | Main Stack |
 |---|---|---|
-| [OrbNOC](https://github.com/adanwilliamdev/OrbNOC) | NOC de monitoramento de rede em tempo real | Next.js · Node.js · PostgreSQL |
-| [autocare](https://github.com/adanwilliamdev/autocare) | ERP para oficinas mecânicas | Java 21 · Spring Boot · React |
-| [Burger-Pizza-House](https://github.com/adanwilliamdev/Burger-Pizza-House) | ERP para pizzarias/hamburguerias | Angular 20 · Node.js · Prisma |
-| [sva-platform](https://github.com/adanwilliamdev/sva-platform) | Recrutamento com matching por IA | FastAPI · React · Scikit-learn |
-| [ticketing-system](https://github.com/adanwilliamdev/ticketing-system) | Reserva de ingressos de alta concorrência | Java · Spring Boot · Redis |
-| [itau-java-ai-order-system](https://github.com/adanwilliamdev/itau-java-ai-order-system) | Pedidos com design patterns + IA de voz | Java · Spring Boot · Spring AI |
-| [MedFlow](https://github.com/adanwilliamdev/MedFlow) | Gestão de clínicas médicas | Java · Spring Boot · React |
-| [finpay](https://github.com/adanwilliamdev/finpay) | Carteira digital e ledger financeiro | Java 21 · Spring Boot · React |
-| [biblioteca-fullstack](https://github.com/adanwilliamdev/biblioteca-fullstack) | Catálogo de filmes/séries com TMDB | Java · Spring Boot · React/TS |
-| [financas-pessoais](https://github.com/adanwilliamdev/financas-pessoais) | Gestão financeira pessoal | Java · Spring Boot · Vue.js |
-| [financas-microservicos](https://github.com/adanwilliamdev/financas-microservicos) | Finanças pessoais em microsserviços | Java · Spring Cloud · Eureka |
-| [task-management](https://github.com/adanwilliamdev/task-management) (TaskFlow) | Gestão de tarefas em microsserviços | Java · Spring Cloud Gateway · React |
-| [inframonitor](https://github.com/adanwilliamdev/inframonitor) | Monitoramento de infraestrutura de TI | Java · Spring Boot · React |
-| [event-platform](https://github.com/adanwilliamdev/event-platform) (Palco) | Venda de ingressos com WebSocket e QR Code | Python · FastAPI |
-| [Sistema-de-Gest-o-de-Estoque-Inteligente](https://github.com/adanwilliamdev/Sistema-de-Gest-o-de-Estoque-Inteligente) | Controle de estoque com alertas via fila | .NET 7 · RabbitMQ |
-| [ScalableScraper](https://github.com/adanwilliamdev/ScalableScraper) | Web scraper distribuído com filas | Python · Redis · Docker/K8s |
-| [real-estate-monitor](https://github.com/adanwilliamdev/real-estate-monitor) | Inteligência de mercado imobiliário com ML | Python · FastAPI · Scikit-learn · Streamlit |
-| [Geo-Explorer](https://github.com/adanwilliamdev/Geo-Explorer) | Servidor MCP para trilhas de aprendizado | Node.js · TypeScript · MCP SDK |
-| [Adan_Cafe](https://github.com/adanwilliamdev/Adan_Cafe) | Menu digital para cafeteria | HTML · CSS · JavaScript |
-| [adanwilliamdev.github.io](https://github.com/adanwilliamdev/adanwilliamdev.github.io) | Site de portfólio pessoal | Astro |
+| **MedFlow** | Clinic management platform | Java · Spring Boot · React |
+| **FinPay** | Digital wallet and financial ledger | Java · Spring Boot · React |
+| **Biblioteca Fullstack** | Movie and series catalog | Java · Spring Boot · React |
+| **Finanças Pessoais** | Personal finance management | Java · Spring Boot · Vue |
+| **Finanças Microserviços** | Financial system using microservices | Java · Spring Cloud |
+| **TaskFlow** | Task management platform | Java · Spring Cloud · React |
+| **InfraMonitor** | IT infrastructure monitoring | Java · Spring Boot · React |
+| **Palco** | Event ticketing platform | Python · FastAPI |
+| **ScalableScraper** | Distributed web scraper | Python · Redis · Docker |
+| **Real Estate Monitor** | Real estate market intelligence | Python · ML |
+| **Geo-Explorer** | MCP learning-path server | Node.js · TypeScript |
+| **Adan Cafe** | Digital cafe menu | HTML · CSS · JavaScript |
 
 ---
 
-## 💻 Tech Stack
+## Certifications
+
+- **CI&T — Java AI Copilot** · DIO · 53h · 2026
+- **Itaú — Java with Artificial Intelligence** · DIO · 45h · 2026
+
+---
+
+## Contact
 
 <div align="center">
 
-**Backend**
-<br/>
-<img src="https://skillicons.dev/icons?i=java,spring,nodejs,python,dotnet" />
+[LinkedIn](https://www.linkedin.com/in/awosantos/) ·
+[GitHub](https://github.com/adanwilliamdev) ·
+[Portfolio](https://adanwilliamdev.github.io/) ·
+[Email](mailto:adan.william.dev@gmail.com)
 
-**Frontend**
-<br/>
-<img src="https://skillicons.dev/icons?i=react,angular,vue,typescript,javascript,tailwind" />
+<br><br>
 
-**Banco de Dados**
-<br/>
-<img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,redis" />
-
-**DevOps & Ferramentas**
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman" />
-
-</div>
-
----
-
-## 🎓 Certificações
-
-- **CI&T — Java AI Copilot** · Digital Innovation One · 53h · Setembro 2026
-- **Itaú — Java with Artificial Intelligence** · Digital Innovation One · 45h · Setembro 2026
-
----
-
-## 📫 Contato
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/awosantos/">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/>
-</a>
-&nbsp;&nbsp;
-<a href="mailto:adan.william.dev@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/adanwilliamdev">
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/>
-</a>
-
-<br/><br/>
-
-⭐ Se algum projeto foi útil, considere deixar uma estrela no repositório.
+⭐ If you find one of my projects useful, consider leaving a star.
 
 </div>
