@@ -9,10 +9,23 @@
  *                       (obrigatório para os dados de contribuições/streak)
  */
 
-const USERNAME = (process.env.GITHUB_USERNAME || "").trim();
+const USERNAME = (process.env.GITHUB_USERNAME || "").replace(/[^\x21-\x7E]/g, "");
 // .trim() evita erros de "invalid header value" quando o secret foi colado
 // com espaço/quebra de linha extra no fim.
-const TOKEN = (process.env.GH_TOKEN || "").trim();
+// Remove qualquer caractere fora do intervalo ASCII imprimível — cobre
+// espaço/quebra de linha nas pontas E também caracteres invisíveis
+// colados no meio do valor (ex: copiar de um PDF/app que insere \r ou
+// caracteres unicode invisíveis), que fazem o header HTTP ser rejeitado.
+const TOKEN = (process.env.GH_TOKEN || "").replace(/[^\x21-\x7E]/g, "");
+
+if (TOKEN.length < 10) {
+  console.error(
+    "GH_TOKEN parece vazio ou inválido após sanitização. Recrie o secret " +
+      "GH_SIGNALS_TOKEN colando o token diretamente (evite copiar de apps " +
+      "que possam inserir caracteres invisíveis, como Word/Notas)."
+  );
+  process.exit(1);
+}
 
 if (!USERNAME) {
   console.error("Defina a variável de ambiente GITHUB_USERNAME.");
