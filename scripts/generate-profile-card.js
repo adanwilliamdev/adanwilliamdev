@@ -265,8 +265,7 @@ function renderSVG({ user, stars, prs, issues, contrib, spectrum }) {
   <text x="${W / 2}" y="${headerY + 60}" text-anchor="middle" class="title">${esc(name)}</text>
   <text x="${W / 2}" y="${headerY + 92}" text-anchor="middle" class="subtitle">FULL STACK DEVELOPER · JAVA · SPRING BOOT · REACT</text>
   <text x="${W / 2}" y="${headerY + 130}" text-anchor="middle" class="about-text">Mais de 5 anos em infraestrutura e operações de TI, hoje migrando para desenvolvimento de software.</text>
-  <text x="${W / 2}" y="${headerY + 155}" text-anchor="middle" class="big-sub">📡 Live metrics · 4x daily &nbsp;&nbsp;|&nbsp;&nbsp; 🤖 Automated pulse · 4x daily</text>
-  <line x1="32" y1="${headerY + HEADER_H - 10}" x2="${W - 32}" y2="${headerY + HEADER_H - 10}" class="divider" />
+  <text x="${W / 2}" y="${headerY + 155}" text-anchor="middle" class="big-sub">📡 Live metrics · 4x daily &#160;&#160;|&#160;&#160; 🤖 Automated pulse · 4x daily</text>  <line x1="32" y1="${headerY + HEADER_H - 10}" x2="${W - 32}" y2="${headerY + HEADER_H - 10}" class="divider" />
 
   <!-- ===== SOBRE ===== -->
   <text x="32" y="${aboutY + 30}" class="section-title">🚀 SOBRE MIM</text>
