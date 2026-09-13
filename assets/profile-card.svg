@@ -24,7 +24,7 @@
   <!-- ===== SEÇÃO 1: HEADER / SOBRE ===== -->
   <text x="450" y="56" text-anchor="middle" class="title">Adan William</text>
   <text x="450" y="84" text-anchor="middle" class="subtitle">FULL STACK DEVELOPER · JAVA · SPRING BOOT · REACT</text>
-  
+
   <text x="52" y="140" class="stat-label" font-size="14">
     Profissional de TI com +5 anos em infraestrutura e operações, em transição para desenvolvimento de software.
   </text>
@@ -39,7 +39,7 @@
 
   <!-- ===== SEÇÃO 2: SINAIS DO GITHUB ===== -->
   <text x="32" y="304" class="section-title">📊 Sinais do GitHub</text>
-  
+
   <rect class="panel" x="32" y="320" width="420" height="200" rx="12" />
   <text x="52" y="344" class="stat-label" font-weight="700">Adan William's Signal</text>
   
@@ -48,7 +48,7 @@
   
 
     <text x="52" y="370" class="stat-label">Total Commits:</text>
-    <text x="440" y="370" text-anchor="end" class="stat-value">425</text>
+    <text x="440" y="370" text-anchor="end" class="stat-value">429</text>
   
 
     <text x="52" y="396" class="stat-label">Total PRs:</text>
@@ -90,7 +90,7 @@
 
   <!-- ===== SEÇÃO 3: CONTRIBUIÇÕES ===== -->
   <rect class="panel" x="32" y="680" width="836" height="200" rx="12" />
-  <text x="180" y="750" text-anchor="middle" class="big-number">undefined</text>
+  <text x="180" y="750" text-anchor="middle" class="big-number">449</text>
   <text x="180" y="776" text-anchor="middle" class="big-label">Total Contributions</text>
   <text x="180" y="796" text-anchor="middle" class="big-sub">May 30, 2026 - Present</text>
 
@@ -130,7 +130,7 @@
     
 
   <!-- ===== SEÇÃO 5: STACK + CERTIFICAÇÕES ===== -->
-  <text x="32" y="1364" class="section-title">💻 Tech Stack & Certificações</text>
+  <text x="32" y="1364" class="section-title">💻 Tech Stack &amp; Certificações</text>
   <rect class="panel" x="32" y="1380" width="836" height="220" rx="12" />
   
       <rect x="52" y="1392" width="52" height="26" rx="13" fill="#2a0d0d" stroke="#3a1414" />
