@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: github-signals-update
+  cancel-in-progress: false
+
 jobs:
   update-signals:
     runs-on: ubuntu-latest
@@ -37,5 +41,27 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/github-signals.svg
-          git diff --staged --quiet || git commit -m "chore: update live GitHub signals card"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "Nada mudou, pulando commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update live GitHub signals card"
+
+          # Se outra execução já empurrou algo nesse meio tempo, o push é
+          # rejeitado — busca o que mudou e reaplica nosso commit por cima
+          # (em caso de conflito no próprio SVG, mantém a versão que acabamos
+          # de gerar, já que é a mais atual).
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejeitado, tentando novamente com rebase (tentativa $attempt)..."
+            git fetch origin main
+            git rebase -X ours origin/main
+            sleep 3
+          done
+
+          echo "Não foi possível empurrar após várias tentativas."
+          exit 1
