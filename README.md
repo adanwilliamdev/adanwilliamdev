@@ -13,30 +13,87 @@
 
 <br/>
 
-## Sobre
+## ~/sobre
 
-Desenvolvedor backend com mais de 5 anos em infraestrutura, redes e operações de NOC. Essa bagagem me dá uma visão prática de disponibilidade, observabilidade e produção, que levo para o código.
+Desenvolvedor backend com mais de 5 anos em infraestrutura, redes e operações de NOC. Essa bagagem me dá uma visão prática de **disponibilidade, observabilidade e produção**, que levo para o código.
 
-Hoje trabalho principalmente com **Python (FastAPI, Pydantic, SQLAlchemy)** e **Next.js/TypeScript**: APIs REST assíncronas, autenticação JWT, tempo real com WebSocket/Socket.IO e aplicações orientadas a dados com PostgreSQL e Redis. Já usei também Node.js, Java/Spring Boot e .NET em projetos que pediam outras arquiteturas.
-
-**Estudando agora:** Kubernetes · AWS · OpenTelemetry · Microsserviços · Design de Sistemas · CI/CD
+```yaml
+foco:      Python (FastAPI, Pydantic, SQLAlchemy) + Next.js/TypeScript
+constroi:  APIs REST assíncronas, JWT, tempo real (WebSocket/Socket.IO), PostgreSQL e Redis
+tambem:    Node.js, Java/Spring Boot e .NET
+estudando: Kubernetes, AWS, OpenTelemetry, Microsserviços, Design de Sistemas, CI/CD
+```
 
 <br/>
 
-## Projetos
+## ~/projetos
 
-| Projeto | O que resolve | Destaque técnico |
-|:--|:--|:--|
-| **[OrbNOC](https://github.com/adanwilliamdev/OrbNOC)** | Monitoramento de infraestrutura e redes em tempo real: disponibilidade, latência, jitter, perda de pacotes, alertas, SLA, diagnóstico (ping, traceroute, DNS) e wallboard para TV | Eleição de líder de monitoramento coordenada pelo Redis; Socket.IO |
-| **[SVA — Sua Vaga Aqui](https://github.com/adanwilliamdev/sva-platform)** | Recrutamento: score de compatibilidade currículo × vaga, chat, agendamento de entrevistas e analytics | WebSocket nativo + Redis Pub/Sub, multi-instância |
-| **[AutoCare](https://github.com/adanwilliamdev/autocare)** | ERP para oficinas: clientes, veículos, orçamentos, ordens de serviço e estoque | Máquina de estados; estoque com controle de concorrência por versão; RBAC |
-| **[Ticketing System](https://github.com/adanwilliamdev/ticketing-system)** | Reserva e venda de ingressos sob alta concorrência | Locks distribuídos (Redis), `SELECT ... FOR UPDATE`, pagamentos idempotentes, expiração de reservas |
-| **[Burger & Pizza House](https://github.com/adanwilliamdev/Burger-Pizza-House)** | ERP para pizzarias e hamburguerias: receitas por ingrediente, pedidos e dashboard | Baixa automática e validação de estoque |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Stack comum: `Next.js 16` `TypeScript` `Tailwind` `shadcn/ui` `TanStack Query` `FastAPI` `SQLAlchemy` `Alembic` `PostgreSQL` `Redis` `Docker`
+**[OrbNOC](https://github.com/adanwilliamdev/OrbNOC)**
+<br/>Monitoramento de infraestrutura e redes em tempo real: disponibilidade, latência, jitter, perda de pacotes, alertas, SLA, diagnóstico (ping, traceroute, DNS) e wallboard para TV.
+<br/><br/>▸ Eleição de líder de monitoramento coordenada pelo Redis
+<br/>▸ Tempo real via Socket.IO
+<br/><br/>`Next.js` `FastAPI` `Socket.IO` `PostgreSQL` `Redis` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+**[SVA — Sua Vaga Aqui](https://github.com/adanwilliamdev/sva-platform)**
+<br/>Recrutamento que conecta candidatos e recrutadores, com score de compatibilidade entre currículo e vaga, chat, agendamento de entrevistas e analytics.
+<br/><br/>▸ WebSocket nativo + Redis Pub/Sub (multi-instância)
+<br/>▸ Validação ponta a ponta com Pydantic v2 e Zod
+<br/><br/>`Next.js` `FastAPI` `WebSocket` `PostgreSQL` `Redis` `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[AutoCare](https://github.com/adanwilliamdev/autocare)**
+<br/>ERP para oficinas mecânicas: clientes, veículos, mecânicos, orçamentos, ordens de serviço e estoque.
+<br/><br/>▸ Ordens de serviço com máquina de estados
+<br/>▸ Estoque transacional com controle de concorrência por versão
+<br/>▸ Acesso baseado em perfis (RBAC)
+<br/><br/>`Next.js` `FastAPI` `Alembic` `JWT` `PostgreSQL` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+**[Ticketing System](https://github.com/adanwilliamdev/ticketing-system)**
+<br/>Reserva e venda de ingressos pensada para concorrência e consistência transacional.
+<br/><br/>▸ Locks distribuídos com Redis e `SELECT ... FOR UPDATE`
+<br/>▸ Pagamentos idempotentes
+<br/>▸ Expiração automática de reservas
+<br/><br/>`Next.js` `FastAPI` `Alembic` `PostgreSQL` `Redis` `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Burger & Pizza House ERP](https://github.com/adanwilliamdev/Burger-Pizza-House)**
+<br/>Gestão para pizzarias e hamburguerias, com dashboard de faturamento, mais vendidos e estoque baixo.
+<br/><br/>▸ Receitas por ingrediente com baixa automática
+<br/>▸ Ciclo de vida completo de pedidos
+<br/><br/>`Next.js` `FastAPI` `JWT` `PostgreSQL` `Redis` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+**Mais projetos**
+<br/>InfraMonitor, Biblioteca Fullstack, Real Estate Monitor, Scalable Web Scraper, Geo-Explorer (servidor MCP) e projetos em Java/Spring e .NET.
+<br/><br/>▸ [Ver todos os repositórios](https://github.com/adanwilliamdev?tab=repositories)
+<br/>▸ [Ver portfólio](https://adanwilliamdev.github.io/)
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary>Outros projetos</summary>
+<summary>Lista completa de outros projetos</summary>
 
 <br/>
 
@@ -54,19 +111,22 @@ Stack comum: `Next.js 16` `TypeScript` `Tailwind` `shadcn/ui` `TanStack Query` `
 
 <br/>
 
-## Stack
+## ~/stack
 
-| | |
-|:--|:--|
-| **Backend** | `Python` `FastAPI` `Pydantic` `SQLAlchemy` `Node.js` `Express` `NestJS` `Java` `Spring Boot` `.NET` |
-| **Frontend** | `Next.js` `React` `TypeScript` `Tailwind CSS` `TanStack Query` |
-| **Dados** | `PostgreSQL` `Redis` `SQLite` |
-| **Infra** | `Docker` `Kubernetes` `Linux` `Git` |
+<img src="stack.svg" alt="Stack técnica" width="100%"/>
 
 <br/>
 
-## Contato
+## ~/contato
 
-Aberto a oportunidades como desenvolvedor backend (Python/FastAPI, Node/TypeScript).
+<img src="footer.svg" alt="Disponível para oportunidades como desenvolvedor backend" width="100%"/>
 
-[LinkedIn](https://www.linkedin.com/in/awosantos/) · [Portfólio](https://adanwilliamdev.github.io/) · [adan.william.dev@gmail.com](mailto:adan.william.dev@gmail.com)
+<div align="center">
+
+<br/>
+
+[LinkedIn](https://www.linkedin.com/in/awosantos/) &nbsp;/&nbsp;
+[Portfólio](https://adanwilliamdev.github.io/) &nbsp;/&nbsp;
+[adan.william.dev@gmail.com](mailto:adan.william.dev@gmail.com)
+
+</div>
