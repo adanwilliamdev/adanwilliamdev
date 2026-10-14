@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="banner.svg" alt="Adan William, Backend Developer" width="100%"/>
+<img src="banner.svg" alt="Adan William, Full Stack Developer" width="100%"/>
 
 <br/>
+
+![Status](https://img.shields.io/badge/status-aberto%20a%20oportunidades-4ade80?style=flat-square&labelColor=0b0f14)
+![Foco](https://img.shields.io/badge/foco-Python%20%C2%B7%20FastAPI%20%C2%B7%20Next.js-38bdf8?style=flat-square&labelColor=0b0f14)
+![Local](https://img.shields.io/badge/Pirapora%20%C2%B7%20MG-remoto%20ou%20h%C3%ADbrido-9ca3af?style=flat-square&labelColor=0b0f14)
 
 [LinkedIn](https://www.linkedin.com/in/awosantos/) &nbsp;/&nbsp;
 [Portfólio](https://adanwilliamdev.github.io/) &nbsp;/&nbsp;
@@ -15,13 +19,17 @@
 
 ## ~/sobre
 
-Desenvolvedor backend com mais de 5 anos em infraestrutura, redes e operações de NOC. Essa bagagem me dá uma visão prática de **disponibilidade, observabilidade e produção**, que levo para o código.
+Desenvolvedor full stack com foco em **Python e dados**, vindo de mais de 5 anos em infraestrutura crítica: atendimento N2/N3 e monitoramento de mais de 13 mil ativos para provedores de Internet. Essa bagagem me dá uma visão prática de **disponibilidade, observabilidade e produção**, que levo para o código.
+
+Construo APIs assíncronas, sistemas em tempo real e aplicações orientadas a dados, sempre com atenção a concorrência, consistência e operação.
 
 ```yaml
 foco:      Python (FastAPI, Pydantic, SQLAlchemy) + Next.js/TypeScript
 constroi:  APIs REST assíncronas, JWT, tempo real (WebSocket/Socket.IO), PostgreSQL e Redis
+dados:     Análise e automação de dados com Python
 tambem:    Node.js, Java/Spring Boot e .NET
 estudando: Kubernetes, AWS, OpenTelemetry, Microsserviços, Design de Sistemas, CI/CD
+buscando:  vaga de Desenvolvedor Full Stack Júnior (Python / Dados)
 ```
 
 <br/>
@@ -36,6 +44,7 @@ estudando: Kubernetes, AWS, OpenTelemetry, Microsserviços, Design de Sistemas, 
 <br/>Monitoramento de infraestrutura e redes em tempo real: disponibilidade, latência, jitter, perda de pacotes, alertas, SLA, diagnóstico (ping, traceroute, DNS) e wallboard para TV.
 <br/><br/>▸ Eleição de líder de monitoramento coordenada pelo Redis
 <br/>▸ Tempo real via Socket.IO
+<br/>▸ Nasceu da minha rotina de NOC
 <br/><br/>`Next.js` `FastAPI` `Socket.IO` `PostgreSQL` `Redis` `Docker`
 
 </td>
@@ -117,9 +126,39 @@ estudando: Kubernetes, AWS, OpenTelemetry, Microsserviços, Design de Sistemas, 
 
 <br/>
 
+## ~/experiencia
+
+```text
+2020 → 2026   Analista de TI N2/N3 · ConectV
+              Ambiente crítico para ISPs, alta disponibilidade e SLA.
+              Monitoramento de 13 mil+ ativos, resolução de incidentes e
+              participação em projetos de automação e melhoria contínua.
+
+2025 → hoje   Desenvolvimento de software · projetos e formação
+              Full stack com Python e Next.js; projetos publicados neste GitHub.
+```
+
+<br/>
+
+## ~/formacao
+
+**Graduação:** Análise e Desenvolvimento de Sistemas · UNIFATECIE (2025 – 2027)
+
+**Certificações em destaque**
+
+| Certificação | Instituição |
+|:--|:--|
+| Python para Análise e Automação de Dados | Accenture |
+| Java com Inteligência Artificial · Java AI Copilot | Itaú · CI&T / DIO |
+| AI-900: Fundamentos de IA no Azure | Fundação Bradesco |
+| Banco de Dados: Oracle PL/SQL | Instituto Federal do RS |
+| Certified AI Security & Risk (CAISR) | Red Team Leaders |
+
+<br/>
+
 ## ~/contato
 
-<img src="footer.svg" alt="Disponível para oportunidades como desenvolvedor backend" width="100%"/>
+<img src="footer.svg" alt="Disponível para oportunidades como desenvolvedor full stack júnior" width="100%"/>
 
 <div align="center">
 
