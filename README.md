@@ -3,22 +3,22 @@
 <img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/banner.svg" alt="Adan William · Desenvolvedor Java" width="100%"/>
 
 <a href="https://github.com/adanwilliamdev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=820&lines=%F0%9F%9A%80+Buscando+minha+1%C2%AA+vaga+como+Dev+Java+J%C3%BAnior+%2F+Full+Stack+J%C3%BAnior;%F0%9F%9B%B0%EF%B8%8F+5%2B+anos+de+NOC%3A+eu+sei+o+que+%C3%A9+sistema+que+n%C3%A3o+pode+cair;%F0%9F%94%90+Seguran%C3%A7a%2C+concorr%C3%AAncia+e+consist%C3%AAncia+de+dados;%F0%9F%90%B3+Projetos+com+testes%2C+CI%2FCD+e+docker+compose+up" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=800&color=FF1E1E&center=true&vCenter=true&width=820&lines=%F0%9F%9A%80+Buscando+minha+1%C2%AA+vaga+como+Dev+Java+J%C3%BAnior+%2F+Full+Stack+J%C3%BAnior;%F0%9F%9B%B0%EF%B8%8F+5%2B+anos+de+NOC%3A+eu+sei+o+que+%C3%A9+sistema+que+n%C3%A3o+pode+cair;%F0%9F%94%90+Seguran%C3%A7a%2C+concorr%C3%AAncia+e+consist%C3%AAncia+de+dados;%F0%9F%90%B3+Projetos+com+testes%2C+CI%2FCD+e+docker+compose+up" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/PORTF%C3%93LIO-00E5FF?style=for-the-badge&logo=githubpages&logoColor=0D1117&labelColor=0D1117" alt="Portfólio"/></a>
-<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>
-<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-2EFF8B?style=for-the-badge&logo=target&logoColor=0D1117&labelColor=0D1117" alt="Open to work"/>
-<img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0D1117" alt="Java 21"/>
-<img src="https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&labelColor=0D1117" alt="Spring Boot 3"/>
+<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/PORTF%C3%93LIO-FF1E1E?style=for-the-badge&logo=githubpages&logoColor=0A0A0A&labelColor=0A0A0A" alt="Portfólio"/></a>
+<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/LINKEDIN-C1121F?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A" alt="LinkedIn"/></a>
+<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-F5F5F5?style=for-the-badge&logo=target&logoColor=0A0A0A&labelColor=0A0A0A" alt="Open to work"/>
+<img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0A0A0A" alt="Java 21"/>
+<img src="https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&labelColor=0A0A0A" alt="Spring Boot 3"/>
 
-<img src="https://komarev.com/ghpvc/?username=adanwilliamdev&label=Visitas&color=00E5FF&style=flat-square&labelColor=0D1117" alt="Visitas"/>
+<img src="https://komarev.com/ghpvc/?username=adanwilliamdev&label=Visitas&color=FF1E1E&style=flat-square&labelColor=0A0A0A" alt="Visitas"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,12,18&height=3&section=header" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
 
 ## 💻 `> whoami`
 
@@ -79,7 +79,7 @@ Passei anos onde cada minuto fora do ar custa caro. Hoje levo essa mentalidade d
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,12,18&height=3&section=header" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
 
 ## 🚀 Projetos em destaque
 
@@ -88,7 +88,7 @@ Passei anos onde cada minuto fora do ar custa caro. Hoje levo essa mentalidade d
 <td width="50%" valign="top">
 
 ### 🏦 [AWOS Bank](https://github.com/adanwilliamdev/awosbank)
-![](https://img.shields.io/badge/Internet_Banking-00E5FF?style=flat-square&labelColor=0D1117) ![](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=0D1117)
+![](https://img.shields.io/badge/Internet_Banking-FF1E1E?style=flat-square&labelColor=0A0A0A) ![](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-990F0F?style=flat-square&logo=githubactions&logoColor=white&labelColor=0A0A0A)
 
 Internet Banking com dashboard, extrato com filtros e chaves PIX.
 
@@ -103,7 +103,7 @@ Internet Banking com dashboard, extrato com filtros e chaves PIX.
 <td width="50%" valign="top">
 
 ### 🔧 [Torque Gestão](https://github.com/adanwilliamdev/Torque_Gestao)
-![](https://img.shields.io/badge/ERP_Oficinas-FF3DCB?style=flat-square&labelColor=0D1117) ![](https://img.shields.io/badge/Auth-JWT_rotativo-7C6CFF?style=flat-square&labelColor=0D1117)
+![](https://img.shields.io/badge/ERP_Oficinas-FF6B35?style=flat-square&labelColor=0A0A0A) ![](https://img.shields.io/badge/Auth-JWT_rotativo-C1121F?style=flat-square&labelColor=0A0A0A)
 
 Gestão de oficinas: clientes, veículos, orçamentos com aprovação e estoque rastreável.
 
@@ -120,7 +120,7 @@ Gestão de oficinas: clientes, veículos, orçamentos com aprovação e estoque 
 <td width="50%" valign="top">
 
 ### 🎟️ [Ticketing System](https://github.com/adanwilliamdev/ticketing-system)
-![](https://img.shields.io/badge/Alta_concorr%C3%AAncia-2EFF8B?style=flat-square&labelColor=0D1117&logoColor=white) ![](https://img.shields.io/badge/Redis-Redisson-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=0D1117)
+![](https://img.shields.io/badge/Alta_concorr%C3%AAncia-F5F5F5?style=flat-square&labelColor=0A0A0A&logoColor=white) ![](https://img.shields.io/badge/Redis-Redisson-FF1E1E?style=flat-square&logo=redis&logoColor=white&labelColor=0A0A0A)
 
 Reservas e pagamentos no estilo Ticketmaster.
 
@@ -136,7 +136,7 @@ Reservas e pagamentos no estilo Ticketmaster.
 <td width="50%" valign="top">
 
 ### 🛰️ [OrbNOC](https://github.com/adanwilliamdev/OrbNOC)
-![](https://img.shields.io/badge/Tempo_real-WebSocket-00E5FF?style=flat-square&labelColor=0D1117) ![](https://img.shields.io/badge/Nascido_do-NOC-FF9F1C?style=flat-square&labelColor=0D1117)
+![](https://img.shields.io/badge/Tempo_real-WebSocket-FF1E1E?style=flat-square&labelColor=0A0A0A) ![](https://img.shields.io/badge/Nascido_do-NOC-FF8A5C?style=flat-square&labelColor=0A0A0A)
 
 Monitoramento de rede em tempo real, direto da minha rotina de NOC.
 
@@ -153,7 +153,7 @@ Monitoramento de rede em tempo real, direto da minha rotina de NOC.
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,12,18&height=3&section=header" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
 
 ## 📂 Outros projetos
 
@@ -189,18 +189,18 @@ Estudo de finanças pessoais com IA fundamentada em fontes curadas e engenharia 
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,12,18&height=3&section=header" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
 
 ## 📊 Atividade
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=FF3DCB&text_color=C9D1D9" alt="Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9" alt="Linguagens"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=FF1E1E&icon_color=FF6B35&text_color=C9D1D9" alt="Stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=FF1E1E&text_color=C9D1D9" alt="Linguagens"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5FF&fire=FF3DCB&currStreakLabel=00E5FF" alt="Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=dark&hide_border=true&background=0A0A0A&ring=FF1E1E&fire=FF6B35&currStreakLabel=FF1E1E" alt="Streak"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adanwilliamdev&bg_color=0D1117&color=00E5FF&line=7C6CFF&point=FFFFFF&area=true&area_color=7C6CFF&hide_border=true" alt="Gráfico de contribuições" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=adanwilliamdev&bg_color=0A0A0A&color=FF1E1E&line=C1121F&point=FFFFFF&area=true&area_color=C1121F&hide_border=true" alt="Gráfico de contribuições" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/output/github-snake-dark.svg" alt="Snake" width="100%"/>
 
@@ -220,9 +220,9 @@ Estudo de finanças pessoais com IA fundamentada em fontes curadas e engenharia 
 
 ### 📫 Bora conversar?
 
-<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/ME%20CHAMA%20NO%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>
-<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/VER%20PORTF%C3%93LIO-00E5FF?style=for-the-badge&logo=githubpages&logoColor=0D1117&labelColor=0D1117" alt="Portfólio"/></a>
+<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/ME%20CHAMA%20NO%20LINKEDIN-C1121F?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A" alt="LinkedIn"/></a>
+<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/VER%20PORTF%C3%93LIO-FF1E1E?style=for-the-badge&logo=githubpages&logoColor=0A0A0A&labelColor=0A0A0A" alt="Portfólio"/></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,18&height=130&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:7A0000,100:FF1E1E&height=130&section=footer" width="100%" alt=""/>
 
 </div>
