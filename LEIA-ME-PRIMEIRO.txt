@@ -1,0 +1,22 @@
+COMO PUBLICAR SEU PERFIL DO GITHUB
+
+1. Crie um repositorio PUBLICO chamado exatamente: adanwilliamdev
+   (mesmo nome do seu usuario).
+2. Envie TODO o conteudo desta pasta para a branch main:
+   - README.md
+   - assets/banner.svg
+   - .github/workflows/snake.yml
+   (apague este arquivo LEIA-ME-PRIMEIRO.txt se quiser)
+3. Em Settings > Actions > General > Workflow permissions,
+   marque "Read and write permissions" e salve.
+4. Aba Actions > "Gerar Snake" > Run workflow (uma vez).
+   Isso cria a branch "output" com a cobrinha animada.
+5. Abra github.com/adanwilliamdev e confira o perfil.
+
+Via terminal:
+  git init
+  git add .
+  git commit -m "feat: novo perfil"
+  git branch -M main
+  git remote add origin https://github.com/adanwilliamdev/adanwilliamdev.git
+  git push -u origin main
