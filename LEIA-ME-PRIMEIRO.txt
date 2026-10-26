@@ -2,7 +2,7 @@ COMO ATUALIZAR SEU PERFIL DO GITHUB (versao visual nova)
 
 1. No repositorio adanwilliamdev/adanwilliamdev, SUBSTITUA pelo conteudo desta pasta:
    - README.md
-   - assets/ (os SVGs antigos sao sobrescritos; aparecem arquivos novos: row-*, btn-*, stack.svg, foco.svg)
+   - assets/ (os nomes mudaram de proposito, para o GitHub nao mostrar a versao antiga em cache; depois de publicar, apague hero.svg, h-*.svg e card-*.svg antigos)
    - .github/workflows/snake.yml
    (apague este arquivo se quiser)
 2. Commit na branch main.
