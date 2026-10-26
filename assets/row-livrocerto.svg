@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 104" width="1000" height="104" role="img" aria-label="LivroCerto: Assistente de recomendação de livros que só responde com base em uma base de conhecimento própria, com avaliação de métricas.">
+<style>
+text{font-family:Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y="4.5" width="999" height="95" rx="18" fill="#111A2E" stroke="#233152"/><text x="32" y="44" font-size="18" font-weight="700" letter-spacing="-.2" fill="#EEF2FA">LivroCerto</text><line x1="336" y1="26" x2="336" y2="79" stroke="#233152"/><text x="360" y="42" font-size="14.5" fill="#93A1C0">Assistente de recomendação de livros que só responde com base em uma</text><text x="360" y="64" font-size="14.5" fill="#93A1C0">base de conhecimento própria, com avaliação de métricas.</text><circle cx="962" cy="52" r="15" fill="none" stroke="#233152"/><path d="M955.500 58 968.500 45M959 45h9.500v9.500" fill="none" stroke="#93A1C0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1 0)"/>
+</svg>

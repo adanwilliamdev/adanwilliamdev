@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" width="1000" height="130" role="img" aria-label="Burger &amp; Pizza House ERP: ERP para pizzarias e hamburguerias, com pedidos em transação atômica e baixa automática de estoque.">
+<style>
+text{font-family:Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y="4.5" width="999" height="121" rx="18" fill="#111A2E" stroke="#233152"/><text x="32" y="44" font-size="18" font-weight="700" letter-spacing="-.2" fill="#EEF2FA">Burger &amp; Pizza House ERP</text><rect x="32" y="66" width="73" height="30" rx="15" fill="#18233F"/><text x="68.6" y="86" text-anchor="middle" font-size="13" font-weight="500" fill="#A9BEFF">Node.js</text><rect x="113.16359375" y="66" width="74" height="30" rx="15" fill="#18233F"/><text x="150.1" y="86" text-anchor="middle" font-size="13" font-weight="500" fill="#A9BEFF">Angular</text><rect x="195.10878906250002" y="66" width="69" height="30" rx="15" fill="#18233F"/><text x="229.7" y="86" text-anchor="middle" font-size="13" font-weight="500" fill="#A9BEFF">Prisma</text><line x1="336" y1="26" x2="336" y2="105" stroke="#233152"/><text x="360" y="42" font-size="14.5" fill="#93A1C0">ERP para pizzarias e hamburguerias, com pedidos em transação atômica e</text><text x="360" y="64" font-size="14.5" fill="#93A1C0">baixa automática de estoque.</text><circle cx="962" cy="65" r="15" fill="none" stroke="#233152"/><path d="M955.500 71 968.500 58M959 58h9.500v9.500" fill="none" stroke="#93A1C0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1 0)"/>
+</svg>

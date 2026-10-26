@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 140" width="1000" height="140" role="img" aria-label="Foco atual: Java e Spring Boot: Segurança, testes de integração e mensageria (RabbitMQ/Kafka). CI/CD: Levar o que já uso no AWOS Bank para os demais projetos. Time: Contribuir e aprender com profissionais mais experientes.">
+<style>
+text{font-family:Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="999" height="139" rx="22" fill="#111A2E" stroke="#233152"/><text x="32" y="54" font-size="19" font-weight="700" letter-spacing="-.2" fill="#EEF2FA">Java e Spring Boot</text><text x="32" y="84" font-size="15" fill="#93A1C0">Segurança, testes de integração e</text><text x="32" y="106" font-size="15" fill="#93A1C0">mensageria (RabbitMQ/Kafka).</text><line x1="333" y1="30" x2="333" y2="110" stroke="#233152"/><text x="365" y="54" font-size="19" font-weight="700" letter-spacing="-.2" fill="#EEF2FA">CI/CD</text><text x="365" y="84" font-size="15" fill="#93A1C0">Levar o que já uso no AWOS Bank</text><text x="365" y="106" font-size="15" fill="#93A1C0">para os demais projetos.</text><line x1="667" y1="30" x2="667" y2="110" stroke="#233152"/><text x="699" y="54" font-size="19" font-weight="700" letter-spacing="-.2" fill="#EEF2FA">Time</text><text x="699" y="84" font-size="15" fill="#93A1C0">Contribuir e aprender com</text><text x="699" y="106" font-size="15" fill="#93A1C0">profissionais mais experientes.</text>
+</svg>

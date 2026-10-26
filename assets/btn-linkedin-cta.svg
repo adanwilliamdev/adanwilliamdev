@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 48" width="228" height="48" role="img" aria-label="Me chama no LinkedIn">
+<style>
+text{font-family:Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="2" y="2" width="224" height="44" rx="22" fill="#3DDC97"/><text x="114.0" y="29" text-anchor="middle" font-size="15" font-weight="700" fill="#0B1120">Me chama no LinkedIn</text>
+</svg>

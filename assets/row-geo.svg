@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" width="1000" height="130" role="img" aria-label="Geo-Explorer: Servidor **MCP** (Model Context Protocol) em TypeScript com ferramentas para trilhas de aprendizagem, desafios e certificados. Feito no Bootcamp IBM Bob.">
+<style>
+text{font-family:Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y="4.5" width="999" height="121" rx="18" fill="#111A2E" stroke="#233152"/><text x="32" y="44" font-size="18" font-weight="700" letter-spacing="-.2" fill="#EEF2FA">Geo-Explorer</text><rect x="32" y="66" width="92" height="30" rx="15" fill="#18233F"/><text x="77.9" y="86" text-anchor="middle" font-size="13" font-weight="500" fill="#A9BEFF">TypeScript</text><rect x="131.713046875" y="66" width="57" height="30" rx="15" fill="#18233F"/><text x="160.2" y="86" text-anchor="middle" font-size="13" font-weight="500" fill="#A9BEFF">MCP</text><line x1="336" y1="26" x2="336" y2="105" stroke="#233152"/><text x="360" y="42" font-size="14.5" fill="#93A1C0">Servidor <tspan fill="#EEF2FA" font-weight="600">MCP</tspan> (Model Context Protocol) em TypeScript com ferramentas para</text><text x="360" y="64" font-size="14.5" fill="#93A1C0">trilhas de aprendizagem, desafios e certificados. Feito no Bootcamp IBM Bob.</text><circle cx="962" cy="65" r="15" fill="none" stroke="#233152"/><path d="M955.500 71 968.500 58M959 58h9.500v9.500" fill="none" stroke="#93A1C0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1 0)"/>
+</svg>

@@ -1,95 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 625" width="1200" height="625" role="img" aria-label="Adan William: Backend que não cai em produção. Desenvolvedor Java Júnior.">
-<defs>
-  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#2ED5A0" stroke-opacity=".055"/></pattern>
-  <radialGradient id="rg" cx=".5" cy=".3" r=".55"><stop offset="0" stop-color="#2ED5A0" stop-opacity=".16"/><stop offset="1" stop-color="#2ED5A0" stop-opacity="0"/></radialGradient>
-  <linearGradient id="mint" x1="0" x2="1"><stop offset="0" stop-color="#2ED5A0"/><stop offset="1" stop-color="#A7F0D6"/></linearGradient>
-  <style>
-    .mono { font-family: 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace; } .sans { font-family: 'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif; }
-    .cur { animation: blink 1s steps(2,start) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
-    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.2s ease-in-out infinite; }
-    @keyframes pulse { 0%,100% { transform: scale(1); opacity: .5; } 50% { transform: scale(2.4); opacity: 0; } }
-    .cyc { opacity: 0; animation: cyc 12s infinite; }
-    .c2 { animation-delay: 3s; } .c3 { animation-delay: 6s; } .c4 { animation-delay: 9s; }
-    @keyframes cyc { 0% {opacity:0;} 3%,22% {opacity:1;} 25%,100% {opacity:0;} }
-    .in { animation: in .9s ease-out both; }
-    @keyframes in { from { opacity:0; transform: translateY(10px); } to { opacity:1; transform:none; } }
-    .glow { animation: glow 7s ease-in-out infinite; }
-    @keyframes glow { 0%,100% { opacity:.8; } 50% { opacity:1; } }
-    .l0 { opacity:0; animation: k0 16.0s infinite; } @keyframes k0 { 0%,5.62% {opacity:0;} 7.12%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l1 { opacity:0; animation: k1 16.0s infinite; } @keyframes k1 { 0%,11.56% {opacity:0;} 13.06%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l2 { opacity:0; animation: k2 16.0s infinite; } @keyframes k2 { 0%,17.5% {opacity:0;} 19.0%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l3 { opacity:0; animation: k3 16.0s infinite; } @keyframes k3 { 0%,23.44% {opacity:0;} 24.94%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l4 { opacity:0; animation: k4 16.0s infinite; } @keyframes k4 { 0%,29.38% {opacity:0;} 30.88%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l5 { opacity:0; animation: k5 16.0s infinite; } @keyframes k5 { 0%,35.31% {opacity:0;} 36.81%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l6 { opacity:0; animation: k6 16.0s infinite; } @keyframes k6 { 0%,41.25% {opacity:0;} 42.75%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l7 { opacity:0; animation: k7 16.0s infinite; } @keyframes k7 { 0%,47.19% {opacity:0;} 48.69%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l8 { opacity:0; animation: k8 16.0s infinite; } @keyframes k8 { 0%,53.12% {opacity:0;} 54.62%,90% {opacity:1;} 95%,100% {opacity:0;} }
-.l9 { opacity:0; animation: k9 16.0s infinite; } @keyframes k9 { 0%,59.06% {opacity:0;} 60.56%,90% {opacity:1;} 95%,100% {opacity:0;} }
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 590" width="1000" height="590" role="img" aria-label="Adan William: Backend que não cai em produção. Desenvolvedor Java Júnior.">
+<style>
+text{font-family:Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+
+.cyc{opacity:0;animation:cyc 12s infinite}
+.c1{animation-delay:3s}.c2{animation-delay:6s}.c3{animation-delay:9s}
+@keyframes cyc{0%{opacity:0;transform:translateY(6px)}4%,22%{opacity:1;transform:none}27%,100%{opacity:0}}
+.sweep{stroke-dasharray:90 310;animation:sweep 3.4s linear infinite}
+@keyframes sweep{from{stroke-dashoffset:90}to{stroke-dashoffset:-310}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.55}100%{transform:scale(2.6);opacity:0}}
+@media (prefers-reduced-motion: reduce){.c0{opacity:1!important}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
-</defs>
-<rect width="1200" height="625" fill="#080B10"/>
-<rect width="1200" height="625" fill="url(#grid)"/>
-<rect class="glow" width="1200" height="625" fill="url(#rg)"/>
 
-<!-- pill -->
-<g class="in">
-  <rect x="40" y="28" width="560" height="38" rx="19" fill="#0C1117" stroke="#1F2933"/>
-  <circle class="pulse" cx="64" cy="47" r="5" fill="#2ED5A0"/><circle cx="64" cy="47" r="5" fill="#2ED5A0"/>
-  <text class="mono" x="84" y="52" font-size="14" fill="#8B97A3">buscando a primeira vaga · Java Júnior / Full Stack Júnior</text>
+<rect x=".5" y=".5" width="999" height="589" rx="28" fill="#0B1120" stroke="#233152"/>
+<text x="56" y="132" font-size="62" font-weight="800" letter-spacing="-2" fill="#EEF2FA" textLength="533" lengthAdjust="spacingAndGlyphs">Backend que não</text>
+<text x="56" y="198" font-size="62" font-weight="800" letter-spacing="-2" fill="#EEF2FA" textLength="529" lengthAdjust="spacingAndGlyphs">cai em produção.</text>
+<circle class="pulse" cx="63" cy="264" r="5" fill="#3DDC97"/><circle cx="63" cy="264" r="5" fill="#3DDC97"/>
+<text class="cyc c0" x="84" y="271" font-size="22" font-weight="600" fill="#EEF2FA">Spring Boot e PostgreSQL</text><text class="cyc c1" x="84" y="271" font-size="22" font-weight="600" fill="#EEF2FA">APIs seguras e consistentes</text><text class="cyc c2" x="84" y="271" font-size="22" font-weight="600" fill="#EEF2FA">Docker, Testcontainers e CI/CD</text><text class="cyc c3" x="84" y="271" font-size="22" font-weight="600" fill="#EEF2FA">SLA e disponibilidade</text>
+<text x="56" y="318" font-size="17" fill="#93A1C0">Sou <tspan fill="#EEF2FA" font-weight="600">Adan</tspan> <tspan fill="#EEF2FA" font-weight="600">William</tspan>. Passei mais de 5 anos em infraestrutura</text><text x="56" y="346" font-size="17" fill="#93A1C0">crítica de provedores de Internet (N2/N3) e hoje construo</text><text x="56" y="374" font-size="17" fill="#93A1C0">APIs e sistemas completos com <tspan fill="#EEF2FA" font-weight="600">Java</tspan> <tspan fill="#EEF2FA" font-weight="600">/</tspan> <tspan fill="#EEF2FA" font-weight="600">Spring</tspan> <tspan fill="#EEF2FA" font-weight="600">Boot</tspan>,</text><text x="56" y="402" font-size="17" fill="#93A1C0"><tspan fill="#EEF2FA" font-weight="600">PostgreSQL</tspan> e <tspan fill="#EEF2FA" font-weight="600">Docker</tspan>, com foco em regras de negócio,</text><text x="56" y="430" font-size="17" fill="#93A1C0">segurança e consistência de dados, levando para o código a</text><text x="56" y="458" font-size="17" fill="#93A1C0">visão de <tspan fill="#EEF2FA" font-weight="600">disponibilidade</tspan> <tspan fill="#EEF2FA" font-weight="600">e</tspan> <tspan fill="#EEF2FA" font-weight="600">SLA</tspan> da operação.</text>
+<text x="56" y="530" font-size="36" font-weight="800" letter-spacing="-1" fill="#EEF2FA">5+</text><text x="56" y="555" font-size="13" fill="#62708F">anos em infra e NOC</text><text x="234.65703125000002" y="530" font-size="36" font-weight="800" letter-spacing="-1" fill="#EEF2FA">12,5k+</text><text x="234.65703125000002" y="555" font-size="13" fill="#62708F">clientes monitorados</text><text x="410.2336328125" y="530" font-size="36" font-weight="800" letter-spacing="-1" fill="#EEF2FA">11</text><text x="410.2336328125" y="555" font-size="13" fill="#62708F">projetos no GitHub</text>
+<rect x="616" y="40" width="328" height="510" rx="22" fill="#111A2E" stroke="#233152"/>
+<circle class="pulse" cx="654" cy="84" r="5" fill="#3DDC97"/><circle cx="654" cy="84" r="5" fill="#3DDC97"/>
+<text x="672" y="89" font-size="17" font-weight="700" fill="#EEF2FA">Disponível para vagas</text>
+<text x="652" y="116" font-size="14" fill="#93A1C0">Java Júnior / Full Stack Júnior</text>
+<g transform="translate(632 140)">
+  <path d="M0 40H46l8-10 8 10H92l8-34 12 62 10-46 8 18H196l8-8 8 8H296" fill="none" stroke="#233152" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="400"/>
+  <path class="sweep" d="M0 40H46l8-10 8 10H92l8-34 12 62 10-46 8 18H196l8-8 8 8H296" fill="none" stroke="#3DDC97" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="400"/>
 </g>
+<line x1="652" y1="270" x2="908" y2="270" stroke="#233152"/><text x="652" y="296" font-size="13" fill="#62708F">Backend</text><text x="652" y="320" font-size="15" font-weight="600" fill="#EEF2FA">Java · Spring Boot · JPA</text><line x1="652" y1="338" x2="908" y2="338" stroke="#233152"/><text x="652" y="364" font-size="13" fill="#62708F">Dados e infra</text><text x="652" y="388" font-size="15" font-weight="600" fill="#EEF2FA">PostgreSQL · Redis · Docker</text><line x1="652" y1="406" x2="908" y2="406" stroke="#233152"/><text x="652" y="432" font-size="13" fill="#62708F">Também uso</text><text x="652" y="456" font-size="15" font-weight="600" fill="#EEF2FA">Python · React · TypeScript</text><line x1="652" y1="474" x2="908" y2="474" stroke="#233152"/><text x="652" y="500" font-size="13" fill="#62708F">Vim de</text><text x="652" y="524" font-size="15" font-weight="600" fill="#EEF2FA">ISP · NOC · Zabbix · PRTG · Linux</text>
 
-<!-- headline -->
-<g class="in" style="animation-delay:.15s">
-  <text class="sans" x="38" y="152" font-size="72" font-weight="800" letter-spacing="-2.5" fill="#F2F5F7">Backend que não</text>
-  <text class="sans" x="38" y="230" font-size="72" font-weight="800" letter-spacing="-2.5" fill="#F2F5F7"><tspan fill="url(#mint)">cai</tspan> em produção.</text>
-</g>
-
-<!-- cycling line -->
-<g class="mono" font-size="25">
-  <text x="40" y="300" fill="#6B7785">&gt;</text>
-  <text class="cyc" x="76" y="300" fill="#2ED5A0">Spring Boot &amp; PostgreSQL</text>
-  <text class="cyc c2" x="76" y="300" fill="#2ED5A0">APIs seguras e consistentes</text>
-  <text class="cyc c3" x="76" y="300" fill="#2ED5A0">Docker · Testcontainers · CI/CD</text>
-  <text class="cyc c4" x="76" y="300" fill="#2ED5A0">SLA e disponibilidade</text>
-</g>
-
-<!-- paragraph -->
-<g class="sans in" style="animation-delay:.3s" font-size="17" fill="#8B97A3">
-  <text x="40" y="355">Sou <tspan fill="#F2F5F7" font-weight="600">Adan William</tspan>. Passei mais de 5 anos em infraestrutura</text>
-  <text x="40" y="384">crítica de provedores de Internet (N2/N3) e hoje construo</text>
-  <text x="40" y="413">APIs e sistemas completos com <tspan fill="#F2F5F7" font-weight="600">Java / Spring Boot</tspan>, <tspan fill="#F2F5F7" font-weight="600">PostgreSQL</tspan></text>
-  <text x="40" y="442">e <tspan fill="#F2F5F7" font-weight="600">Docker</tspan>, com foco em regras de negócio, segurança e</text>
-  <text x="40" y="471">consistência de dados, levando para o código a visão de</text>
-  <text x="40" y="500"><tspan fill="#F2F5F7" font-weight="600">disponibilidade e SLA</tspan> da operação.</text>
-</g>
-
-<!-- stats -->
-<g class="in" style="animation-delay:.45s">
-  <text class="sans" x="40" y="582" font-size="40" font-weight="800" fill="#F2F5F7" letter-spacing="-1">5+</text>
-  <text class="mono" x="40" y="606" font-size="13" fill="#6B7785">anos em infra &amp; NOC</text>
-  <text class="sans" x="250" y="582" font-size="40" font-weight="800" fill="#F2F5F7" letter-spacing="-1">12,5k+</text>
-  <text class="mono" x="250" y="606" font-size="13" fill="#6B7785">clientes monitorados</text>
-  <text class="sans" x="470" y="582" font-size="40" font-weight="800" fill="#F2F5F7" letter-spacing="-1">11</text>
-  <text class="mono" x="470" y="606" font-size="13" fill="#6B7785">projetos publicados no GitHub</text>
-</g>
-
-<!-- terminal card -->
-<g class="in" style="animation-delay:.2s">
-  <rect x="700" y="118" width="460" height="424" rx="16" fill="#0D1117" stroke="#1E252E"/>
-  <path d="M700 166V134a16 16 0 0 1 16-16H1144a16 16 0 0 1 16 16V166Z" fill="#10151C"/>
-  <line x1="700" y1="166" x2="1160" y2="166" stroke="#1E252E"/>
-  <circle cx="724" cy="142" r="6" fill="#2A313A"/><circle cx="744" cy="142" r="6" fill="#2A313A"/><circle cx="764" cy="142" r="6" fill="#2A313A"/>
-  <text class="mono" x="786" y="147" font-size="14" fill="#6B7785">~/adan</text>
-</g>
-<g class="mono l0" font-size="17"><text x="724" y="205" fill="#2ED5A0" font-weight="700">$</text><text x="746" y="205" fill="#E6EDF3" font-weight="600">whoami</text></g>
-<text class="mono l1" x="724" y="238" font-size="15" fill="#9AA6B2">adan-william · java júnior</text>
-<g class="mono l2" font-size="17"><text x="724" y="282" fill="#2ED5A0" font-weight="700">$</text><text x="746" y="282" fill="#E6EDF3" font-weight="600">stack --now</text></g>
-<text class="mono l3" x="724" y="315" font-size="15" fill="#9AA6B2">java · spring boot · jpa</text>
-<text class="mono l4" x="724" y="339" font-size="15" fill="#9AA6B2">postgres · redis · docker</text>
-<text class="mono l5" x="724" y="363" font-size="15" fill="#9AA6B2">python · react · typescript</text>
-<g class="mono l6" font-size="17"><text x="724" y="407" fill="#2ED5A0" font-weight="700">$</text><text x="746" y="407" fill="#E6EDF3" font-weight="600">background</text></g>
-<text class="mono l7" x="724" y="440" font-size="15" fill="#9AA6B2">isp · noc · zabbix · prtg · linux</text>
-<g class="mono l8" font-size="17"><text x="724" y="484" fill="#2ED5A0" font-weight="700">$</text><text x="746" y="484" fill="#E6EDF3" font-weight="600">status</text></g>
-<g class="mono l9" font-size="15"><circle class="pulse" cx="730" cy="512" r="5" fill="#2ED5A0"/><circle cx="730" cy="512" r="5" fill="#2ED5A0"/><text x="746" y="517" fill="#C9D1D9">aberto a vagas de java / full stack júnior</text></g>
 </svg>
