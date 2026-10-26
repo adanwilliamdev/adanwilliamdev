@@ -1,69 +1,30 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/banner.svg" alt="Adan William · Desenvolvedor Java" width="100%"/>
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/hero.svg" alt="Adan William · Backend que não cai em produção" width="100%"/>
 
-<a href="https://github.com/adanwilliamdev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=800&color=FF1E1E&center=true&vCenter=true&width=820&lines=%F0%9F%9A%80+Buscando+minha+1%C2%AA+vaga+como+Dev+Java+J%C3%BAnior+%2F+Full+Stack+J%C3%BAnior;%F0%9F%9B%B0%EF%B8%8F+5%2B+anos+de+NOC%3A+eu+sei+o+que+%C3%A9+sistema+que+n%C3%A3o+pode+cair;%F0%9F%94%90+Seguran%C3%A7a%2C+concorr%C3%AAncia+e+consist%C3%AAncia+de+dados;%F0%9F%90%B3+Projetos+com+testes%2C+CI%2FCD+e+docker+compose+up" alt="Typing SVG" />
-</a>
+<br/>
 
-<br/><br/>
+<a href="#projetos"><img src="https://img.shields.io/badge/Ver_projetos-2ED5A0?style=for-the-badge&labelColor=2ED5A0&logoColor=06120D" alt="Ver projetos"/></a>
+<a href="https://github.com/adanwilliamdev"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>
+<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0D1117?style=for-the-badge&logo=githubpages&logoColor=2ED5A0&labelColor=0D1117" alt="Portfólio"/></a>
 
-<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/PORTF%C3%93LIO-FF1E1E?style=for-the-badge&logo=githubpages&logoColor=0A0A0A&labelColor=0A0A0A" alt="Portfólio"/></a>
-<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/LINKEDIN-C1121F?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A" alt="LinkedIn"/></a>
-<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-F5F5F5?style=for-the-badge&logo=target&logoColor=0A0A0A&labelColor=0A0A0A" alt="Open to work"/>
-<img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0A0A0A" alt="Java 21"/>
-<img src="https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&labelColor=0A0A0A" alt="Spring Boot 3"/>
-
-<img src="https://komarev.com/ghpvc/?username=adanwilliamdev&label=Visitas&color=FF1E1E&style=flat-square&labelColor=0A0A0A" alt="Visitas"/>
+<sub>Meus projetos têm testes, Docker Compose para subir tudo com um comando e README com instruções para rodar.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
+<br/>
 
-## 💻 `> whoami`
+<a name="stack"></a>
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/h-stack.svg" alt="" width="100%"/>
 
 <table>
-<tr>
-<td width="58%" valign="top">
-
-```yaml
-nome:        Adan William
-objetivo:    Dev Java Júnior | Full Stack Júnior
-background:  5+ anos em NOC / N2 / N3 de ISPs
-superpoder:  manter sistema crítico de pé às 3h da manhã
-foco:        regras de negócio, segurança, consistência
-entrega:     testes + Docker Compose + README que funciona
-status:      🟢 disponível para novas oportunidades
-```
-
-</td>
-<td width="42%" valign="top">
-
-**Do NOC para o código.**
-
-Passei anos onde cada minuto fora do ar custa caro. Hoje levo essa mentalidade de **confiabilidade, observabilidade e atenção a falhas** para o que desenvolvo: APIs e sistemas completos, com migrations versionadas, testes de verdade e ambiente reproduzível.
-
-</td>
-</tr>
+<tr><td width="150"><code>backend</code></td><td><img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,postgres,redis&perline=6" alt="Backend"/></td></tr>
+<tr><td><code>frontend</code></td><td><img src="https://skillicons.dev/icons?i=react,ts,angular,nextjs,vite,tailwind,bootstrap&perline=7" alt="Frontend"/></td></tr>
+<tr><td><code>infra</code></td><td><img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux&perline=4" alt="Infra"/></td></tr>
+<tr><td><code>qualidade</code></td><td><img src="https://skillicons.dev/icons?i=junit&perline=1" alt="Qualidade"/> <sub>JUnit 5 · Mockito · Testcontainers · JaCoCo · Swagger/OpenAPI</sub></td></tr>
+<tr><td><code>também usei</code></td><td><img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,express,prisma&perline=5" alt="Outros"/></td></tr>
 </table>
-
-## ⚡ Stack
-
-<div align="center">
-
-**Backend**<br/>
-<img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,postgres,redis&perline=6" alt="Backend"/>
-
-**Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=react,ts,angular,nextjs,vite,tailwind,bootstrap&perline=7" alt="Frontend"/>
-
-**Infra e Qualidade**<br/>
-<img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,junit&perline=5" alt="Infra"/>
-
-**Também já usei**<br/>
-<img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,express,prisma&perline=5" alt="Outros"/>
-
-</div>
 
 <details>
 <summary><b>Ver detalhamento completo</b></summary>
@@ -79,150 +40,93 @@ Passei anos onde cada minuto fora do ar custa caro. Hoje levo essa mentalidade d
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
+<br/>
 
-## 🚀 Projetos em destaque
+<a name="projetos"></a>
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/h-projetos.svg" alt="" width="100%"/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏦 [AWOS Bank](https://github.com/adanwilliamdev/awosbank)
-![](https://img.shields.io/badge/Internet_Banking-FF1E1E?style=flat-square&labelColor=0A0A0A) ![](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-990F0F?style=flat-square&logo=githubactions&logoColor=white&labelColor=0A0A0A)
-
-Internet Banking com dashboard, extrato com filtros e chaves PIX.
-
-- 🔒 **Auditoria append-only**: trigger do PostgreSQL bloqueia `UPDATE`/`DELETE`, e as tentativas que falham também ficam registradas
-- 🧪 Testes de **concorrência em transferências** e **Testcontainers com PostgreSQL real**
-- 📈 Cobertura com JaCoCo
-- 📦 **CI/CD** publicando a imagem no GHCR
-
-`Java 17` `Spring Boot` `Spring Security` `PostgreSQL` `Flyway` `Testcontainers` `Docker`
+<a href="https://github.com/adanwilliamdev/awosbank"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/card-awosbank.svg" alt="awosbank" width="100%"/></a>
 
 </td>
 <td width="50%" valign="top">
 
-### 🔧 [Torque Gestão](https://github.com/adanwilliamdev/Torque_Gestao)
-![](https://img.shields.io/badge/ERP_Oficinas-FF6B35?style=flat-square&labelColor=0A0A0A) ![](https://img.shields.io/badge/Auth-JWT_rotativo-C1121F?style=flat-square&labelColor=0A0A0A)
-
-Gestão de oficinas: clientes, veículos, orçamentos com aprovação e estoque rastreável.
-
-- 🔁 Ordens de serviço com **fluxo de estados controlado**
-- 👥 Perfis: admin, gerente, recepção e mecânico
-- ⚙️ **Concorrência otimista** no estoque
-- 🔑 **JWT com refresh token rotativo** + CSRF na web
-
-`Java 21` `Spring Boot` `Spring Security` `PostgreSQL` `Flyway` `Testcontainers` `Docker`
+<a href="https://github.com/adanwilliamdev/Torque_Gestao"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/card-torque_gestao.svg" alt="Torque_Gestao" width="100%"/></a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🎟️ [Ticketing System](https://github.com/adanwilliamdev/ticketing-system)
-![](https://img.shields.io/badge/Alta_concorr%C3%AAncia-F5F5F5?style=flat-square&labelColor=0A0A0A&logoColor=white) ![](https://img.shields.io/badge/Redis-Redisson-FF1E1E?style=flat-square&logo=redis&logoColor=white&labelColor=0A0A0A)
-
-Reservas e pagamentos no estilo Ticketmaster.
-
-- 🔐 Lock pessimista no banco
-- 🌐 **Lock distribuído com Redisson/Redis**
-- ⏳ Reserva temporária com expiração automática
-- ♻️ **Idempotência** em pagamentos
-- 🧪 Testes: reserva, expiração, idempotência e falha de gateway
-
-`Java 21` `Spring Boot` `PostgreSQL` `Redis` `Flyway` `Docker` `JUnit 5` `Mockito`
+<a href="https://github.com/adanwilliamdev/ticketing-system"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/card-ticketing-system.svg" alt="ticketing-system" width="100%"/></a>
 
 </td>
 <td width="50%" valign="top">
 
-### 🛰️ [OrbNOC](https://github.com/adanwilliamdev/OrbNOC)
-![](https://img.shields.io/badge/Tempo_real-WebSocket-FF1E1E?style=flat-square&labelColor=0A0A0A) ![](https://img.shields.io/badge/Nascido_do-NOC-FF8A5C?style=flat-square&labelColor=0A0A0A)
-
-Monitoramento de rede em tempo real, direto da minha rotina de NOC.
-
-- 📡 **ICMP + TCP**: só marca offline após N falhas seguidas (zero falso alarme)
-- 🖥️ Painel, mapa e **wallboard** de TV se atualizam sozinhos
-- 🔔 Alertas de queda, recuperação e SLA, com **Telegram**
-- 📊 **Relatórios de SLA** (24h/7d/30d) em CSV e Excel
-- 🧰 Ping, traceroute, DNS e teste de portas
-- 🛡️ Argon2, JWT em cookie `httpOnly`+`SameSite`, CSRF por origem, comandos **sem shell**
-
-`Java 21` `Spring Boot` `Thymeleaf` `PostgreSQL` `WebSocket` `Apache POI` `Docker`
+<a href="https://github.com/adanwilliamdev/OrbNOC"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/card-orbnoc.svg" alt="OrbNOC" width="100%"/></a>
 
 </td>
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
+<br/>
 
-## 📂 Outros projetos
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/h-outros.svg" alt="" width="100%"/>
 
-| | Projeto | O que faz | Stack |
-| :-: | :-- | :-- | :-- |
-| 🧩 | [**TaskFlow**](https://github.com/adanwilliamdev/task-management) | Gerenciador de tarefas em **microsserviços** (Gateway, Eureka, auth, usuários, tarefas, notificações), um banco por serviço e JWT validado localmente | `Spring Cloud` `React` `Docker Compose` |
-| 📦 | [**Itaú Java AI Order System**](https://github.com/adanwilliamdev/itau-java-ai-order-system) | API de pedidos com **4 padrões de projeto** (State, Chain of Responsibility, Strategy, Observer) e comandos de voz via Spring AI. Desafio final do Itaú Java AI (DIO) | `Java` `Spring AI` |
-| 🍕 | [**Burger & Pizza House ERP**](https://github.com/adanwilliamdev/Burger-Pizza-House) | ERP para pizzarias e hamburguerias: pedidos em transação atômica e baixa automática de estoque | `Node.js` `Angular` `Prisma` |
-| 📚 | [**Study Planner**](https://github.com/adanwilliamdev/study-planner) | Rotina de estudos com Pomodoro, cronograma e **notificações em tempo real via WebSocket/STOMP**, auth por JWT | `Spring Boot` `React` `Vite` |
+| Projeto | O que faz | Stack |
+| :-- | :-- | :-- |
+| [**TaskFlow**](https://github.com/adanwilliamdev/task-management) | Gerenciador de tarefas em **microsserviços** (API Gateway, Eureka, auth, usuários, tarefas e notificações), um banco por serviço e JWT validado localmente | `Spring Cloud` `React` `Docker Compose` |
+| [**Itaú Java AI Order System**](https://github.com/adanwilliamdev/itau-java-ai-order-system) | API de pedidos com **4 padrões de projeto** (State, Chain of Responsibility, Strategy, Observer) e comandos de voz via Spring AI. Desafio final do programa Itaú Java AI (DIO) | `Java` `Spring AI` |
+| [**Burger & Pizza House ERP**](https://github.com/adanwilliamdev/Burger-Pizza-House) | ERP para pizzarias e hamburguerias, com pedidos em transação atômica e baixa automática de estoque | `Node.js` `Angular` `Prisma` |
+| [**Study Planner**](https://github.com/adanwilliamdev/study-planner) | Rotina de estudos com matérias, tarefas, cronograma, Pomodoro e **notificações em tempo real via WebSocket/STOMP**, autenticado por JWT | `Spring Boot` `React` `Vite` |
 
-## 🤖 Experimentos com IA
+<br/>
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/h-ia.svg" alt="" width="100%"/>
 
-**🗺️ [Geo-Explorer](https://github.com/adanwilliamdev/Geo-Explorer)**<br/>
-Servidor **MCP** em TypeScript com ferramentas para trilhas de aprendizagem, desafios e certificados. Bootcamp IBM Bob.
+| Projeto | Descrição |
+| :-- | :-- |
+| [**Geo-Explorer**](https://github.com/adanwilliamdev/Geo-Explorer) | Servidor **MCP** (Model Context Protocol) em TypeScript com ferramentas para trilhas de aprendizagem, desafios e certificados. Feito no Bootcamp IBM Bob |
+| [**LivroCerto**](https://github.com/adanwilliamdev/assistente-virtual-ia) | Assistente de recomendação de livros que só responde com base em uma base de conhecimento própria, com avaliação de métricas |
+| [**EstudoAtivo-NotebookLM**](https://github.com/adanwilliamdev/EstudoAtivo-NotebookLM) | Estudo de finanças pessoais com IA fundamentada em fontes curadas e engenharia de prompt |
 
-</td>
-<td width="33%" valign="top">
+<br/>
 
-**📚 [LivroCerto](https://github.com/adanwilliamdev/assistente-virtual-ia)**<br/>
-Assistente de recomendação de livros que só responde com base em uma base de conhecimento própria, com avaliação de métricas.
-
-</td>
-<td width="33%" valign="top">
-
-**🎓 [EstudoAtivo-NotebookLM](https://github.com/adanwilliamdev/EstudoAtivo-NotebookLM)**<br/>
-Estudo de finanças pessoais com IA fundamentada em fontes curadas e engenharia de prompt.
-
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF1E1E,50:7A0000,100:0A0A0A&height=3&section=header" width="100%" alt=""/>
-
-## 📊 Atividade
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/h-atividade.svg" alt="" width="100%"/>
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=FF1E1E&icon_color=FF6B35&text_color=C9D1D9" alt="Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=FF1E1E&text_color=C9D1D9" alt="Linguagens"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=adanwilliamdev&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=2ED5A0&icon_color=2ED5A0&text_color=C9D1D9&border_radius=16" alt="Stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adanwilliamdev&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=2ED5A0&text_color=C9D1D9&border_radius=16" alt="Linguagens"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=dark&hide_border=true&background=0A0A0A&ring=FF1E1E&fire=FF6B35&currStreakLabel=FF1E1E" alt="Streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adanwilliamdev&bg_color=0A0A0A&color=FF1E1E&line=C1121F&point=FFFFFF&area=true&area_color=C1121F&hide_border=true" alt="Gráfico de contribuições" width="100%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=adanwilliamdev&theme=dark&hide_border=true&background=0D1117&ring=2ED5A0&fire=2ED5A0&currStreakLabel=2ED5A0&currStreakNum=F2F5F7&sideNums=F2F5F7&sideLabels=8B97A3&dates=6B7785&border_radius=16" alt="Streak"/>
 
 <img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/output/github-snake-dark.svg" alt="Snake" width="100%"/>
 
 </div>
 
-## 🎯 Foco atual
+<br/>
+
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/h-foco.svg" alt="" width="100%"/>
 
 ```diff
-+ Java & Spring Boot ....... segurança, testes de integração e mensageria (RabbitMQ/Kafka)
-+ CI/CD .................... levar o que já uso no AWOS Bank para os demais projetos
-+ Time ..................... contribuir e aprender com profissionais mais experientes
++ Java & Spring Boot ... segurança, testes de integração e mensageria (RabbitMQ/Kafka)
++ CI/CD ................ levar o que já uso no AWOS Bank para os demais projetos
++ Time ................. contribuir e aprender com profissionais mais experientes
 ```
-
-<div align="center">
 
 <br/>
 
-### 📫 Bora conversar?
+<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/assets/h-contato.svg" alt="" width="100%"/>
 
-<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/ME%20CHAMA%20NO%20LINKEDIN-C1121F?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A" alt="LinkedIn"/></a>
-<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/VER%20PORTF%C3%93LIO-FF1E1E?style=for-the-badge&logo=githubpages&logoColor=0A0A0A&labelColor=0A0A0A" alt="Portfólio"/></a>
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:7A0000,100:FF1E1E&height=130&section=footer" width="100%" alt=""/>
+<a href="https://www.linkedin.com/in/awosantos"><img src="https://img.shields.io/badge/Me_chama_no_LinkedIn-2ED5A0?style=for-the-badge&logo=linkedin&logoColor=06120D&labelColor=2ED5A0" alt="LinkedIn"/></a>
+<a href="https://adanwilliamdev.github.io/"><img src="https://img.shields.io/badge/Ver_portf%C3%B3lio-0D1117?style=for-the-badge&logo=githubpages&logoColor=2ED5A0&labelColor=0D1117" alt="Portfólio"/></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080B10,100:2ED5A0&height=100&section=footer" width="100%" alt=""/>
 
 </div>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 52" width="880" height="52" role="img" aria-label="cat foco-atual.md">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#2ED5A0" stop-opacity=".55"/><stop offset="1" stop-color="#2ED5A0" stop-opacity="0"/></linearGradient>
+<style>.m{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace} .b{animation:b 1s steps(2,start) infinite} @keyframes b{50%{opacity:0}}</style></defs>
+<rect width="880" height="52" fill="#080B10"/>
+<text class="m" x="6" y="34" font-size="22" font-weight="700" fill="#2ED5A0">$</text>
+<text class="m" x="32" y="34" font-size="22" font-weight="600" fill="#E6EDF3">cat foco-atual.md</text>
+<rect class="b" x="268" y="15" width="11" height="24" fill="#2ED5A0"/>
+<rect x="300" y="26" width="580" height="1.5" fill="url(#l)"/>
+</svg>
