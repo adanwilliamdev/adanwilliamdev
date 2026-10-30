@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84" width="1000" height="84" role="img" aria-label="Projetos em destaque">
-<style>
-text{font-family:Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
-
-@media (prefers-reduced-motion: reduce){*{animation:none!important}}
-</style>
-<text x="4" y="65" font-size="26" font-weight="800" letter-spacing="-.4" fill="#EEF2FA">Projetos em destaque</text><path d="M462 56H996" stroke="#233152" stroke-width="2" stroke-linecap="round"/><path d="M352 56H386l7-13 8 26 7-21 5 8H462" fill="none" stroke="#3DDC97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="996" cy="56" r="3.5" fill="#3DDC97"/>
-</svg>

@@ -1,52 +1,89 @@
-<div align="center">
+# Adan William
 
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/hero.svg" alt="Adan William · Backend que não cai em produção · Desenvolvedor Java Júnior. Mais de 5 anos em infraestrutura e NOC, 12,5 mil clientes monitorados, 11 projetos no GitHub. Disponível para vagas." width="100%"/>
+**Desenvolvedor Java Júnior / Full Stack Júnior** · Disponível para vagas
 
-<p>
-<a href="#projetos"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/btn-projetos.svg" alt="Ver projetos" height="52"/></a>
-<a href="https://github.com/adanwilliamdev"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/btn-github.svg" alt="GitHub" height="52"/></a>
-<a href="https://www.linkedin.com/in/awosantos"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/btn-linkedin.svg" alt="LinkedIn" height="52"/></a>
-<a href="https://adanwilliamdev.github.io/"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/btn-portfolio.svg" alt="Portfólio" height="52"/></a>
-</p>
+Passei mais de 5 anos em infraestrutura crítica de provedores de Internet (N2/N3) e hoje construo APIs e sistemas completos com Java / Spring Boot, PostgreSQL e Docker, com foco em regras de negócio, segurança e consistência de dados, levando para o código a visão de disponibilidade e SLA da operação.
 
-<sub>Meus projetos têm testes, Docker Compose para subir tudo com um comando e README com instruções para rodar.</sub>
+- 5+ anos em infra e NOC
+- 12,5k+ clientes monitorados
+- 11 projetos no GitHub
 
-</div>
+[GitHub](https://github.com/adanwilliamdev) · [LinkedIn](https://www.linkedin.com/in/awosantos) · [Portfólio](https://adanwilliamdev.github.io/)
 
-<a name="stack"></a>
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/sec-stack.svg" alt="01 — Stack" width="100%"/>
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/stack.svg" alt="Backend: Java, Spring Boot, JPA, Hibernate, Spring Security. Dados e infra: PostgreSQL, Redis, Flyway, Docker, GitHub Actions. Frontend: React, TypeScript, Angular, Next.js, Vite, Tailwind. Qualidade: JUnit, Mockito, Testcontainers, JaCoCo. Também usei Python e Node.js." width="100%"/>
+Meus projetos têm testes, Docker Compose para subir tudo com um comando e README com instruções para rodar.
 
-<a name="projetos"></a>
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/sec-projetos.svg" alt="02 — Projetos em destaque" width="100%"/>
+## Stack
 
-<a href="https://github.com/adanwilliamdev/awosbank"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/proj-awosbank.svg" alt="AWOS Bank" width="49.9%"/></a><a href="https://github.com/adanwilliamdev/Torque_Gestao"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/proj-torque_gestao.svg" alt="Torque Gestão" width="49.9%"/></a>
-<a href="https://github.com/adanwilliamdev/ticketing-system"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/proj-ticketing-system.svg" alt="Ticketing System" width="49.9%"/></a><a href="https://github.com/adanwilliamdev/OrbNOC"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/proj-orbnoc.svg" alt="OrbNOC" width="49.9%"/></a>
+| Área | Tecnologias |
+|---|---|
+| Backend | Java 17/21, Spring Boot 3, Spring Security, Spring Data JPA, Hibernate, Spring Cloud Gateway, Spring AI, WebSocket/STOMP, Maven |
+| Dados e infra | PostgreSQL, Redis, Flyway, Docker, Docker Compose, GitHub Actions, Git, Linux |
+| Frontend | React, TypeScript, Angular, Next.js, Vite, Tailwind CSS, Thymeleaf, Bootstrap |
+| Qualidade | JUnit 5, Mockito, Testcontainers, JaCoCo, Swagger/OpenAPI |
+| Também usei | Python (FastAPI), Node.js (Express, Prisma) |
 
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/sec-outros.svg" alt="03 — Outros projetos" width="100%"/>
+## Projetos em destaque
 
-<a href="https://github.com/adanwilliamdev/task-management"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/row-taskflow.svg" alt="TaskFlow" width="100%"/></a>
-<a href="https://github.com/adanwilliamdev/itau-java-ai-order-system"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/row-itau.svg" alt="Itaú Java AI Order System" width="100%"/></a>
-<a href="https://github.com/adanwilliamdev/Burger-Pizza-House"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/row-burger.svg" alt="Burger & Pizza House ERP" width="100%"/></a>
-<a href="https://github.com/adanwilliamdev/study-planner"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/row-study.svg" alt="Study Planner" width="100%"/></a>
+### [AWOS Bank](https://github.com/adanwilliamdev/awosbank)
+Internet Banking com dashboard, extrato com filtros e chaves PIX.
+- Auditoria append-only: trigger do PostgreSQL bloqueia UPDATE/DELETE e registra também as tentativas que falham
+- Testes de concorrência em transferências e Testcontainers com PostgreSQL real
+- Cobertura com JaCoCo e CI/CD com GitHub Actions publicando a imagem no GHCR
 
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/sec-ia.svg" alt="04 — IA aplicada" width="100%"/>
+`Java 17` `Spring Boot` `Spring Security` `PostgreSQL` `Flyway` `Testcontainers` `Docker`
 
-<a href="https://github.com/adanwilliamdev/Geo-Explorer"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/row-geo.svg" alt="Geo-Explorer" width="100%"/></a>
-<a href="https://github.com/adanwilliamdev/assistente-virtual-ia"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/row-livrocerto.svg" alt="LivroCerto" width="100%"/></a>
-<a href="https://github.com/adanwilliamdev/EstudoAtivo-NotebookLM"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/row-estudoativo.svg" alt="EstudoAtivo-NotebookLM" width="100%"/></a>
+### [Torque Gestão](https://github.com/adanwilliamdev/Torque_Gestao)
+Gestão de oficinas: clientes, veículos, orçamentos com aprovação e estoque com movimentações rastreáveis.
+- Ordens de serviço com fluxo de estados controlado
+- Perfis de acesso: admin, gerente, recepção e mecânico
+- Controle de concorrência otimista no estoque
+- JWT com refresh token rotativo e CSRF na interface web
+- Testes de integração com Testcontainers
 
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/sec-atividade.svg" alt="05 — Atividade" width="100%"/>
+`Java 21` `Spring Boot` `Spring Security` `PostgreSQL` `Flyway` `Testcontainers` `Docker`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/output/github-snake.svg">
-  <img alt="Contribuições do GitHub em formato de jogo da cobrinha" src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/output/github-snake-dark.svg" width="100%"/>
-</picture>
+### [Ticketing System](https://github.com/adanwilliamdev/ticketing-system)
+Reservas e pagamentos no estilo Ticketmaster, focado em alta concorrência.
+- Lock pessimista no banco e lock distribuído com Redisson/Redis
+- Reserva temporária com expiração automática
+- Idempotência em pagamentos
+- Testes de reserva, expiração, idempotência e falha de gateway
 
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/sec-foco.svg" alt="06 — Foco atual" width="100%"/>
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/foco.svg" alt="Foco atual: Java e Spring Boot (segurança, testes de integração e mensageria com RabbitMQ/Kafka), CI/CD (levar o que uso no AWOS Bank para os demais projetos) e Time (contribuir e aprender com profissionais mais experientes)." width="100%"/>
+`Java 21` `Spring Boot` `PostgreSQL` `Redis` `Flyway` `Docker` `JUnit 5` `Mockito`
 
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/sec-contato.svg" alt="07 — Contato" width="100%"/>
-<a href="https://www.linkedin.com/in/awosantos"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/cta-linkedin.svg" alt="Me chama no LinkedIn" width="49.9%"/></a><a href="https://adanwilliamdev.github.io/"><img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/cta-portfolio.svg" alt="Ver o meu portfólio" width="49.9%"/></a>
-<img src="https://raw.githubusercontent.com/adanwilliamdev/adanwilliamdev/main/brand/footer.svg" alt="© 2026 Adan William. Feito à mão, em SVG." width="100%"/>
+### [OrbNOC](https://github.com/adanwilliamdev/OrbNOC)
+Monitoramento de rede em tempo real, nascido da minha rotina de NOC.
+- ICMP e TCP: o host só fica offline após N falhas seguidas, sem falsos alarmes
+- Painel, mapa e wallboard para TVs de NOC atualizados via WebSocket
+- Alertas de queda, recuperação e SLA, com Telegram opcional
+- Relatórios de SLA (24h, 7d, 30d) em CSV e Excel; diagnóstico com ping, traceroute, DNS e portas
+- Argon2, JWT em cookie httpOnly + SameSite, CSRF por origem e comandos sem shell
+
+`Java 21` `Spring Boot` `Thymeleaf` `PostgreSQL` `WebSocket` `Apache POI` `Docker`
+
+## Outros projetos
+
+| Projeto | Descrição | Tecnologias |
+|---|---|---|
+| [TaskFlow](https://github.com/adanwilliamdev/task-management) | Gerenciador de tarefas em microsserviços (API Gateway, Eureka, auth, usuários, tarefas e notificações), um banco por serviço e JWT validado localmente. | Spring Cloud, React, Docker Compose |
+| [Itaú Java AI Order System](https://github.com/adanwilliamdev/itau-java-ai-order-system) | API de pedidos com 4 padrões de projeto (State, Chain of Responsibility, Strategy, Observer) e comandos de voz via Spring AI. Desafio final do programa Itaú Java AI (DIO). | Java, Spring AI |
+| [Burger & Pizza House ERP](https://github.com/adanwilliamdev/Burger-Pizza-House) | ERP para pizzarias e hamburguerias, com pedidos em transação atômica e baixa automática de estoque. | Node.js, Angular, Prisma |
+| [Study Planner](https://github.com/adanwilliamdev/study-planner) | Rotina de estudos com matérias, tarefas, cronograma, Pomodoro e notificações em tempo real via WebSocket/STOMP, autenticado por JWT. | Spring Boot, React, Vite |
+
+## IA aplicada
+
+| Projeto | Descrição | Tecnologias |
+|---|---|---|
+| [Geo-Explorer](https://github.com/adanwilliamdev/Geo-Explorer) | Servidor MCP (Model Context Protocol) em TypeScript com ferramentas para trilhas de aprendizagem, desafios e certificados. Feito no Bootcamp IBM Bob. | TypeScript, MCP |
+| [LivroCerto](https://github.com/adanwilliamdev/assistente-virtual-ia) | Assistente de recomendação de livros que só responde com base em uma base de conhecimento própria, com avaliação de métricas. | — |
+| [EstudoAtivo-NotebookLM](https://github.com/adanwilliamdev/EstudoAtivo-NotebookLM) | Estudo de finanças pessoais com IA fundamentada em fontes curadas e engenharia de prompt. | — |
+
+## Foco atual
+
+- **Java e Spring Boot:** segurança, testes de integração e mensageria (RabbitMQ/Kafka)
+- **CI/CD:** levar o que já uso no AWOS Bank para os demais projetos
+- **Time:** contribuir e aprender com profissionais mais experientes
+
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/awosantos) · [Portfólio](https://adanwilliamdev.github.io/) · [GitHub](https://github.com/adanwilliamdev)
